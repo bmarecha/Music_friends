@@ -23,7 +23,7 @@ create table normal_users (
 );
 
 create table host (
-	u_id integer primary key,
+	host_id integer primary key,
 	latitude float default (random() * 180 - 90),
 	longitude float default (random() * 360 - 180),
 	unique (longitude, latitude),
@@ -52,10 +52,6 @@ create table follow (
     foreign key (id_src) references users(u_id)
 );
 
-
-/*create trigger normal_users_reinsert after insert on users when (user_type = 'normal')*/
-
-
 create table concerts (
 	c_id serial primary key,
 	host_id integer,
@@ -67,14 +63,16 @@ create table concerts (
 	nb_seat integer,
 	nb_participant integer,
 	primary key (c_id,host_id),
-	foreign key (host_id) references to (host_id)
+	foreign key (host_id) references to host(host_id)
 
 );
+
 
 create table interet (
 	u_id integer,
 	c_id integer,
 	participation boolean,
+	primary key(u_id, c_id),
 	foreign key (u_id) references normal_users(u_id),
 	foreign key (c_id) references concerts(c_id)
 );
@@ -89,7 +87,11 @@ create table media (
 create table avis (
 	note integer CHECK (note <= 5 and note >=0),
 	a_date DATE,
-	comment varchar(50)
+	comment varchar(50),
+	u_id integer,
+	primary key(a_date, u_id),
+	foreign key(u_id) references to users(u_id)
+
 );
 
 create table genre (
@@ -99,17 +101,30 @@ create table genre (
 
 create table music (
 	m_name varchar(30),
+	p_name varchar(30),
 	g_id integer,
-	foreign key (g_id) references to genre(g_id)
+	u_id integer,
+	primary key(m_name, u_id),
+	foreign key (u_id) references to band(u_id),
+	foreign key (g_id) references to genre(g_id),
+	foreign key (p_name) references to playlist(p_name),
 );
 
-create table relations_genres (
+create table genres_relations_association (
 	sg_id integer,
 	g_id integer,
 	primary key (sg_id, g_id),
 	foreign key (sg_id) references to genre(g_id),
 	foreign key (g_id) references to genre(g_id)
 );
+
+create table playlist (
+	p_name varchar(30),
+	u_id integer,
+	primary key(m_name, u_id)
+	foreign key (u_id) references to users(u_id),
+);
+
 
 \i trigger.sql
 \i copy.sql
