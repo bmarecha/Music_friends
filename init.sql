@@ -21,7 +21,7 @@ drop table if exists follow cascade;
 create type user_type as enum ('normal', 'host', 'band', 'association');
 
 create table users (
-	u_id serial PRIMARY KEY,
+	u_id SERIAL PRIMARY KEY,
 	u_type user_type NOT NULL,
 	username varchar(30) UNIQUE NOT NULL,
 	email_address varchar(50) UNIQUE NOT NULL,
@@ -29,13 +29,13 @@ create table users (
 );
 
 create table normal_users (
-	u_id integer PRIMARY KEY,
+	u_id INT PRIMARY KEY,
 	u_type user_type check (u_type = 'normal'),
 	FOREIGN KEY (u_id, u_type) references users(u_id, u_type)
 );
 
 create table host (
-	host_id integer PRIMARY KEY,
+	host_id INT PRIMARY KEY,
 	latitude float default (random() * 180 - 90),
 	longitude float default (random() * 360 - 180),
 	unique (longitude, latitude),
@@ -44,44 +44,44 @@ create table host (
 );
 
 create table band (
-	u_id integer PRIMARY KEY,
+	u_id INT PRIMARY KEY,
 	u_type user_type check (u_type = 'band'),
 	FOREIGN KEY (u_id, u_type) references users(u_id, u_type)
 );
 
 create table friends (
-    id_f1 integer NOT NULL,
-    id_f2 integer NOT NULL CHECK (id_f2 <> id_f1),
+    id_f1 INT NOT NULL,
+    id_f2 INT NOT NULL CHECK (id_f2 <> id_f1),
     PRIMARY KEY (id_f1, id_f2),
     FOREIGN KEY (id_f1) references users(u_id),
     FOREIGN KEY (id_f2) references users(u_id)
 );
 create table follow (
-    id_target integer NOT NULL,
-    id_src integer NOT NULL CHECK (id_src <> id_target),
+    id_target INT NOT NULL,
+    id_src INT NOT NULL CHECK (id_src <> id_target),
     PRIMARY KEY (id_target, id_src),
     FOREIGN KEY (id_target) references users(u_id),
     FOREIGN KEY (id_src) references users(u_id)
 );
 
 create table concerts (
-	c_id serial UNIQUE,
-	host_id integer,
+	c_id SERIAL UNIQUE,
+	host_id INT,
 	pathname varchar(50) NOT NULL,
 	c_date DATE,
-	price integer CHECK (price >= 0),
+	price INT CHECK (price >= 0),
 	c_cause varchar(50),
 	v_need boolean default false,
-	nb_seat integer CHECK (nb_seat >= 0),
-	nb_participant integer CHECK (nb_participant >= 0),
+	nb_seat INT CHECK (nb_seat >= 0),
+	nb_participant INT CHECK (nb_participant >= 0),
 	PRIMARY KEY (c_id,host_id),
 	FOREIGN KEY (host_id) references host(host_id)
 
 );
 
 create table organisation_relation (
-	c_id serial,
-	u_id serial,
+	c_id SERIAL,
+	u_id SERIAL,
 	PRIMARY KEY (c_id, u_id),
 	FOREIGN KEY (c_id) references concerts(c_id),
 	FOREIGN KEY (u_id) references users(u_id)
@@ -89,8 +89,8 @@ create table organisation_relation (
 
 
 create table interet (
-	u_id integer,
-	c_id integer,
+	u_id INT,
+	c_id INT,
 	participation boolean NOT NULL default false,
 	PRIMARY KEY(u_id, c_id),
 	FOREIGN KEY (u_id) references normal_users(u_id),
@@ -100,33 +100,33 @@ create table interet (
 create type media_type as enum ('gif', 'mp3', 'png', 'jpeg');
 
 create table media (
-	med_id serial PRIMARY KEY,
-	c_id integer references concerts(c_id),
+	med_id SERIAL PRIMARY KEY,
+	c_id INT references concerts(c_id),
 	pathname varchar(50),
 	m_type  media_type
 );
 
 create table genre (
-	g_id serial PRIMARY KEY,
+	g_id SERIAL PRIMARY KEY,
 	nom varchar(30) NOT NULL
 );
 
 create table music (
-	m_id serial UNIQUE,
+	m_id SERIAL UNIQUE,
 	m_name varchar(30) NOT NULL,
-	g_id integer,
-	u_id integer,
+	g_id INT,
+	u_id INT,
 	PRIMARY KEY(m_id, u_id),
 	FOREIGN KEY (u_id) references band(u_id),
 	FOREIGN KEY (g_id) references genre(g_id)
 );
 
 create table avis (
-	note integer CHECK (note <= 5 and note >=0),
+	note INT CHECK (note <= 5 and note >=0),
 	a_date DATE,
 	comment varchar(50),
-	u_id integer,
-	m_id integer,
+	u_id INT,
+	m_id INT,
 	PRIMARY KEY(a_date, u_id),
 	FOREIGN KEY(u_id) references users(u_id),
 	FOREIGN KEY (m_id) references music(m_id) 
@@ -135,24 +135,24 @@ create table avis (
 
 
 create table genres_relations (
-	sg_id integer,
-	g_id integer,
+	sg_id INT,
+	g_id INT,
 	PRIMARY KEY (sg_id, g_id),
 	FOREIGN KEY (sg_id) references genre(g_id),
 	FOREIGN KEY (g_id) references genre(g_id)
 );
 
 create table playlist (
-	p_id serial UNIQUE,
+	p_id SERIAL UNIQUE,
 	p_name varchar(30) NOT NULL,
-	u_id integer,
+	u_id INT,
 	PRIMARY KEY(p_id, u_id),
 	FOREIGN KEY (u_id) references users(u_id)
 );
 
 create table playlist_music_r (
-	p_id integer,
-	m_id integer,
+	p_id INT,
+	m_id INT,
 	PRIMARY KEY (p_id, m_id),
 	FOREIGN KEY (p_id) references playlist(p_id),
 	FOREIGN KEY (m_id) references music(m_id)
