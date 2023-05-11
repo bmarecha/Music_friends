@@ -1,4 +1,6 @@
-drop function if exists u_insert;
+
+drop function if exists u_insert cascade;
+drop function if exists f_insert cascade;
 
 create function u_insert() returns trigger as $users_reinsert$
 BEGIN
@@ -18,3 +20,19 @@ $users_reinsert$ LANGUAGE plpgsql;
 
 create trigger users_reinsert after insert or update on users for each row
 execute function u_insert();
+
+create function f_insert() returns trigger as $friendship_insert_order$
+DECLARE temp INT;
+BEGIN
+	IF (NEW.id_f1 > NEW.id_f2) THEN
+		temp := NEW.id_f1;
+		NEW.id_f1 := NEW.id_f2;
+		NEW.id_f2 := temp;
+	END IF;
+
+	RETURN NEW;
+END;
+$friendship_insert_order$ LANGUAGE plpgsql;
+
+create trigger friendship_insert_order before insert or update on friends for each row
+execute function f_insert();
