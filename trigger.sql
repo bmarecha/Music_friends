@@ -10,7 +10,7 @@ BEGIN
 	IF (NEW.u_type = 'normal') THEN
 		INSERT INTO normal_users (u_id, u_type) VALUES(NEW.u_id, NEW.u_type);
 	ELSIF (NEW.u_type = 'host') THEN
-		INSERT INTO host (u_id, u_type) VALUES (NEW.u_id, NEW.u_type);
+		INSERT INTO host (host_id, u_type) VALUES (NEW.u_id, NEW.u_type);
 	ELSIF (NEW.u_type = 'band') THEN
 		INSERT INTO band (u_id, u_type) VALUES (NEW.u_id, NEW.u_type);
 	END IF;
