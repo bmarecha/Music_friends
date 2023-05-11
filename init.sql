@@ -4,7 +4,19 @@ drop table if exists band cascade;
 drop table if exists normal_users cascade;
 drop table if exists concerts cascade;
 drop table if exists interet cascade;
+drop table if exists organisation_relation cascade;
+drop table if exists media  cascade;
+drop table if exists avis cascade;
+drop table if exists genre cascade;
+drop table if exists music cascade;
+drop table if exists genres_relations cascade;
+drop table if exists playlist cascade;
+drop table if exists playlist_music_r cascade;
+drop type if exists media_type;
 drop type if exists user_type;
+drop table if exists friends cascade;
+drop table if exists follow cascade;
+
 
 create type user_type as enum ('normal', 'host', 'band', 'association');
 
@@ -28,7 +40,7 @@ create table host (
 	longitude float default (random() * 360 - 180),
 	unique (longitude, latitude),
 	u_type user_type check (u_type = 'host'),
-	FOREIGN KEY (u_id, u_type) references users(u_id, u_type)
+	FOREIGN KEY (host_id, u_type) references users(u_id, u_type)
 );
 
 create table band (
@@ -53,7 +65,7 @@ create table follow (
 );
 
 create table concerts (
-	c_id serial PRIMARY KEY,
+	c_id serial UNIQUE,
 	host_id integer,
 	pathname varchar(50) NOT NULL,
 	c_date DATE,
@@ -89,9 +101,24 @@ create type media_type as enum ('gif', 'mp3', 'png', 'jpeg');
 
 create table media (
 	med_id serial PRIMARY KEY,
-	c_id integer references concerts(u_id),
+	c_id integer references concerts(c_id),
 	pathname varchar(50),
 	m_type  media_type
+);
+
+create table genre (
+	g_id serial PRIMARY KEY,
+	nom varchar(30) NOT NULL
+);
+
+create table music (
+	m_id serial UNIQUE,
+	m_name varchar(30) NOT NULL,
+	g_id integer,
+	u_id integer,
+	PRIMARY KEY(m_id, u_id),
+	FOREIGN KEY (u_id) references band(u_id),
+	FOREIGN KEY (g_id) references genre(g_id)
 );
 
 create table avis (
@@ -106,20 +133,6 @@ create table avis (
 
 );
 
-create table genre (
-	g_id serial PRIMARY KEY,
-	nom varchar(30) NOT NULL
-);
-
-create table music (
-	m_id serial,
-	m_name varchar(30) NOT NULL,
-	g_id integer,
-	u_id integer,
-	PRIMARY KEY(m_id, u_id),
-	FOREIGN KEY (u_id) references band(u_id),
-	FOREIGN KEY (g_id) references genre(g_id)
-);
 
 create table genres_relations (
 	sg_id integer,
@@ -130,7 +143,7 @@ create table genres_relations (
 );
 
 create table playlist (
-	p_id serial,
+	p_id serial UNIQUE,
 	p_name varchar(30) NOT NULL,
 	u_id integer,
 	PRIMARY KEY(p_id, u_id),
