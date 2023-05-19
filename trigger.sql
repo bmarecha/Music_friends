@@ -9,7 +9,9 @@ BEGIN
 	--
 	-- Create a row in tag table to make sure each user has an associated tag.
 	--
-	INSERT INTO tag (t_name) VALUES(NEW.username);
+	IF (NEW.username NOT IN (SELECT t_name FROM tag)) THEN
+		INSERT INTO tag (t_name) VALUES(NEW.username);
+	END IF;
 	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.username);
 	RETURN NEW;
 END;
@@ -17,20 +19,6 @@ $users_tag_create$ LANGUAGE plpgsql;
 
 create trigger users_tag_create before insert or update on users for each row
 execute function u_insert_tag();
-
-create function c_insert_tag() returns trigger as $concerts_tag_create$
-BEGIN
-	--
-	-- Create a row in tag table to make sure each concert has an associated tag.
-	--
-	INSERT INTO tag (t_name) VALUES(NEW.c_name);
-	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.c_name LIMIT 1);
-	RETURN NEW;
-END;
-$concerts_tag_create$ LANGUAGE plpgsql;
-
-create trigger concerts_tag_create before insert or update on concerts for each row
-execute function c_insert_tag();
 
 create function u_insert() returns trigger as $users_reinsert$
 BEGIN
@@ -54,6 +42,7 @@ execute function u_insert();
 create function f_insert() returns trigger as $friendship_insert_order$
 DECLARE temp INT;
 BEGIN
+	-- Ensures id_f2 is always greater than id_f1
 	IF (NEW.id_f1 > NEW.id_f2) THEN
 		temp := NEW.id_f1;
 		NEW.id_f1 := NEW.id_f2;
@@ -66,3 +55,51 @@ $friendship_insert_order$ LANGUAGE plpgsql;
 
 create trigger friendship_insert_order before insert or update on friends for each row
 execute function f_insert();
+
+create function c_insert_tag() returns trigger as $concerts_tag_create$
+BEGIN
+	--
+	-- Create a row in tag table to make sure each concert has an associated tag.
+	--
+	IF (NEW.c_name NOT IN (SELECT t_name FROM tag)) THEN
+		INSERT INTO tag (t_name) VALUES(NEW.c_name);
+	END IF;
+	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.c_name);
+	RETURN NEW;
+END;
+$concerts_tag_create$ LANGUAGE plpgsql;
+
+create trigger concerts_tag_create before insert or update on concerts for each row
+execute function c_insert_tag();
+
+create function g_insert_tag() returns trigger as $genre_tag_create$
+BEGIN
+	--
+	-- Create a row in tag table to make sure each genre has an associated tag.
+	--
+	IF (NEW.c_name NOT IN (SELECT t_name FROM tag)) THEN
+		INSERT INTO tag (t_name) VALUES(NEW.g_name);
+	END IF;
+	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.g_name);
+	RETURN NEW;
+END;
+$genre_tag_create$ LANGUAGE plpgsql;
+
+create trigger genre_tag_create before insert or update on genre for each row
+execute function g_insert_tag();
+
+create function m_insert_tag() returns trigger as $music_tag_create$
+BEGIN
+	--
+	-- Create a row in tag table to make sure each genre has an associated tag.
+	--
+	IF (NEW.c_name NOT IN (SELECT t_name FROM tag)) THEN
+		INSERT INTO tag (t_name) VALUES(NEW.m_name);
+	END IF;
+	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.m_name);
+	RETURN NEW;
+END;
+$music_tag_create$ LANGUAGE plpgsql;
+
+create trigger music_tag_create before insert or update on genre for each row
+execute function m_insert_tag();

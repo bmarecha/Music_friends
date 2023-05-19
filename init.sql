@@ -24,7 +24,7 @@ create type user_type as enum ('normal', 'host', 'band', 'association');
 
 create table tag (
 	t_id SERIAL PRIMARY KEY,
-	t_name varchar(30) NOT NULL
+	t_name varchar(30) UNIQUE NOT NULL
 );
 
 create table users (
@@ -77,7 +77,7 @@ create table concerts (
 	c_id SERIAL UNIQUE,
 	host_id INT,
 	t_id INT,
-	c_name varchar(50) NOT NULL,
+	c_name varchar(30) NOT NULL,
 	c_date DATE,
 	price INT CHECK (price >= 0),
 	c_cause varchar(50),
@@ -113,19 +113,19 @@ create type media_type as enum ('gif', 'mp3', 'png', 'jpeg');
 create table media (
 	med_id SERIAL PRIMARY KEY,
 	c_id INT references concerts(c_id),
-	pathname varchar(50),
+	pathname varchar(70),
 	m_type  media_type
 );
 
 create table genre (
 	g_id SERIAL PRIMARY KEY,
-	nom varchar(40) NOT NULL,
+	g_name varchar(30) NOT NULL,
 	t_id INT
 );
 
 create table music (
 	m_id SERIAL UNIQUE,
-	m_name varchar(30) NOT NULL,
+	m_name varchar(40) NOT NULL,
 	t_id INT,
 	g_id INT,
 	u_id INT,
@@ -139,7 +139,7 @@ create table avis (
 	a_id SERIAL UNIQUE,
 	note INT CHECK (note <= 5 and note >=0),
 	a_date DATE,
-	comment varchar(50),
+	comment varchar(255),
 	u_id INT,
 	c_id INT,
 	PRIMARY KEY(a_date, u_id),
