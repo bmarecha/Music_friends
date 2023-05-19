@@ -2,6 +2,34 @@
 drop function if exists u_insert cascade;
 drop function if exists f_insert cascade;
 
+create function u_insert_tag() returns trigger as $users_tag_create$
+BEGIN
+	--
+	-- Create a row in tag table to make sure each user has an associated tag.
+	--
+	INSERT INTO tag (t_name) VALUES(NEW.username);
+	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.username);
+	RETURN NEW;
+END;
+$users_tag_create$ LANGUAGE plpgsql;
+
+create trigger users_tag_create before insert or update on users for each row
+execute function u_insert_tag();
+
+create function c_insert_tag() returns trigger as $concerts_tag_create$
+BEGIN
+	--
+	-- Create a row in tag table to make sure each concert has an associated tag.
+	--
+	INSERT INTO tag (t_name) VALUES(NEW.c_name);
+	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.c_name);
+	RETURN NEW;
+END;
+$concerts_tag_create$ LANGUAGE plpgsql;
+
+create trigger concerts_tag_create before insert or update on concerts for each row
+execute function c_insert_tag();
+
 create function u_insert() returns trigger as $users_reinsert$
 BEGIN
 	--
