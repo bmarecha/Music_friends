@@ -1,5 +1,8 @@
 SET datestyle TO iso, dmy;
 
+-- /home/baptiste/random/projet_bdd/
+-- /home/popos/Documents/projet_bddssh/
+
 \COPY users (u_type, username, email_address) FROM '/home/popos/Documents/projet_bddssh/users.csv' CSV HEADER;
 
 \COPY concerts (host_id,c_name,price,c_date,nb_seat,nb_participant,c_cause,v_need) FROM '/home/popos/Documents/projet_bddssh/concerts.csv' CSV HEADER;
