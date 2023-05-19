@@ -1,0 +1,2001 @@
+host_id,c_name,price,c_date,nb_seat,c_cause,v_need,nb_participant
+376,Badeau,107,15/4/2022,591,Kshlerin-Gislason,false,538
+502,Fordem,40,14/8/2022,301,Reynolds Inc,false,245
+984,Bobwhite,102,30/6/2021,655,Murazik-Mann,true,194
+929,Waubesa,101,16/1/2022,731,Krajcik-Rosenbaum,false,501
+362,Petterle,12,27/3/2022,947,Lang Inc,false,430
+817,Russell,248,5/8/2021,582,Bahringer-Hansen,false,30
+713,Morningstar,61,14/2/2022,325,"Ortiz, Dicki and Dickens",false,96
+292,Nelson,191,2/12/2021,416,Christiansen-Runolfsson,false,416
+896,Service,50,27/4/2022,310,"Lebsack, Bechtelar and Lakin",false,310
+22,Laurel,182,11/7/2021,935,Denesik-O'Kon,false,746
+501,Jenna,86,17/4/2022,586,Becker-Waelchi,false,586
+133,Scott,155,26/2/2023,996,"Jacobson, Considine and O'Kon",false,831
+859,Prairie Rose,132,21/6/2021,484,Hegmann LLC,false,176
+898,Buhler,148,27/9/2021,364,"Jones, Upton and Kris",false,364
+665,Namekagon,211,18/1/2023,686,Kuphal-Heaney,false,686
+50,Milwaukee,131,13/11/2021,376,"Schamberger, Mills and Shanahan",false,332
+755,Main,57,7/8/2021,822,Kovacek-Thompson,false,639
+898,Fieldstone,248,20/3/2022,207,Greenfelder-Lemke,false,144
+537,Declaration,242,17/7/2021,359,Hilll-Wiza,false,359
+924,Glendale,18,4/10/2022,851,Cronin LLC,false,28
+501,Veith,132,11/1/2023,358,Harber Group,false,358
+817,Sundown,169,20/12/2022,987,Zemlak-Haley,false,757
+702,Trailsway,161,12/1/2022,396,Greenholt Group,false,396
+537,Monica,41,24/4/2022,434,Walsh LLC,true,199
+428,Pankratz,20,2/12/2022,389,Dach LLC,false,389
+713,Doe Crossing,197,29/3/2022,442,Lockman LLC,false,62
+277,Eagle Crest,65,27/10/2022,356,Okuneva Group,true,344
+132,Waywood,140,11/3/2022,531,Feeney and Sons,false,531
+755,Welch,112,13/11/2021,205,Schulist-Stark,false,205
+150,Glendale,25,1/11/2021,225,Dickens Inc,false,225
+161,Spenser,184,31/3/2022,909,McLaughlin-Shields,false,892
+350,Shelley,245,21/3/2022,252,Hoeger Inc,false,6
+119,Artisan,94,25/7/2021,981,Dicki Inc,false,220
+154,Scott,209,2/9/2021,861,Morar-Mitchell,false,580
+132,Graedel,9,15/9/2021,414,Hoeger-Mayert,false,414
+652,Warner,54,26/7/2021,847,Abernathy LLC,false,319
+767,Mendota,194,3/3/2023,703,Grant-Kutch,true,32
+362,Derek,64,22/5/2021,511,Steuber-Gutmann,false,511
+161,Glendale,113,25/1/2023,968,Quitzon Group,false,487
+417,Fair Oaks,189,18/4/2022,325,Price and Sons,false,264
+147,Burning Wood,92,21/4/2023,929,Hammes and Sons,false,499
+999,Algoma,37,27/8/2021,615,"Hills, Hauck and Rogahn",false,500
+746,Susan,25,17/6/2022,812,Purdy-Blanda,false,347
+427,Butterfield,219,27/6/2021,948,Friesen Group,false,47
+119,Rigney,172,3/2/2022,435,Gislason-Schinner,false,435
+440,Kropf,250,27/5/2021,677,"Maggio, Weber and Heidenreich",true,657
+771,Blaine,212,23/7/2022,749,Weimann LLC,false,426
+749,Main,141,16/5/2023,456,Hayes Group,false,456
+417,American,203,28/6/2021,893,Langosh-Treutel,false,805
+774,7th,166,1/8/2022,302,"Schmeler, Connelly and Volkman",false,302
+432,Petterle,233,28/6/2021,893,Conroy-Veum,false,381
+474,Monument,178,15/12/2021,672,"Hintz, Leffler and Schiller",false,625
+817,Lerdahl,89,3/8/2022,766,Buckridge-Donnelly,false,247
+277,Larry,103,1/3/2022,203,Swift-Brekke,false,203
+362,Meadow Valley,212,23/3/2023,829,Goldner LLC,false,517
+147,Pierstorff,196,17/9/2021,458,Tillman Group,false,262
+352,Monument,130,31/5/2021,219,Kemmer-Armstrong,false,219
+432,Comanche,145,1/8/2021,795,Weissnat-Turner,false,465
+704,Burrows,115,5/3/2022,406,Boyle LLC,true,299
+394,Lawn,62,29/4/2023,697,"Kris, Kiehn and Koss",false,522
+774,Stuart,34,1/11/2022,361,Moore and Sons,false,129
+502,Loftsgordon,245,6/8/2021,303,Bogisich LLC,false,303
+929,Barnett,52,12/11/2022,927,Gottlieb and Sons,false,63
+350,Clemons,137,1/10/2021,885,"Daugherty, Hamill and Ullrich",false,43
+119,Coolidge,95,20/1/2023,933,"Mraz, Hackett and MacGyver",false,604
+762,Prentice,225,13/1/2022,486,Pagac Group,false,444
+749,Memorial,213,21/4/2023,739,Gorczany-Swaniawski,false,57
+393,Forest Run,196,31/10/2021,993,Mitchell-Botsford,false,389
+707,David,133,22/1/2023,382,"Feest, Strosin and Okuneva",false,382
+898,Ridgeview,225,25/3/2022,454,Reinger-Legros,false,454
+430,Katie,233,21/6/2022,580,Luettgen LLC,false,580
+898,Rockefeller,100,25/5/2022,661,"Dare, Farrell and Dibbert",false,272
+937,Thompson,83,22/4/2023,596,Reilly-Robel,false,69
+537,Ryan,53,21/4/2023,905,Keeling LLC,false,293
+218,Tony,197,13/2/2022,797,Conroy and Sons,false,797
+707,Moulton,99,24/10/2021,880,Bernier LLC,false,470
+652,Del Sol,157,13/2/2023,300,Boyer Inc,false,218
+627,Pearson,249,12/3/2022,749,"Emmerich, O'Conner and Welch",false,154
+474,Maywood,245,29/8/2021,367,Block Inc,false,358
+22,Towne,11,19/10/2022,975,Torphy and Sons,false,417
+781,Warner,49,29/6/2021,574,Kovacek Inc,false,58
+641,Shoshone,75,29/12/2021,665,Walsh-Mitchell,false,665
+282,Artisan,94,3/4/2022,976,Schaefer-Gorczany,false,39
+896,Lakewood,236,12/11/2021,388,Mueller LLC,false,388
+672,Drewry,149,9/10/2022,751,"Oberbrunner, Kling and Jacobs",false,625
+713,Oakridge,132,13/9/2021,433,Kiehn Inc,false,433
+366,Lotheville,69,3/6/2021,898,Gleason-Halvorson,true,351
+937,Main,132,13/10/2022,365,Hettinger and Sons,false,63
+491,Morning,3,8/2/2023,213,MacGyver-Kutch,false,213
+950,Karstens,185,31/5/2021,870,Nolan Group,false,793
+201,Union,187,22/11/2021,433,"Ratke, Baumbach and Beahan",false,68
+762,Michigan,224,15/8/2022,630,Padberg-Koss,false,630
+846,Burning Wood,153,27/3/2023,674,"Stark, Flatley and Weber",false,19
+143,Clove,25,16/12/2021,488,"Funk, Gusikowski and Koch",true,347
+975,Graceland,201,23/8/2022,889,Christiansen-Quitzon,false,732
+548,John Wall,188,23/7/2021,684,Romaguera Group,false,684
+161,Summit,96,25/9/2022,268,Walsh-Hauck,false,104
+694,Sunfield,87,23/5/2021,560,"Turner, Leuschke and Borer",false,560
+251,Nova,123,20/4/2023,883,"Kuphal, Morar and Hahn",false,250
+704,Memorial,149,16/6/2022,810,Rau and Sons,false,810
+96,Bayside,23,14/12/2022,868,"Davis, Metz and Steuber",false,704
+694,Farmco,6,13/11/2021,334,Schroeder Inc,false,334
+458,Longview,172,21/5/2022,878,Lehner-Schuster,true,273
+430,Dakota,190,3/8/2021,801,"Mueller, Hermiston and Jacobs",false,83
+702,Pleasure,194,31/5/2021,978,Hegmann-Raynor,false,947
+132,Michigan,246,21/2/2022,309,"Turcotte, Berge and Gusikowski",false,23
+831,Service,130,24/6/2022,948,"Huels, Gislason and Ankunding",false,939
+502,Karstens,96,21/1/2022,796,Nienow Group,false,91
+292,Starling,18,17/10/2022,613,Schuppe-Cummings,false,307
+39,Mosinee,174,26/1/2023,463,Johnson Group,false,445
+417,Carpenter,5,18/6/2021,633,"Weissnat, Will and Kulas",false,198
+309,Hoard,170,23/4/2023,517,Barrows Group,false,294
+292,Pearson,197,4/12/2022,689,Kuphal-Carroll,true,162
+112,Starling,80,5/6/2021,423,"Waters, Kozey and Prohaska",false,45
+641,Farragut,174,21/5/2022,731,"Waters, Considine and Kirlin",false,137
+427,Sherman,102,14/6/2022,891,"O'Hara, Kilback and Metz",false,427
+332,Larry,143,3/1/2023,608,"Rohan, Sporer and Adams",false,180
+277,Leroy,116,15/9/2021,345,Schroeder Group,false,345
+309,Fallview,13,16/9/2022,533,"Runolfsson, Hermann and Runte",false,53
+323,Russell,239,9/6/2022,483,Senger Group,false,483
+22,Banding,107,16/11/2021,558,Thiel Inc,false,558
+352,Farwell,122,11/1/2022,592,Glover Group,false,364
+647,Cherokee,82,4/7/2021,515,"Mayert, Jacobi and Daugherty",false,342
+762,Hudson,228,27/11/2022,664,Hettinger-Ratke,false,259
+713,Mayfield,113,27/2/2023,564,Pouros-Wiegand,false,405
+817,Ridge Oak,118,30/8/2022,845,Lakin-Casper,false,215
+865,Badeau,111,15/5/2023,238,"Mante, Steuber and Hagenes",false,238
+548,Village Green,203,12/8/2021,948,Kunde-Spinka,false,71
+133,Amoth,58,21/4/2023,651,Bartell and Sons,false,651
+896,Meadow Ridge,131,5/9/2022,530,Abbott and Sons,false,365
+762,Carey,174,15/2/2023,640,Pouros Inc,false,476
+771,Kingsford,60,12/8/2022,255,"Howe, Rosenbaum and Quitzon",false,255
+132,Lakeland,41,17/2/2023,798,"Kuhlman, Barrows and Mitchell",true,798
+694,Novick,108,11/11/2021,804,"Kshlerin, Wiza and Tremblay",false,423
+352,Randy,104,28/6/2021,656,"Bartell, Ward and Cruickshank",false,546
+937,Anniversary,218,7/7/2022,821,Cartwright and Sons,false,755
+130,Anzinger,160,13/6/2021,804,Hayes-Breitenberg,false,566
+376,Dixon,103,20/4/2023,968,"White, Daugherty and Rowe",false,355
+665,Pierstorff,111,29/9/2022,788,Crist LLC,false,788
+474,Dovetail,216,21/6/2021,680,Runolfsdottir-Friesen,false,157
+767,Montana,41,21/10/2021,525,Ankunding-Haley,false,377
+929,Fieldstone,106,9/6/2022,500,Harber-Adams,false,500
+755,Ohio,4,30/3/2022,801,Gerhold-Hackett,false,795
+641,Vernon,154,15/12/2021,334,King LLC,false,334
+501,Lien,129,25/7/2021,599,"Dach, Grady and Strosin",false,599
+154,Jenna,56,23/6/2022,662,Von-Runolfsdottir,false,506
+96,Graedel,134,14/11/2022,869,Jacobs-Bahringer,false,385
+898,Toban,66,14/4/2023,523,Conn Group,false,377
+647,Shoshone,90,13/10/2022,346,Buckridge-Sawayn,false,346
+362,Emmet,119,16/11/2022,377,"Hegmann, Runolfsson and Cronin",false,377
+749,Lien,246,10/8/2021,645,"Thiel, Bernhard and Hagenes",false,645
+130,Thierer,87,18/3/2023,886,Mills Inc,false,886
+366,Randy,56,17/5/2023,953,"Beahan, Christiansen and Connelly",false,32
+292,Armistice,221,14/7/2022,252,"Abshire, Gleason and Kautzer",false,252
+147,Alpine,217,10/3/2023,605,Kozey LLC,false,605
+428,Susan,235,1/2/2022,384,"Hermiston, O'Reilly and Collins",false,384
+653,Schmedeman,15,11/2/2023,289,"Lindgren, Borer and Renner",false,289
+924,Thackeray,70,6/2/2022,626,"Wyman, Yost and Altenwerth",false,492
+578,Granby,195,8/4/2023,876,Zemlak-Feil,false,453
+292,Mallory,20,6/3/2023,795,Miller-Abernathy,false,789
+652,Bowman,66,25/9/2021,448,Schoen-Ebert,false,87
+22,Bayside,58,25/12/2021,277,Ziemann LLC,false,277
+150,Fuller,113,21/3/2023,516,Kunde Inc,false,516
+332,High Crossing,76,7/9/2021,564,Schoen-Bahringer,false,67
+704,Kropf,102,14/2/2023,288,"Haley, Hartmann and Murazik",false,288
+150,Crowley,87,2/3/2023,796,"Swift, Thompson and Hegmann",false,73
+762,Riverside,70,26/2/2023,778,"White, Bartoletti and Borer",false,501
+831,Sloan,149,15/3/2023,482,Pouros-Cremin,false,482
+762,Bellgrove,183,14/11/2022,993,Gutmann-Carroll,false,725
+554,Acker,88,21/10/2021,894,Hane Inc,false,159
+781,Mockingbird,71,26/9/2022,323,"Mayer, Leuschke and Balistreri",false,323
+929,Independence,55,3/1/2023,312,"Stokes, Kunde and Luettgen",true,312
+352,Gulseth,24,12/2/2022,990,Rosenbaum-Metz,false,928
+282,Tony,6,16/2/2022,649,Hudson-Wyman,false,76
+112,Talmadge,185,12/7/2022,652,Russel and Sons,false,490
+781,Hanover,130,28/4/2022,313,"Doyle, Schaefer and Zulauf",true,313
+119,Clemons,73,5/4/2023,787,"McDermott, Quigley and Spinka",false,787
+755,Summer Ridge,175,17/7/2021,949,Ward Inc,false,644
+50,Delladonna,93,2/12/2021,346,Marvin Group,false,346
+417,Anhalt,214,11/6/2022,958,Nikolaus-Cummings,false,958
+63,Kings,3,21/6/2021,257,Kerluke LLC,false,257
+781,Anthes,103,6/11/2022,835,"Watsica, Becker and Buckridge",false,759
+370,Stuart,116,1/12/2021,918,Rodriguez Inc,false,561
+493,Nobel,37,21/1/2022,929,Gleason Group,false,751
+859,Kenwood,236,15/7/2021,889,Rau-Ernser,false,889
+774,Derek,145,2/11/2021,801,Dare-Miller,false,388
+859,Lakeland,173,28/9/2022,718,Klocko Group,true,718
+417,Nancy,10,25/7/2022,299,Wolff and Sons,false,106
+627,Union,2,29/4/2022,646,Lemke-Simonis,false,646
+537,Raven,126,30/5/2021,890,Bruen-Volkman,false,60
+665,Northview,2,7/1/2023,520,Hills-Leuschke,false,520
+781,Graceland,61,3/5/2023,509,Bins Group,false,349
+984,Dahle,202,19/1/2023,755,"Lowe, Kihn and Goyette",false,436
+694,Farmco,47,18/10/2021,929,Lindgren-Feest,false,30
+781,Pepper Wood,134,3/8/2022,324,Bradtke-Berge,false,205
+501,Oak Valley,133,25/7/2022,588,Rogahn-Conroy,false,588
+694,Ridgeview,110,10/3/2023,574,Spinka-Bartell,false,574
+417,Main,48,5/6/2021,639,"Cruickshank, Rau and Haley",false,639
+133,Iowa,88,5/11/2022,883,Stehr Group,false,84
+350,Lindbergh,81,2/2/2022,352,"Olson, Bailey and Pagac",false,352
+898,Kingsford,109,31/8/2022,331,Wilkinson Inc,true,331
+22,Fallview,160,27/8/2022,562,"Roob, Mann and Rohan",false,562
+898,Crownhardt,243,30/3/2022,695,Von Inc,false,441
+578,Messerschmidt,85,20/1/2023,524,"Stokes, Keebler and Von",false,524
+781,Cordelia,237,15/9/2022,439,Spencer-Terry,false,193
+746,Holy Cross,176,13/1/2022,441,Streich-Jones,false,58
+665,Carey,237,1/5/2022,763,Beahan and Sons,false,442
+39,Prentice,237,9/1/2023,998,"Russel, Turner and Hartmann",true,263
+647,Hovde,54,15/2/2022,938,O'Kon Inc,false,870
+984,Stang,101,14/11/2022,595,Huels-Ratke,false,292
+56,Thierer,27,9/6/2021,565,"Kutch, Grimes and Hermann",false,239
+665,Division,161,16/5/2022,504,Beatty-Mitchell,false,185
+150,Crownhardt,179,18/10/2021,847,Armstrong-Witting,false,290
+101,Huxley,124,23/4/2022,543,"Willms, Zieme and Bins",false,94
+387,Monica,138,7/3/2022,978,"Hand, Raynor and Berge",false,183
+350,Oak Valley,245,25/9/2021,498,Hessel LLC,false,19
+56,Grim,140,1/9/2022,491,Ritchie-Paucek,false,116
+927,Mcguire,20,15/11/2021,827,Batz LLC,false,1
+929,Express,118,14/9/2021,226,"Nienow, Cartwright and Schaefer",false,226
+999,Sullivan,138,30/4/2023,720,"Brown, Padberg and O'Keefe",false,474
+746,Crownhardt,183,27/3/2022,203,Hickle-Connelly,false,203
+924,Morningstar,130,10/12/2022,497,Torp Inc,false,497
+767,Vermont,189,3/10/2021,775,"Mann, Nolan and Runolfsson",false,152
+704,Manley,174,14/6/2022,297,Muller Group,false,297
+145,Mccormick,193,22/1/2022,447,Kemmer and Sons,false,447
+929,Brickson Park,244,16/5/2022,232,Streich-Dibbert,false,232
+614,Mcbride,12,1/8/2021,542,"Wuckert, Feest and McCullough",false,134
+614,Haas,189,29/5/2021,236,Batz LLC,false,236
+704,Haas,185,3/2/2023,450,Goodwin-Medhurst,false,97
+767,Mariners Cove,157,15/2/2022,725,Steuber LLC,false,196
+771,Merry,50,5/5/2023,856,"Hartmann, Boyle and Oberbrunner",false,288
+271,Meadow Valley,192,8/12/2021,223,Rowe Inc,false,51
+201,Gateway,148,31/10/2022,548,Skiles-Abbott,false,548
+41,Summerview,149,16/11/2021,290,Fadel and Sons,false,290
+150,Clarendon,53,18/11/2021,670,"Bernhard, Schinner and Simonis",false,670
+697,Miller,31,29/12/2022,614,Nienow-Feest,false,614
+132,Harper,127,18/2/2023,541,"Renner, Jacobs and Gottlieb",false,54
+218,Troy,50,21/9/2021,486,Parisian-Bruen,false,486
+332,Northland,114,20/6/2021,560,Labadie-McClure,false,341
+771,Shelley,35,5/4/2023,963,Trantow Inc,false,203
+647,Stephen,198,31/3/2023,552,"Yundt, Russel and Rowe",false,552
+900,Bartillon,53,9/7/2021,517,"Beer, Harris and Tillman",false,517
+975,Knutson,43,22/7/2021,928,Toy LLC,false,23
+150,Arkansas,233,20/2/2023,737,Reynolds-Ziemann,false,402
+417,Steensland,239,28/4/2023,874,Glover Group,false,320
+387,Hansons,196,21/5/2022,838,Botsford and Sons,false,103
+277,Forster,170,6/1/2022,497,Glover and Sons,false,497
+352,Porter,4,30/10/2022,683,"Oberbrunner, VonRueden and Donnelly",false,265
+774,Prairieview,96,20/1/2023,317,Trantow Group,false,317
+929,Anzinger,69,27/1/2022,570,"Paucek, Grady and Koss",false,124
+277,Summerview,213,25/6/2022,609,Lindgren and Sons,false,420
+362,Kingsford,197,19/5/2021,586,Reichel-Kunde,true,142
+201,La Follette,247,7/6/2022,917,"Lueilwitz, Gutmann and Beahan",false,26
+652,Barnett,49,23/2/2023,875,McGlynn-Rodriguez,false,36
+982,Onsgard,57,7/10/2021,543,"Donnelly, Jacobs and Hodkiewicz",false,152
+541,Montana,247,29/6/2022,911,"Kilback, Halvorson and Ernser",true,76
+491,Scofield,152,25/4/2023,242,"Wyman, Frami and Boyer",true,242
+440,David,238,28/5/2022,583,Reichert-Zboncak,false,144
+309,Prairieview,12,23/9/2021,427,Kunde-Dickinson,false,405
+774,Dakota,36,11/5/2022,315,Hyatt-Nitzsche,false,315
+332,Miller,35,16/4/2023,545,"Barton, Brown and Bartell",false,234
+474,Emmet,169,15/9/2022,676,Krajcik-Larkin,false,676
+774,Corry,31,12/4/2022,912,"Cummerata, Adams and Runolfsson",false,34
+376,Bartelt,175,13/12/2022,518,Block-Tromp,false,154
+817,Scofield,126,4/5/2023,542,Rogahn Group,false,57
+143,Miller,82,1/8/2022,271,"Lang, Buckridge and Zboncak",false,271
+697,Barby,162,26/1/2022,969,Jacobs-Hodkiewicz,false,368
+541,Sherman,56,8/6/2022,523,"Hegmann, Willms and Krajcik",false,523
+133,Corry,170,18/1/2022,869,Wiegand Group,false,592
+900,Mariners Cove,23,30/9/2021,958,Macejkovic-Orn,false,394
+950,Bellgrove,195,12/3/2023,360,Okuneva Inc,true,360
+132,Springs,223,8/9/2022,663,Schulist Inc,false,663
+853,Johnson,245,14/9/2022,346,Cole-Fay,false,346
+64,Armistice,8,18/7/2022,931,Mueller Group,false,45
+749,Morningstar,66,3/9/2021,542,Casper and Sons,false,542
+130,Ludington,211,28/10/2022,326,Robel-Weimann,false,179
+323,Waubesa,143,22/10/2022,471,Gulgowski Group,false,229
+652,Prentice,15,2/4/2022,927,"Gibson, Labadie and Flatley",false,632
+96,Carey,215,29/5/2021,858,Daniel LLC,false,233
+541,Ridgeway,194,20/6/2022,641,Oberbrunner Group,false,263
+132,Monterey,127,17/4/2023,391,"Hammes, Smith and Gutmann",false,391
+350,Tennessee,101,2/7/2021,404,Bechtelar Inc,false,404
+627,Dixon,21,22/6/2022,257,"McGlynn, Dare and Jones",false,34
+767,Vera,7,22/9/2021,918,"Rice, Bogisich and Effertz",false,865
+653,Manufacturers,233,24/3/2023,566,Yost Group,false,98
+781,Dahle,225,21/10/2021,400,"Lindgren, Ziemann and West",false,400
+323,Manley,173,27/12/2021,871,Turcotte Inc,false,552
+22,2nd,21,1/2/2023,886,"Hilpert, Wunsch and Daugherty",false,773
+853,Messerschmidt,125,6/10/2021,546,MacGyver-O'Hara,false,546
+647,Westerfield,58,7/12/2022,238,Casper-Gleichner,false,238
+161,Union,94,29/9/2021,739,"Ward, Leuschke and Wolf",false,21
+672,Northfield,234,3/6/2022,300,"Schinner, Bauch and Oberbrunner",false,300
+332,Burning Wood,74,8/8/2021,760,"Yost, Conn and Bergnaum",true,313
+749,Schiller,102,13/11/2022,482,"Kassulke, Dicki and Beahan",false,407
+366,Hansons,221,20/1/2023,340,Gusikowski Group,false,340
+22,Starling,236,5/12/2022,588,Torp Inc,false,588
+859,Heffernan,17,29/10/2022,251,Nienow-Fisher,true,251
+366,Red Cloud,17,11/6/2021,597,Shanahan Group,false,597
+578,Kipling,19,3/11/2021,863,Nader Inc,false,467
+63,Elmside,84,14/1/2022,916,Luettgen-Nikolaus,false,916
+154,Bowman,225,1/9/2021,491,Price-Feil,false,260
+984,Hooker,37,20/6/2022,521,"Witting, Kshlerin and Lemke",false,29
+665,Westridge,57,13/10/2021,468,Bahringer LLC,false,286
+774,Monterey,230,31/7/2021,921,Nicolas and Sons,false,711
+937,Eastwood,178,21/7/2022,467,Medhurst-Graham,false,72
+937,Vera,1,31/8/2022,844,Flatley and Sons,false,762
+702,Sachtjen,158,10/3/2022,553,"Fritsch, Mohr and MacGyver",true,390
+458,Cody,53,17/9/2022,918,"Pfannerstill, Brown and Emard",false,697
+755,John Wall,183,5/6/2021,614,Cartwright LLC,false,614
+81,Independence,36,13/1/2022,534,Rau-Kihn,false,232
+393,Hollow Ridge,167,27/5/2022,424,Willms-Pacocha,true,424
+64,Clove,129,26/4/2023,313,"Kiehn, Boyer and Mraz",false,313
+927,Pond,81,4/12/2021,865,Lowe LLC,false,243
+709,Straubel,123,2/4/2022,914,Morar-Cremin,false,763
+64,Harper,88,27/9/2021,445,Weimann Inc,false,445
+63,Service,196,18/7/2021,340,"Schamberger, Runolfsdottir and Ward",false,200
+900,Roxbury,245,22/4/2022,516,"Sipes, Fay and Moore",false,516
+865,Dottie,158,20/10/2022,697,"Koss, Dach and Goldner",true,358
+127,Bellgrove,1,30/6/2021,223,Kulas Group,false,121
+218,Jenna,196,28/9/2021,710,"Wehner, Quitzon and Parisian",false,644
+332,Gateway,115,28/12/2022,336,Littel-Schmidt,true,5
+999,Caliangt,82,23/5/2021,560,"Bergstrom, Rosenbaum and Stracke",false,140
+161,Ryan,93,20/9/2022,721,Witting-Weber,false,721
+653,Eagle Crest,121,2/3/2022,453,"Lynch, Orn and Walsh",false,453
+865,Duke,229,26/6/2022,790,Block and Sons,false,118
+272,Hoepker,214,25/8/2022,434,Mertz and Sons,false,17
+578,Park Meadow,133,2/7/2021,763,"Schaden, Greenholt and Dach",false,627
+63,Mccormick,186,16/11/2021,720,Greenfelder and Sons,false,335
+64,Glacier Hill,170,15/9/2022,563,Schiller Inc,false,170
+812,Kropf,181,1/3/2023,304,Watsica-Hammes,false,304
+145,Weeping Birch,231,28/9/2022,296,"Predovic, Connelly and O'Reilly",false,296
+393,Summit,17,25/7/2021,348,"Nicolas, Hoppe and Lynch",false,35
+393,Carey,88,22/4/2023,618,Romaguera Group,false,617
+896,American Ash,4,17/9/2021,705,Wiegand-King,false,705
+578,Bluejay,174,27/6/2022,320,"Kerluke, Roob and Harber",false,222
+56,Golf View,175,24/12/2022,201,Strosin LLC,true,201
+96,Sundown,29,4/1/2022,275,Heathcote-Lehner,false,275
+41,Springs,157,21/3/2023,869,Wisozk-Mohr,false,294
+119,Londonderry,63,23/3/2022,790,Haley and Sons,false,347
+39,Straubel,69,29/3/2022,635,MacGyver-Weber,false,635
+143,Vernon,100,24/7/2022,756,Schimmel-Kris,false,678
+984,Farragut,40,14/1/2023,886,"Bogisich, Gleason and Shields",false,546
+350,Boyd,33,3/3/2022,303,Cormier-Kuhn,true,196
+812,Autumn Leaf,77,28/4/2023,965,Brakus and Sons,false,568
+133,Clyde Gallagher,19,20/3/2022,460,Gottlieb-Bartell,false,460
+332,Luster,137,23/9/2021,417,Lakin LLC,false,167
+781,Lake View,118,19/4/2022,763,Nader and Sons,true,763
+493,Anthes,99,25/10/2021,562,Quitzon-Schumm,false,414
+41,Kropf,175,23/7/2021,968,Osinski-Hahn,false,191
+309,Kennedy,93,6/11/2021,356,"Funk, Purdy and Jakubowski",false,356
+101,Center,99,23/2/2022,656,"Kuhic, Heathcote and Lowe",true,12
+762,Golf Course,17,6/10/2021,433,Kautzer-Dach,false,433
+309,Clarendon,161,5/7/2021,284,Lynch Group,false,284
+537,Center,10,29/6/2021,629,"Stroman, Cormier and Pacocha",false,88
+859,Barnett,172,3/2/2023,756,"Boyle, Predovic and Hane",false,39
+161,Calypso,232,17/7/2021,688,"Williamson, Keebler and Kessler",false,182
+218,Meadow Valley,195,27/9/2022,203,Rosenbaum and Sons,false,203
+201,Hovde,40,25/11/2021,221,"Maggio, Rodriguez and Cronin",false,221
+491,Southridge,75,2/4/2022,807,"Block, Streich and Parker",false,718
+474,Duke,88,25/12/2021,670,Friesen Inc,false,670
+154,Knutson,164,21/4/2023,401,"Windler, Nicolas and Howe",false,369
+22,Nevada,91,23/9/2022,721,"Boyer, Lemke and Fisher",false,721
+154,Gateway,107,27/11/2021,831,Hoppe-Rath,false,157
+394,John Wall,130,5/12/2021,289,"Gulgowski, Yost and Feest",false,74
+652,Harbort,53,23/3/2022,599,Kessler Group,false,599
+929,Luster,74,13/6/2021,246,Legros-Carroll,false,246
+218,Randy,59,19/2/2022,697,Marvin-Schumm,false,106
+614,Rockefeller,31,8/3/2023,957,Haag Group,false,152
+746,Debra,79,15/5/2022,865,Leuschke Inc,false,820
+440,Lyons,54,22/1/2022,457,"Wiegand, Greenholt and Hamill",false,457
+147,Killdeer,189,23/4/2023,977,"Bosco, Thompson and Barton",false,658
+653,Ramsey,96,4/7/2021,859,Rau Inc,false,380
+39,Sunnyside,43,17/1/2023,581,Gerhold and Sons,true,52
+271,Vera,53,17/5/2023,235,Harris Inc,false,235
+781,Declaration,85,23/8/2022,878,"Glover, Kulas and Will",false,578
+63,Kensington,186,22/8/2022,516,"Jast, Goodwin and Powlowski",false,516
+554,Bayside,14,29/12/2022,317,Little LLC,true,317
+950,Rieder,154,19/9/2021,418,"Doyle, Cartwright and Gibson",false,63
+474,Roxbury,143,11/12/2022,955,Huels Inc,false,752
+41,Elmside,150,21/2/2023,997,Maggio-Hartmann,false,267
+704,Tomscot,69,18/10/2022,367,"Nader, Hoppe and McLaughlin",false,5
+501,Fairview,162,9/1/2023,520,"Labadie, Dickinson and Pouros",false,520
+22,Blaine,172,25/3/2023,840,Terry-White,false,656
+975,Dixon,116,27/5/2021,816,Hermann-Larson,false,106
+132,Scofield,39,27/3/2023,208,Marks LLC,false,64
+292,Tony,69,10/7/2021,257,McClure-Jaskolski,false,257
+853,1st,1,3/8/2022,906,"Kassulke, Lubowitz and Huel",false,241
+64,Havey,28,5/6/2022,684,"Grady, Wilderman and Schmeler",false,84
+41,Sutteridge,145,30/5/2022,472,"Dooley, Schaden and Gutkowski",false,472
+853,Dunning,30,12/7/2022,658,Will Inc,false,552
+924,Stone Corner,142,11/1/2022,714,Mante and Sons,false,245
+975,Swallow,170,18/12/2021,650,Murray LLC,false,650
+641,Arizona,133,15/8/2021,532,Muller Group,false,532
+709,Bowman,23,6/12/2022,686,Sporer-Cassin,false,37
+554,Buell,107,5/4/2023,865,Runolfsdottir Group,false,582
+493,Delladonna,141,15/4/2022,210,West and Sons,false,156
+474,Basil,73,2/12/2022,916,"Kutch, Schuster and Nitzsche",false,762
+749,Harper,3,30/12/2022,839,Schulist Inc,false,334
+704,Main,210,5/11/2021,599,Braun Group,false,111
+537,Pine View,145,12/3/2022,583,Goldner-Reinger,false,583
+428,Roth,172,25/5/2021,928,"Johns, Grimes and Mertz",false,384
+393,Lawn,16,2/10/2022,240,Rolfson-Kunze,false,240
+147,Hovde,109,28/7/2022,814,"Murazik, Oberbrunner and Zboncak",false,199
+133,Huxley,235,7/9/2021,918,"Marvin, Lueilwitz and Ledner",false,479
+440,Becker,171,18/5/2023,908,"Anderson, Metz and Ortiz",false,792
+130,Montana,112,3/7/2022,494,Kunde-Zieme,false,267
+41,Lotheville,47,11/8/2022,510,Herzog and Sons,true,510
+143,Nancy,35,20/4/2022,804,Durgan-Gulgowski,false,804
+64,Buell,15,9/5/2022,233,"Graham, Christiansen and Abshire",false,233
+282,Calypso,27,22/9/2022,812,Barton LLC,false,120
+50,Talisman,39,8/3/2023,251,Wunsch-Dare,false,67
+771,Dahle,154,26/8/2022,330,Gottlieb-Schinner,false,330
+72,Columbus,226,8/5/2022,621,Russel Inc,false,187
+427,Bobwhite,69,26/7/2021,339,Lemke-Feil,false,339
+817,Saint Paul,233,23/9/2022,781,Rutherford-Marks,true,442
+627,Truax,72,13/11/2021,250,Rolfson Group,false,250
+272,Clyde Gallagher,219,19/10/2021,434,"Paucek, Harvey and Purdy",false,434
+440,Harper,78,25/1/2023,745,Spinka and Sons,false,581
+554,Pennsylvania,48,3/11/2022,559,"Bernier, Cole and DuBuque",false,33
+64,Springs,104,25/10/2021,372,Fadel-Anderson,false,372
+393,East,231,22/11/2022,631,Ratke Group,false,316
+541,Barnett,154,23/5/2022,613,Marks-Gerhold,false,498
+578,Drewry,185,5/12/2022,330,Collins-Greenfelder,true,300
+323,Pearson,95,1/4/2023,835,"Schultz, Walsh and Cummerata",false,622
+762,Roxbury,30,18/2/2022,646,Beahan and Sons,false,646
+641,Brown,204,27/9/2021,275,"Maggio, Murazik and Abshire",false,275
+387,Weeping Birch,26,18/3/2022,396,Luettgen LLC,false,396
+394,Oneill,214,2/12/2021,439,Keebler-Brown,false,302
+982,Bashford,216,15/2/2022,721,Olson and Sons,false,516
+394,Esch,16,17/8/2021,876,Waters and Sons,false,286
+143,Anderson,40,14/3/2022,578,"Wilderman, Hayes and Price",false,494
+846,2nd,72,15/2/2022,476,"Spencer, Flatley and Bahringer",false,356
+63,Beilfuss,189,20/10/2022,641,Cassin LLC,true,641
+56,Mandrake,27,20/11/2022,706,Feil-Mraz,false,706
+309,Eastwood,113,19/3/2023,711,"Kulas, Cormier and Schmitt",false,711
+417,Ilene,54,16/6/2022,685,Kuvalis and Sons,true,685
+491,Lawn,101,4/3/2023,938,"Hirthe, Gutkowski and Hyatt",false,830
+982,Haas,247,14/5/2022,754,Gottlieb and Sons,false,254
+707,Calypso,82,18/4/2022,563,Wilderman-O'Connell,true,563
+929,Del Sol,218,12/5/2022,437,Lind and Sons,false,437
+672,Hayes,236,5/6/2022,224,"Kulas, Conroy and Gutmann",false,224
+900,Fallview,145,4/12/2021,721,"Lindgren, Grant and Raynor",false,269
+147,Forest,137,13/3/2023,565,Bahringer and Sons,false,565
+56,Carioca,29,7/1/2022,635,Heaney and Sons,false,635
+548,Burning Wood,50,18/8/2022,520,Nikolaus Inc,false,62
+272,Swallow,187,23/1/2023,919,McDermott Inc,false,164
+853,Kenwood,132,12/8/2022,802,Buckridge LLC,false,802
+501,Garrison,138,21/12/2022,398,Upton Inc,false,398
+323,Onsgard,81,6/12/2021,770,Price and Sons,false,329
+409,International,206,2/9/2022,692,Koss-Green,false,485
+366,Ridgeview,235,28/10/2021,905,Boyle and Sons,false,647
+548,Old Gate,168,8/4/2022,659,Gislason-Powlowski,false,659
+366,Mandrake,43,8/9/2022,487,Brakus-Bins,false,487
+665,Anderson,30,16/11/2022,672,"Emmerich, Kovacek and Gleichner",false,122
+161,Goodland,184,12/9/2022,494,Balistreri-Ebert,false,494
+999,Jackson,7,8/7/2021,354,Abshire and Sons,false,130
+143,Arapahoe,103,15/3/2022,417,"Hamill, Sawayn and Reinger",false,417
+950,Melby,163,22/6/2021,516,Ledner-Hills,false,395
+924,New Castle,89,3/3/2023,738,Abshire Group,false,738
+755,Nancy,7,9/1/2023,934,"Schultz, Hyatt and King",false,194
+282,Independence,29,7/10/2022,336,"Hessel, Gutkowski and DuBuque",false,90
+150,Derek,129,16/12/2021,446,Pollich Inc,false,446
+898,Lindbergh,217,24/8/2022,308,Nikolaus-Osinski,false,308
+627,Hayes,84,28/8/2022,978,Tromp-Leffler,false,276
+432,Scott,13,30/4/2023,560,Cole LLC,false,301
+150,Holmberg,193,27/2/2023,255,White-Welch,false,223
+501,Beilfuss,28,20/7/2021,423,"Gorczany, Grant and Mayert",false,423
+271,Westend,215,24/11/2022,505,Senger and Sons,false,505
+709,Green Ridge,215,16/10/2022,695,"Torp, Zieme and Leuschke",false,695
+393,Brentwood,69,30/6/2021,338,"Murray, Greenholt and Ruecker",false,338
+707,Miller,127,29/9/2021,294,"Cole, Gutkowski and Reichel",false,13
+702,Morningstar,65,13/5/2022,470,Becker-Doyle,false,470
+709,Melby,155,6/9/2021,430,Walsh-Stoltenberg,false,430
+143,Washington,0,23/4/2023,595,Wehner-Jakubowski,false,595
+771,Lake View,165,3/11/2022,950,"Kuvalis, Nitzsche and Deckow",false,901
+755,Carpenter,133,26/5/2021,264,Nader-Kihn,false,158
+161,Jenifer,121,14/6/2022,920,Fritsch LLC,false,31
+984,Bunker Hill,105,15/9/2022,688,"Zboncak, Kohler and Pouros",false,524
+127,Pond,60,2/10/2022,746,Glover-Pouros,false,30
+130,Pennsylvania,191,11/11/2022,406,Jacobi and Sons,false,284
+119,Chinook,230,27/5/2022,572,"McKenzie, Kemmer and Koepp",false,572
+749,Straubel,170,31/10/2022,789,"Lowe, Weimann and Abshire",true,37
+812,Dryden,0,16/9/2022,210,Braun-Hand,false,33
+493,Portage,232,15/6/2021,859,Stehr and Sons,false,381
+694,Moulton,146,15/4/2022,997,"Batz, Klein and Bradtke",false,91
+428,Kipling,76,21/10/2021,215,Marquardt Inc,false,215
+865,Clyde Gallagher,96,2/1/2023,433,"Altenwerth, Schumm and Blanda",false,153
+831,Riverside,149,17/9/2022,651,Monahan and Sons,false,200
+627,Mifflin,31,9/6/2021,532,Smitham LLC,false,532
+746,Burning Wood,167,22/4/2023,717,Nitzsche Group,false,601
+394,Ohio,95,16/2/2023,999,Schamberger and Sons,true,334
+72,Arrowood,240,25/4/2022,615,Cremin-Schuppe,true,615
+665,Melrose,159,15/1/2023,707,Fahey-Mosciski,false,707
+161,Onsgard,29,21/6/2021,966,"Robel, Carroll and Lowe",false,713
+548,Blue Bill Park,128,29/3/2022,236,Armstrong-Hane,true,172
+831,Hooker,105,6/1/2022,605,Pagac Inc,false,65
+762,Twin Pines,142,19/2/2022,558,Heathcote Inc,false,558
+491,Russell,150,16/11/2021,450,"Barton, Osinski and Parisian",false,341
+491,Maywood,60,13/8/2022,316,Hegmann-Green,false,316
+541,Nevada,93,25/2/2022,983,Deckow Group,false,857
+376,Jana,226,25/8/2021,234,"Fadel, Walter and Deckow",false,234
+63,Golf,113,8/10/2021,404,Borer Inc,false,404
+63,Hovde,211,31/3/2022,516,Haley-Breitenberg,false,516
+781,Grim,97,2/11/2022,445,Blick-Rath,false,357
+366,Monterey,105,2/7/2021,997,"Harvey, Hoeger and Schaefer",false,865
+578,Corry,111,26/11/2022,305,Lang LLC,false,305
+537,Jana,12,5/4/2022,703,"Walsh, Gleichner and Kerluke",false,703
+39,Talisman,105,1/2/2023,637,Schimmel and Sons,false,637
+865,Autumn Leaf,232,9/2/2022,293,Herman Group,false,293
+332,Ridge Oak,117,12/11/2022,705,Kutch and Sons,true,705
+370,Chive,17,24/11/2021,601,Braun-Vandervort,false,601
+491,Mifflin,138,4/3/2023,300,Cartwright-Olson,false,300
+81,Jenna,37,22/5/2022,641,"Durgan, Corwin and Mohr",false,641
+755,Grayhawk,154,25/11/2021,761,"Ward, Huel and Schowalter",false,634
+817,Chive,238,25/5/2021,274,Tillman Group,false,274
+133,Wayridge,36,28/8/2021,559,Moore-Klein,false,559
+432,Colorado,21,19/5/2022,629,McGlynn-Osinski,false,629
+665,Granby,120,18/9/2021,302,Stiedemann and Sons,false,302
+72,Crownhardt,190,13/1/2023,238,"Carter, Parker and Bogan",false,238
+713,Lillian,125,6/3/2022,444,"Swift, Feil and Runte",false,444
+781,Utah,51,21/3/2022,287,Anderson LLC,false,287
+846,Forster,116,10/10/2022,760,Dooley-Gerhold,false,564
+502,Park Meadow,19,19/8/2022,919,Willms Inc,true,809
+652,Brentwood,204,3/9/2021,339,Runte LLC,false,339
+218,Becker,2,25/11/2022,920,Grady Inc,false,199
+39,Monica,132,2/6/2022,343,"Douglas, Bailey and Dooley",false,12
+63,Gulseth,190,26/4/2022,792,Rogahn Inc,false,792
+394,Grasskamp,63,25/2/2022,880,Corwin and Sons,false,109
+72,Meadow Valley,198,18/3/2022,844,Grady-Kertzmann,false,273
+147,Stang,178,12/12/2022,585,"Armstrong, Nader and Rippin",false,585
+133,Walton,176,28/7/2021,994,"Upton, Goldner and Deckow",false,466
+119,Moose,141,30/12/2021,540,Nienow Inc,false,540
+697,Kim,192,15/12/2022,597,"Mante, Bins and Lindgren",false,153
+39,Schlimgen,165,31/8/2021,845,Tillman Group,false,652
+927,Onsgard,113,19/7/2022,813,Towne and Sons,true,435
+767,Welch,198,9/7/2021,995,Kertzmann Inc,false,702
+81,Corscot,143,8/6/2021,923,Satterfield-Murazik,false,878
+440,Green,105,10/9/2022,362,Haag Group,false,362
+697,Warrior,214,11/12/2022,598,Douglas-Reichel,false,57
+859,Little Fleur,89,13/1/2023,599,Koss Group,false,23
+578,Longview,194,12/2/2022,798,Armstrong-Wiegand,false,168
+133,Loftsgordon,170,15/12/2021,743,Kassulke and Sons,false,647
+417,Golden Leaf,152,16/3/2022,416,Hirthe-Jaskolski,false,187
+975,Lillian,109,9/1/2022,478,Corkery LLC,false,112
+112,Del Sol,77,4/12/2021,837,Labadie-Jerde,false,493
+282,Donald,112,7/12/2021,701,"Goldner, Bartell and Schimmel",false,630
+493,Clyde Gallagher,242,31/10/2021,661,Monahan and Sons,false,661
+458,La Follette,50,13/1/2023,843,"Graham, Rolfson and Jacobson",false,252
+277,Acker,159,2/3/2022,438,Wolff-Johnson,false,92
+394,Ridge Oak,248,28/7/2022,642,Windler LLC,false,642
+767,Veith,60,30/12/2022,636,Berge-Wuckert,true,636
+277,Kim,159,30/10/2022,227,"Leuschke, Wyman and Boyle",false,227
+417,Porter,55,5/2/2022,913,"Christiansen, Sporer and Collier",false,100
+376,Mcguire,175,21/9/2022,256,Effertz Inc,false,256
+309,Farragut,52,3/11/2022,929,"Hagenes, Erdman and Kohler",false,809
+350,Rowland,192,9/7/2021,797,"Sauer, Nikolaus and Lowe",false,797
+350,8th,209,25/6/2021,258,Graham and Sons,false,258
+323,Mifflin,159,25/6/2021,343,Bernier-Fahey,false,343
+502,Kim,67,11/6/2022,655,"Towne, Pouros and Rogahn",true,461
+72,Corscot,85,21/6/2021,612,Adams-Oberbrunner,false,612
+366,Schurz,83,1/4/2022,839,"Lang, Ondricka and Rolfson",false,88
+781,Gateway,163,1/1/2022,403,Marquardt LLC,true,82
+831,Elka,80,17/4/2023,954,Tremblay-Okuneva,false,480
+251,Debs,207,12/12/2022,573,Kassulke Group,false,573
+132,Everett,129,25/8/2021,716,"Osinski, Schoen and Koelpin",false,64
+292,Becker,185,30/5/2022,363,Schumm Inc,false,363
+771,Westend,15,22/9/2022,907,"Abbott, Simonis and Cartwright",true,356
+430,Barby,106,12/4/2023,240,Barrows-Wuckert,false,156
+984,Manufacturers,227,7/3/2023,444,Keebler-Terry,false,308
+896,Village,20,2/3/2023,228,Bednar-Ratke,false,228
+697,Union,68,2/1/2023,957,Strosin-Pfeffer,true,766
+984,Almo,242,23/4/2023,516,Roberts-Harvey,false,100
+440,Elgar,244,10/8/2022,576,"Bosco, Will and Rippin",false,430
+440,East,56,2/8/2021,361,Toy-Kutch,false,361
+865,West,75,26/4/2022,851,DuBuque Group,false,164
+653,Commercial,102,8/11/2022,348,"Schamberger, Dietrich and Doyle",false,296
+119,Straubel,117,11/9/2021,718,"Kozey, Renner and Quitzon",false,718
+999,Hudson,246,20/4/2023,404,Keebler and Sons,false,404
+709,Vera,236,17/10/2022,652,Berge-Mertz,false,292
+831,Kedzie,139,18/5/2022,876,Flatley and Sons,false,99
+292,Westport,28,18/7/2022,487,"Jones, Kshlerin and Halvorson",false,487
+143,Burrows,81,18/7/2022,679,"Harber, Pagac and Lindgren",false,198
+440,Delaware,243,21/2/2022,808,"O'Hara, Gutmann and Anderson",false,495
+394,Graceland,75,1/4/2022,702,"Kreiger, Murray and Kunde",false,499
+672,Twin Pines,96,17/1/2022,264,"Bailey, Rath and Cassin",false,264
+362,Summer Ridge,231,22/11/2022,270,Upton-Welch,false,270
+352,Farragut,78,17/9/2021,531,Buckridge and Sons,false,496
+370,1st,180,11/1/2023,959,"Homenick, Heller and Wiegand",false,712
+277,Macpherson,129,24/4/2022,906,Kuhlman Inc,false,629
+900,Algoma,26,15/1/2022,208,"Runolfsson, Swift and Ferry",false,208
+370,Ridgeway,233,18/4/2023,903,"McLaughlin, Reinger and Schneider",false,756
+999,Mayfield,100,17/8/2021,804,Tremblay-Yundt,false,804
+896,Memorial,54,17/2/2023,759,"Kirlin, Stark and Kreiger",true,69
+831,Hayes,246,6/2/2022,510,Gorczany-Marquardt,false,324
+161,Stoughton,141,14/2/2022,874,Homenick and Sons,false,9
+409,Harbort,114,23/5/2021,883,O'Connell Group,true,883
+22,Manley,69,4/8/2022,297,"Hauck, Nienow and Muller",false,297
+853,Victoria,15,19/7/2021,871,Ebert-Thompson,false,422
+999,Hudson,220,28/9/2022,961,"Murray, Hintz and Schneider",false,439
+853,Mendota,163,2/1/2022,585,Kassulke Group,false,556
+697,Grayhawk,5,29/12/2021,918,Glover-Marvin,false,764
+975,Scofield,186,23/5/2021,763,Roob Inc,false,315
+950,Rigney,192,14/5/2023,700,Howell-Heidenreich,true,537
+309,Dovetail,62,4/6/2021,200,Hauck-Welch,false,200
+119,Bluestem,87,13/10/2022,467,Greenfelder Inc,false,467
+81,Cardinal,181,12/10/2022,969,"Stehr, Block and Hansen",false,875
+22,Cascade,43,3/11/2022,447,Jakubowski-Maggio,false,447
+119,American,43,28/5/2021,732,Wunsch-Streich,false,497
+132,La Follette,47,25/4/2023,674,"O'Connell, Buckridge and Larkin",false,674
+352,Oneill,166,31/3/2023,510,"Parisian, Herman and Mitchell",false,87
+143,Clyde Gallagher,210,24/7/2022,936,"Paucek, Erdman and Stracke",false,17
+817,Roth,136,13/5/2023,726,O'Connell-Veum,false,726
+150,Nevada,47,28/5/2022,967,Ebert-Champlin,false,309
+271,Scofield,63,21/3/2023,493,O'Keefe-Conn,false,493
+150,Autumn Leaf,33,16/12/2022,483,Kilback-Nader,false,483
+746,5th,230,8/3/2022,981,Hintz-Waelchi,false,391
+762,Hovde,0,27/8/2022,913,DuBuque Inc,false,719
+762,Independence,59,27/6/2021,324,Shanahan-Cassin,false,324
+127,Monument,97,14/8/2021,877,Parisian and Sons,false,289
+707,Kinsman,128,21/9/2021,696,Marks-Witting,false,696
+145,Alpine,100,28/9/2022,379,"Williamson, McDermott and Osinski",false,379
+370,Hazelcrest,173,9/12/2021,607,Shanahan LLC,true,607
+641,Southridge,5,17/6/2022,459,Keebler-Kulas,false,167
+865,Fisk,136,29/9/2022,428,Effertz LLC,false,428
+749,Hallows,90,12/8/2021,455,Jacobson and Sons,false,455
+150,Sherman,53,22/8/2021,334,"Keeling, Olson and Bosco",false,334
+853,Hallows,237,8/4/2023,370,Ritchie-McClure,false,65
+774,Lotheville,226,22/2/2023,881,Collins Group,true,156
+541,Fordem,129,5/12/2021,392,"Rolfson, Daniel and Emmerich",false,392
+694,Quincy,71,28/12/2021,710,Raynor and Sons,false,274
+697,Weeping Birch,210,10/1/2023,219,Stiedemann Inc,false,110
+272,Declaration,7,15/9/2022,507,Kub LLC,false,507
+96,Glacier Hill,194,14/2/2023,722,Bogan-Kassulke,false,722
+81,Hollow Ridge,16,20/11/2021,910,Rempel Inc,true,208
+831,Meadow Vale,122,27/10/2022,747,Pacocha Inc,false,747
+502,Hauk,172,5/7/2022,618,"Kutch, Cole and Roob",false,618
+541,Ridgeway,109,8/9/2022,987,Armstrong-Roberts,false,13
+975,Prairie Rose,12,21/8/2021,214,Spinka-Heaney,false,214
+63,Nancy,173,21/1/2023,900,Dietrich-Mills,false,469
+614,Hovde,219,20/12/2021,263,Koch-Casper,false,263
+440,Hagan,233,25/12/2022,812,Weissnat LLC,false,652
+427,Haas,195,13/11/2021,445,Will LLC,false,445
+376,Upham,103,27/1/2023,555,"Cronin, Bauch and Windler",true,555
+627,Mayfield,208,3/10/2022,802,"Kuvalis, Littel and Halvorson",true,570
+474,Elka,201,12/1/2022,362,Tremblay Group,false,130
+56,Aberg,230,7/1/2022,581,"Wisozk, O'Conner and Huel",false,243
+709,Lukken,124,30/3/2022,961,Corwin Group,false,759
+56,Sugar,174,27/7/2022,592,Tremblay-Hartmann,false,486
+929,Dapin,181,19/6/2021,655,Hickle Group,false,655
+502,Loomis,68,11/7/2022,362,Champlin-Hayes,false,362
+474,Forster,128,6/9/2021,488,"White, Moore and Johns",false,488
+709,Surrey,248,24/6/2022,900,Kuphal-Nikolaus,false,83
+554,Mifflin,161,9/5/2022,591,"Kuphal, Cronin and Kuhn",false,591
+853,Alpine,6,26/12/2022,821,"Leffler, Barton and Schulist",false,116
+133,Arizona,90,9/7/2022,578,"Nicolas, Spinka and Sipes",false,578
+846,Maywood,217,12/5/2022,644,Murray Inc,false,644
+501,East,129,14/8/2021,380,Jacobs-Ruecker,false,7
+292,Atwood,48,23/8/2021,804,Stoltenberg Group,false,42
+493,Russell,84,7/7/2021,720,Simonis-Lueilwitz,false,475
+161,Russell,216,2/1/2023,742,Ledner LLC,true,541
+501,Saint Paul,173,30/11/2021,726,"Dickens, Aufderhar and Ondricka",false,241
+771,Spohn,227,3/8/2022,406,Abshire Group,false,160
+859,Anniversary,174,9/1/2022,520,"Fahey, Schowalter and Wunsch",true,39
+366,Center,44,19/3/2022,288,Hahn-Dach,false,105
+697,Sheridan,202,9/2/2023,950,Boehm and Sons,false,440
+999,Arkansas,109,1/1/2022,582,Thompson Inc,false,582
+846,Kingsford,135,27/9/2022,967,Balistreri Group,false,37
+387,Independence,62,3/10/2021,825,Mitchell-Hermann,false,825
+39,Maple Wood,235,29/5/2021,697,Hintz LLC,false,104
+150,Commercial,121,29/7/2022,667,Ward-Abernathy,false,132
+39,Clove,53,26/6/2022,379,Fay Group,false,379
+63,Sachtjen,21,28/10/2022,302,"Pfeffer, Crooks and Wehner",true,177
+39,Summerview,123,14/8/2021,226,"Klocko, Christiansen and Stamm",false,98
+702,Maple Wood,63,4/7/2021,616,Hessel and Sons,false,436
+474,Lotheville,27,21/2/2022,958,Gleichner Inc,false,507
+999,Del Mar,128,18/8/2021,896,Wolf Group,false,494
+277,Arizona,46,12/12/2022,619,Batz-Stokes,false,619
+366,Oak,123,2/6/2021,891,McLaughlin Group,false,673
+292,Lakewood Gardens,126,17/1/2023,221,Herman-Mosciski,false,221
+143,Longview,229,23/7/2022,770,"Bechtelar, Funk and Okuneva",false,302
+362,John Wall,162,8/3/2023,279,"Stiedemann, Herman and King",false,279
+846,Crescent Oaks,233,10/10/2022,991,Buckridge-Davis,false,314
+63,Westport,188,25/9/2022,703,Tremblay and Sons,false,88
+22,Michigan,18,24/2/2022,592,"Haag, Walter and Sawayn",false,56
+950,Forest,141,9/5/2023,651,Hyatt-Weissnat,false,651
+929,Oriole,228,6/4/2023,807,Mohr-Lubowitz,false,144
+762,Jay,27,25/8/2021,365,Kuhlman-Welch,false,365
+937,Clyde Gallagher,58,18/5/2023,214,Anderson Inc,false,214
+427,Gina,51,10/3/2022,223,"Moen, Rice and Schamberger",false,223
+277,Morrow,13,9/4/2023,683,Price LLC,false,604
+366,Goodland,161,13/5/2023,392,Moen-Kautzer,false,392
+22,Lakeland,220,20/4/2022,819,Rempel Inc,false,819
+982,Dovetail,203,14/2/2022,860,Rau and Sons,false,798
+143,West,208,14/8/2022,408,Paucek LLC,false,408
+474,Bellgrove,238,21/8/2022,450,Satterfield-Sporer,false,450
+746,Drewry,223,4/2/2023,388,Connelly LLC,false,388
+812,Hallows,224,25/7/2022,699,"Kshlerin, Collier and Gleason",false,486
+352,Crest Line,29,26/1/2023,351,Lubowitz-Davis,false,244
+218,Arrowood,182,14/11/2022,301,Goodwin and Sons,false,92
+430,Forest Dale,13,28/5/2021,911,"Schneider, Hammes and Yost",false,471
+50,Lerdahl,178,3/1/2023,767,Senger Group,false,617
+927,Kennedy,62,29/6/2021,595,Swift LLC,false,49
+950,Schiller,138,8/12/2022,631,"Streich, Hoeger and Marks",false,34
+119,Texas,60,8/5/2023,1000,Ernser LLC,false,322
+218,Maple,65,16/10/2022,850,Streich Inc,false,850
+393,Hanover,163,21/3/2022,384,"Kilback, Glover and Lockman",false,201
+697,Mariners Cove,225,4/1/2022,930,"Hoeger, Wuckert and Koelpin",false,236
+709,Sommers,15,1/6/2022,835,"Pfannerstill, Beier and Hartmann",false,277
+323,Warbler,231,8/3/2023,903,Weissnat Inc,false,903
+647,Service,178,20/6/2022,240,Hegmann and Sons,false,240
+56,Schiller,130,30/10/2021,356,Quitzon-Pfannerstill,false,154
+781,Daystar,200,19/5/2021,431,Lesch and Sons,false,431
+474,Bay,166,14/10/2021,912,Grimes-Nader,false,265
+865,Milwaukee,8,11/4/2023,926,Nienow-Reilly,false,873
+927,Monterey,194,30/5/2022,467,Harris-Goodwin,false,210
+929,Hauk,193,7/3/2023,387,"O'Conner, Morar and Wehner",false,52
+927,Carberry,41,10/4/2022,848,Anderson-Schmidt,false,848
+387,Heath,198,25/12/2021,854,"Bechtelar, Hamill and Ullrich",false,496
+694,Riverside,77,9/10/2021,966,Schroeder-Wisozk,false,493
+817,Luster,69,5/7/2021,662,Lindgren-Stracke,false,372
+627,Hanover,113,31/3/2023,200,Luettgen Group,false,200
+709,Kensington,119,8/5/2022,677,Brakus-Friesen,false,436
+394,South,94,30/1/2023,908,McDermott and Sons,false,81
+984,Old Shore,168,3/8/2021,700,Haag and Sons,false,159
+393,Dayton,130,4/5/2023,442,Considine Group,false,442
+332,Myrtle,167,4/3/2023,726,Grimes Group,false,345
+393,Holmberg,51,8/2/2023,989,Upton Group,true,933
+713,Talmadge,41,27/10/2021,962,"Connelly, Hermiston and Rice",false,584
+929,Farwell,172,27/12/2022,880,Altenwerth-Hilpert,false,157
+846,Kinsman,8,27/12/2021,412,Little Group,false,412
+950,Meadow Ridge,138,27/6/2021,782,Willms Inc,false,682
+50,Sommers,81,4/12/2022,528,"Erdman, Schimmel and Ullrich",false,528
+774,Washington,66,10/3/2023,226,"Konopelski, Murphy and Gerlach",false,142
+133,Melby,57,16/5/2023,844,"Kohler, Jakubowski and Kuvalis",false,306
+417,Schlimgen,38,17/9/2022,717,"Collins, Brekke and Schamberger",false,14
+627,Bunting,19,27/9/2022,451,Osinski-Pouros,false,451
+101,Mandrake,30,13/3/2023,242,Homenick Inc,false,242
+376,Derek,103,31/10/2022,619,Hermiston Inc,false,619
+937,Merchant,16,4/12/2022,658,Feil and Sons,false,114
+502,Fisk,43,14/6/2022,363,Hettinger Group,false,363
+502,New Castle,107,21/5/2022,881,Reichert Inc,false,773
+271,Basil,218,10/10/2021,457,"Hoeger, West and Stamm",false,457
+366,Summerview,34,7/8/2022,284,Hudson Inc,false,284
+707,Summit,127,7/9/2021,801,"Bruen, White and O'Connell",false,272
+201,Mccormick,60,25/10/2022,244,Marquardt-Russel,false,90
+432,Sloan,174,18/6/2021,626,Hyatt-Waelchi,true,417
+39,Daystar,13,25/3/2022,541,Kessler-Morissette,false,139
+161,Northview,194,16/2/2022,681,Kreiger Inc,false,347
+81,Mandrake,192,26/9/2021,963,"Kirlin, Hessel and Tillman",true,224
+653,Bonner,6,3/12/2021,347,"Stoltenberg, O'Kon and Heller",false,100
+271,Ilene,26,11/5/2022,742,"Gislason, Conroy and Hackett",true,742
+749,Barby,234,6/1/2023,494,"Effertz, Stiedemann and Powlowski",true,494
+154,Meadow Ridge,207,16/2/2022,296,Dicki Group,false,296
+458,Marquette,151,2/8/2022,567,Hettinger-Murphy,false,567
+501,Anthes,126,10/3/2023,942,Russel-Hoppe,false,558
+707,Bayside,137,12/12/2022,481,Grimes-Hegmann,false,481
+762,Goodland,2,7/3/2023,398,"Fritsch, Dare and Ernser",false,133
+201,Heath,230,21/1/2022,516,"Lehner, Nader and Crona",false,516
+272,Cherokee,45,18/7/2021,353,Zulauf and Sons,false,198
+376,Sunfield,8,24/6/2022,314,Osinski-Larkin,false,314
+578,Burning Wood,155,30/12/2021,793,"Lakin, Bechtelar and Cruickshank",false,192
+130,Pond,118,15/9/2021,529,Little LLC,false,529
+50,Ludington,242,25/6/2022,502,"Boyle, Leuschke and Kessler",false,390
+332,Browning,159,13/6/2022,296,Rohan Inc,false,296
+154,Sloan,30,30/3/2022,334,Shanahan Inc,true,231
+713,Brickson Park,236,28/9/2022,593,Crooks-Runolfsson,false,185
+665,Susan,215,4/11/2021,816,Hartmann and Sons,false,11
+362,Memorial,240,3/7/2021,603,Wehner-Jones,false,603
+694,Forster,5,3/3/2023,370,"Koch, Dibbert and Rath",false,370
+846,Veith,140,22/7/2022,755,Lehner-Batz,false,26
+362,Bashford,183,30/9/2021,958,Schamberger-Bednar,false,203
+975,American,13,4/11/2022,550,Legros-Bergstrom,false,205
+781,Shasta,200,8/9/2022,911,Hermann-Mosciski,false,126
+161,4th,56,6/6/2021,891,Romaguera LLC,false,308
+393,David,195,20/9/2022,873,"Moen, Hamill and Bashirian",false,346
+578,Holy Cross,113,18/3/2023,297,"Predovic, Veum and Lang",false,14
+201,Bartillon,236,8/12/2022,238,Hickle-Kshlerin,false,88
+665,Charing Cross,54,16/4/2022,347,Skiles LLC,true,347
+755,Ronald Regan,31,2/9/2022,954,Weber and Sons,false,621
+975,Knutson,161,4/4/2023,623,Ratke-Anderson,false,623
+387,La Follette,7,13/11/2021,457,Witting and Sons,false,457
+767,Fair Oaks,139,20/11/2021,445,Heaney-Price,false,445
+458,Jenna,111,29/1/2023,439,Kub-Kerluke,false,439
+332,Miller,230,11/9/2022,724,Halvorson and Sons,false,217
+309,Orin,93,7/3/2022,452,"Gerlach, Hermann and Marvin",false,452
+362,Lukken,194,19/2/2023,493,Schmitt Group,false,493
+112,Corscot,241,2/1/2023,263,"Satterfield, Ortiz and Sporer",false,137
+614,Aberg,43,12/6/2022,582,Schneider-Jast,false,549
+950,La Follette,184,6/8/2021,666,"Spinka, Predovic and Roberts",false,100
+614,Rutledge,163,5/7/2021,453,Lowe-White,false,453
+846,Melvin,178,27/11/2022,847,Reichel Inc,false,660
+370,Westridge,94,28/5/2021,877,"Rath, Marks and Dickinson",false,506
+502,Troy,13,31/3/2022,968,"Cartwright, Medhurst and Larson",false,807
+271,Hooker,77,6/4/2022,364,Waelchi and Sons,false,364
+430,Clyde Gallagher,6,26/12/2021,854,"Connelly, Sipes and Crooks",false,811
+309,Armistice,101,1/2/2022,907,Cruickshank-Balistreri,false,287
+376,Logan,13,19/12/2022,826,Murray-Cremin,true,826
+145,Crownhardt,9,18/12/2021,266,"Bernhard, Lubowitz and Walsh",false,266
+81,Fairview,178,13/8/2021,449,Bernhard LLC,false,449
+652,Meadow Vale,134,3/7/2021,873,"Koepp, Rippin and Douglas",false,745
+548,Amoth,180,17/3/2023,576,Bauch Group,false,576
+393,Northview,167,10/2/2023,827,"Nitzsche, Flatley and Pfeffer",false,639
+133,Harper,213,10/3/2022,395,"Blanda, Romaguera and Rohan",false,395
+133,Oak Valley,147,10/2/2022,662,Emard Inc,false,143
+697,Marcy,233,9/11/2021,241,"McLaughlin, Reynolds and Abernathy",false,241
+749,Springs,101,2/2/2023,441,"Fay, Willms and Koelpin",false,239
+502,Fremont,213,4/12/2021,725,Dicki and Sons,false,180
+292,Schurz,195,4/9/2022,353,Heller Inc,false,353
+537,Parkside,179,8/7/2022,591,"Marvin, McGlynn and Howe",false,181
+709,Green,24,7/5/2023,967,Larson-Balistreri,true,167
+282,Saint Paul,73,12/10/2022,606,Crist Group,false,606
+614,Village Green,192,1/1/2022,587,"Crist, Runolfsdottir and Beier",true,417
+697,Morningstar,230,8/9/2021,822,MacGyver and Sons,true,124
+652,Kipling,233,26/6/2022,880,Kozey-Pacocha,true,818
+323,Monument,180,13/8/2022,473,McLaughlin and Sons,false,420
+493,Lunder,36,28/3/2023,774,Conroy and Sons,false,774
+652,Hoepker,148,9/8/2022,459,Purdy-Little,false,388
+63,Corben,2,9/1/2023,560,"Reynolds, Jaskolski and Reichel",false,560
+771,Esker,231,27/4/2023,728,Ratke and Sons,false,49
+39,Oakridge,5,27/8/2021,828,"Von, Stanton and Beahan",false,816
+393,Twin Pines,113,1/1/2022,558,Hoppe-Gibson,false,518
+537,Dakota,158,12/11/2021,521,Wunsch-Schuster,false,34
+672,Eggendart,213,8/3/2022,279,Fay-O'Hara,false,279
+201,Morrow,87,30/9/2022,374,Fisher-Sipes,false,374
+127,Forest Run,87,27/11/2021,433,Lang and Sons,false,433
+430,Rowland,113,28/3/2023,486,"Ritchie, Ziemann and Bruen",false,486
+614,Service,71,2/11/2021,840,"Braun, Bogisich and Hermann",false,840
+63,Mitchell,76,26/9/2021,941,"Kling, Stokes and Prohaska",false,768
+502,Crowley,144,19/12/2022,950,Ondricka and Sons,false,950
+63,Thierer,193,25/12/2022,214,Ziemann-Hackett,false,214
+350,Vermont,58,30/12/2022,276,Waters Group,false,276
+578,Towne,107,27/2/2023,503,Carroll-Bailey,true,285
+713,5th,127,19/1/2022,814,Hahn and Sons,false,335
+762,Dwight,29,4/5/2023,273,"McClure, Stark and Toy",false,273
+493,Boyd,31,29/9/2021,239,"Hoeger, Streich and Lind",false,239
+474,Rigney,215,29/11/2022,530,Crist Inc,false,530
+746,Brown,73,10/6/2021,992,Moen Group,false,515
+653,Brickson Park,63,14/3/2023,461,"Runolfsdottir, Franecki and Stracke",false,386
+440,Gulseth,63,12/3/2022,362,Wolff and Sons,false,362
+63,Prairieview,151,25/7/2022,448,"Champlin, Mohr and Jaskolski",false,423
+112,School,232,19/12/2021,882,Corwin and Sons,false,379
+927,Portage,194,28/6/2021,379,"Steuber, Hermiston and Becker",false,379
+387,Basil,59,8/11/2022,632,"Schroeder, Morar and Mayer",false,353
+119,Claremont,114,13/6/2021,783,Macejkovic Group,false,393
+749,Delladonna,172,29/6/2022,528,Kessler-Ernser,false,406
+362,Green,204,7/6/2022,543,"Bednar, Schumm and Bosco",false,468
+432,Del Mar,125,10/2/2023,200,Deckow-Rippin,false,200
+865,Lillian,238,4/6/2022,455,"Kozey, Bosco and Buckridge",true,455
+537,Comanche,17,11/8/2021,554,Brakus Group,false,554
+853,Melvin,58,7/10/2021,580,"Dickinson, Mann and Torp",false,16
+627,American Ash,174,11/8/2021,561,Batz Inc,false,561
+201,Arrowood,148,10/2/2022,635,"Raynor, Kessler and Lebsack",false,635
+927,Norway Maple,66,23/3/2022,798,Streich Group,false,37
+672,Arizona,28,13/12/2022,618,Jast-Auer,false,618
+143,Stang,30,21/1/2022,211,Mraz LLC,false,211
+458,Scofield,156,27/3/2023,804,Jast-Predovic,false,521
+755,Johnson,106,13/9/2022,946,Kunde-Mann,false,571
+982,Killdeer,91,18/9/2022,470,Auer-Gutkowski,false,470
+393,American,127,14/9/2022,780,Roberts-Haag,true,190
+647,Algoma,54,29/7/2022,774,Abbott and Sons,false,474
+370,Del Sol,115,28/5/2021,655,Mills-Buckridge,false,52
+707,Calypso,88,5/10/2021,211,Reichert-Kautzer,false,211
+132,Paget,145,13/9/2021,746,Cole LLC,false,664
+653,Derek,118,15/12/2022,368,"Rippin, Lemke and Fay",false,345
+746,Shasta,40,4/11/2021,590,Kling Inc,false,81
+22,Melody,59,26/10/2022,620,"Jast, Klocko and Gutkowski",true,620
+271,Swallow,30,17/1/2023,368,Ullrich and Sons,true,368
+133,Drewry,144,12/1/2023,656,Mayer-Rath,false,656
+143,Miller,201,30/11/2022,456,Johns LLC,false,125
+427,Larry,155,3/3/2023,801,Waelchi Group,false,249
+853,Sauthoff,213,21/6/2021,801,"Halvorson, Cormier and Kulas",false,778
+541,Weeping Birch,159,14/5/2023,797,"Halvorson, Spencer and Balistreri",false,371
+665,Drewry,152,31/10/2021,403,"Koelpin, Gislason and Batz",false,40
+154,Iowa,112,15/5/2022,572,"Kihn, Kris and Kessler",true,163
+362,Susan,54,7/8/2021,974,"Casper, Russel and Skiles",true,36
+831,Fordem,243,3/8/2022,847,"Schmitt, Marks and Streich",false,847
+387,Mcguire,152,6/11/2021,245,Kozey-Boehm,false,245
+161,Waywood,160,31/12/2022,369,Blanda and Sons,false,90
+130,Doe Crossing,93,29/6/2022,403,"Hudson, Prosacco and Aufderhar",false,403
+707,Randy,72,12/5/2022,528,Ziemann-Champlin,false,528
+154,Lerdahl,200,29/7/2022,357,Fay-Ledner,false,357
+161,Vahlen,32,11/8/2022,579,Adams and Sons,true,579
+652,Clove,119,30/7/2022,234,Pagac-Goyette,false,234
+440,Warner,30,7/8/2021,770,"Blick, Gerhold and Jerde",false,770
+22,Graceland,144,21/4/2022,575,Smith-Friesen,false,336
+119,Green,146,13/5/2023,669,Hackett-Jerde,false,232
+161,Charing Cross,147,21/2/2022,518,"Parker, Friesen and Runolfsdottir",true,183
+112,Wayridge,225,6/10/2021,759,"O'Conner, Wisoky and Lowe",false,580
+749,Pawling,167,15/12/2021,649,Fahey-Collins,false,341
+702,Ludington,9,22/9/2022,825,Doyle and Sons,false,428
+458,Barnett,46,13/11/2022,413,Will Inc,false,413
+924,Barnett,24,27/3/2023,680,"Rosenbaum, Rogahn and Rosenbaum",false,312
+417,Kings,145,29/10/2022,901,Crist LLC,false,535
+927,Scoville,31,23/9/2021,664,"Schuppe, Renner and Kutch",false,165
+409,Mcbride,50,9/10/2021,327,Klocko LLC,false,327
+812,Nova,248,6/2/2022,609,Bradtke and Sons,false,177
+127,Hauk,43,10/12/2022,826,Marquardt-Breitenberg,false,443
+831,High Crossing,43,11/3/2023,465,Halvorson Group,false,465
+762,Muir,6,8/3/2023,555,Stehr-King,false,375
+133,Texas,247,17/3/2022,700,Lind and Sons,false,471
+781,Hudson,229,17/8/2021,935,Funk-Bechtelar,false,900
+641,Pearson,48,12/10/2021,759,Barrows-Walsh,true,562
+409,Duke,40,27/9/2022,434,Hane-Ritchie,false,434
+81,Sunnyside,112,7/8/2022,536,Hartmann-Marvin,false,20
+350,Heffernan,92,26/11/2022,377,"Gleason, Lemke and Walsh",false,165
+853,Petterle,221,20/10/2022,503,"Wilkinson, Wilkinson and Mraz",false,503
+292,Meadow Valley,223,2/7/2022,670,Beer and Sons,true,670
+771,Dawn,131,13/9/2022,323,Altenwerth Group,false,90
+22,Longview,64,11/1/2022,223,Graham Inc,false,223
+641,Johnson,185,13/2/2022,832,Greenfelder Inc,false,773
+950,Old Shore,71,7/8/2021,846,Kirlin-Huel,false,254
+713,Brown,20,2/8/2021,916,Gibson LLC,false,195
+652,Lindbergh,122,14/12/2021,633,"Wolf, Toy and Nader",false,229
+896,Nelson,148,7/9/2022,975,"Toy, Rau and Friesen",false,841
+641,Bashford,84,27/9/2021,782,Robel-Greenholt,false,740
+502,Arapahoe,86,8/3/2023,357,Crona-Farrell,false,357
+41,Monument,82,29/7/2022,464,Baumbach-Grady,false,464
+474,Arrowood,151,12/5/2022,586,"Greenholt, Mann and Hessel",false,501
+218,Derek,24,13/1/2023,392,Prohaska and Sons,false,392
+578,Packers,154,21/2/2022,664,Grady Inc,true,182
+64,Waubesa,116,25/1/2023,976,"Heaney, Kub and Collins",false,650
+41,Eagan,25,20/1/2023,528,Considine-Cummerata,false,522
+81,Carey,156,4/2/2023,513,Powlowski Group,false,180
+272,Canary,16,7/1/2022,890,Fahey-Krajcik,false,377
+271,Barnett,45,13/5/2022,654,Pollich-Kutch,false,654
+292,Mallory,84,23/12/2021,815,Abshire-Luettgen,false,696
+370,American,25,9/9/2022,314,Runolfsson Group,false,165
+927,Northfield,101,12/7/2021,324,Labadie LLC,false,324
+101,Southridge,92,24/3/2023,736,"Haag, Harris and Gerlach",false,3
+653,Forest,155,10/5/2022,552,Rohan Group,false,552
+119,Melvin,62,6/7/2022,557,Stark-Dicki,false,557
+352,4th,107,7/3/2022,826,Skiles-Zboncak,false,211
+554,Crest Line,178,16/9/2022,567,Bayer LLC,false,258
+50,Vidon,105,13/7/2022,376,Hintz Group,false,376
+853,Upham,184,20/9/2022,221,Bayer-Pouros,false,221
+427,Hayes,129,22/10/2021,541,"Bayer, Nader and Stehr",false,476
+440,Fordem,67,22/12/2022,244,Boyle Group,false,244
+387,Lighthouse Bay,89,21/9/2022,416,Hessel-Moore,false,416
+501,Meadow Vale,223,8/2/2023,842,Sanford-Anderson,false,390
+127,Pankratz,177,4/12/2021,406,Haag Inc,false,406
+548,Kings,36,9/5/2023,629,Doyle and Sons,false,499
+218,Park Meadow,164,8/1/2022,509,"Pouros, Hansen and Harber",false,74
+975,School,207,17/11/2021,758,Collins-McKenzie,false,717
+541,Towne,187,11/5/2022,819,Crona Group,false,819
+704,Esker,237,2/4/2023,642,Larson Inc,false,477
+709,Red Cloud,65,23/3/2022,782,Hintz LLC,false,510
+937,Anzinger,13,17/2/2023,217,Ondricka Inc,false,217
+647,Troy,26,29/7/2021,304,Quigley-Russel,true,33
+493,Wayridge,228,11/6/2021,575,Dickens Group,false,417
+292,Fallview,9,14/1/2023,761,"Brown, Rath and Ebert",false,388
+150,North,111,10/8/2021,625,Connelly Inc,false,9
+458,Cascade,48,23/5/2022,351,Veum-Hettinger,false,150
+653,Russell,194,10/9/2021,530,"Greenholt, Bosco and Prosacco",false,530
+387,South,209,4/4/2022,956,"Veum, Rogahn and Kihn",false,10
+762,Arrowood,81,13/4/2023,451,"Schultz, Jaskolski and Ruecker",true,103
+853,Banding,120,6/8/2021,591,Kovacek-Stracke,false,60
+370,Forster,29,18/5/2023,724,"Grady, Stiedemann and Schneider",false,724
+896,Daystar,171,30/1/2023,436,Boyle-Sporer,false,436
+145,Jackson,57,24/7/2021,683,Klein-Veum,false,393
+672,Drewry,246,2/9/2021,492,"Zemlak, Hagenes and Nader",false,492
+56,Hovde,128,9/5/2023,694,Ullrich-Koelpin,false,694
+350,Maple,101,18/7/2022,995,Lehner LLC,false,714
+950,Oriole,100,4/6/2022,428,Von-Gerlach,false,428
+63,Arrowood,33,10/2/2023,679,"Rogahn, Fritsch and Kihn",true,679
+707,Knutson,78,3/9/2022,900,Rolfson LLC,false,75
+41,Reinke,205,2/3/2022,406,Braun LLC,false,406
+440,Atwood,169,27/11/2022,226,Gottlieb Inc,false,226
+665,Hansons,9,19/10/2022,526,Doyle and Sons,false,526
+548,Myrtle,201,2/10/2022,256,"West, Leffler and Stark",false,256
+924,Blackbird,70,20/12/2022,482,Zemlak Group,true,98
+64,Linden,250,28/4/2022,803,Schulist-Schuster,false,254
+853,Graceland,4,21/7/2022,545,Pacocha LLC,false,545
+859,Laurel,185,11/10/2021,397,Reinger and Sons,false,397
+394,Spaight,65,19/5/2022,790,Turcotte Group,false,386
+767,Crownhardt,26,26/1/2023,983,Pollich-West,false,329
+774,Hayes,115,20/8/2021,208,Reilly-Marvin,false,208
+366,Wayridge,16,12/9/2021,921,Turner Inc,false,894
+975,Fordem,188,13/2/2023,978,"Sipes, Littel and Friesen",false,48
+458,Melody,123,13/3/2023,876,"Waelchi, Grady and Cormier",false,800
+831,Everett,100,24/11/2022,691,Zieme LLC,false,691
+63,Hudson,178,15/3/2022,758,"Cormier, Wehner and Bednar",false,758
+937,Division,100,21/9/2022,401,Pagac LLC,false,401
+831,Harper,72,5/3/2022,433,Nicolas and Sons,false,433
+112,1st,124,2/11/2022,881,Carter LLC,false,105
+147,Holy Cross,163,30/12/2022,261,Schimmel-Roob,false,261
+394,Caliangt,205,17/1/2022,242,"Deckow, O'Kon and Gutmann",false,242
+665,Fuller,202,8/8/2021,617,Kessler-Hirthe,false,617
+133,American,74,14/1/2023,278,"Rice, Brekke and Bernier",false,278
+127,Memorial,213,9/12/2022,813,Koch-Kutch,false,810
+154,Mockingbird,151,22/4/2023,788,Vandervort and Sons,false,80
+641,Southridge,136,16/3/2023,352,Auer Inc,false,352
+376,Waubesa,86,20/10/2022,535,Sporer Group,false,211
+755,Nevada,177,19/7/2022,770,"Feeney, Goyette and Fahey",false,71
+143,Oakridge,90,15/5/2022,895,Schneider-Daugherty,false,321
+147,Sloan,14,29/6/2022,206,Gusikowski Group,false,206
+309,Judy,245,25/11/2021,893,Murazik LLC,false,893
+376,Hagan,242,24/5/2021,302,"Johnston, Sporer and Osinski",false,302
+702,Blaine,90,8/4/2022,393,Bruen-Gutkowski,false,295
+370,Thierer,31,21/11/2021,533,"Reichert, Pacocha and Torp",false,533
+859,Dexter,90,5/7/2022,690,"Hoeger, Rosenbaum and Leannon",false,593
+376,Armistice,105,20/12/2023,234,Mante Group,false,
+427,Schiller,14,4/8/2023,299,Pfeffer-Carter,false,
+537,Darwin,109,8/8/2023,415,"Breitenberg, Wyman and Smitham",false,
+22,Merrick,102,28/12/2024,404,"Strosin, Skiles and Heathcote",false,
+101,Blue Bill Park,232,26/4/2024,340,"Beer, Bechtelar and Stroman",false,
+282,Pine View,1,29/3/2025,311,Rohan LLC,false,
+417,Anderson,172,24/7/2024,758,Koss and Sons,false,
+72,Springview,55,11/9/2023,211,Schuster Group,false,
+63,Forster,175,6/6/2023,216,Jacobi and Sons,false,
+653,Sycamore,57,8/12/2023,919,Wisozk Inc,false,
+56,Farragut,127,13/12/2024,568,McDermott LLC,false,
+697,Goodland,176,22/6/2024,986,Bahringer and Sons,false,
+975,Vermont,42,25/10/2023,817,Rolfson LLC,false,
+428,Westend,225,22/5/2024,821,"Nader, Larkin and O'Reilly",true,
+982,Wayridge,162,13/11/2023,458,Batz-Pfannerstill,false,
+767,Oxford,87,30/1/2024,809,Schamberger LLC,false,
+817,Scoville,170,4/10/2024,787,Ruecker-Ebert,false,
+282,Debs,237,6/12/2024,254,Stokes-Moen,false,
+96,Oak,240,24/3/2025,804,Rogahn-Predovic,false,
+96,Darwin,122,7/3/2024,256,Bergnaum-Batz,false,
+409,Maple Wood,162,4/1/2024,421,Johns Group,false,
+387,Susan,73,17/7/2024,576,McLaughlin-Hoeger,false,
+697,Dexter,51,8/3/2024,588,Jenkins and Sons,false,
+272,Red Cloud,99,6/10/2024,529,Blanda Inc,false,
+554,7th,32,10/9/2024,354,Keebler Inc,false,
+370,Shasta,18,14/8/2024,296,Hessel-Rice,false,
+900,Waxwing,73,25/9/2023,462,Renner-Mosciski,false,
+614,Clove,4,9/5/2024,774,"Mills, Schuppe and Botsford",false,
+865,Thompson,202,28/10/2024,979,Bartoletti-Ryan,false,
+771,Artisan,201,23/10/2024,587,VonRueden Inc,false,
+96,Ohio,72,22/4/2024,238,Koepp Group,false,
+927,Susan,51,25/2/2025,579,Rodriguez LLC,false,
+762,Armistice,142,18/9/2024,609,"Bednar, Trantow and Raynor",false,
+704,West,77,4/3/2024,652,Lind-Macejkovic,false,
+394,Mockingbird,28,9/4/2025,401,Casper-Schaefer,false,
+201,Hermina,111,26/4/2025,523,"Frami, Hermann and McGlynn",false,
+145,Dwight,153,9/5/2024,664,"Kerluke, Fahey and Ondricka",false,
+984,Tennessee,76,25/7/2023,225,"Harber, Pacocha and Torp",false,
+707,Village Green,124,3/11/2024,505,Barton-Mayert,false,
+201,Colorado,149,23/1/2024,776,Morar LLC,false,
+865,Briar Crest,195,15/10/2023,568,Wintheiser LLC,true,
+694,Forest Run,64,10/2/2024,530,"Rau, Sauer and Predovic",false,
+846,Fisk,36,12/9/2024,961,Baumbach-Roberts,false,
+277,Dennis,40,10/6/2024,578,Beier and Sons,true,
+665,Ramsey,118,28/3/2024,515,"Carter, Jacobi and Brekke",false,
+376,Columbus,115,13/6/2023,845,Macejkovic-Welch,false,
+112,Arapahoe,134,23/7/2024,854,Skiles-Schowalter,false,
+132,Utah,119,23/4/2025,802,Welch LLC,false,
+352,Annamark,227,13/10/2024,382,Lockman-Funk,true,
+774,Hanover,130,4/12/2023,827,Leannon-Kessler,true,
+774,Loftsgordon,10,22/1/2025,848,Cormier Group,false,
+647,Towne,69,24/2/2025,536,Paucek-Baumbach,false,
+694,Esker,150,21/2/2024,335,"Crooks, Mayert and Nitzsche",false,
+370,Graceland,81,4/4/2024,507,"Koss, Frami and Reichert",false,
+147,Morning,209,20/7/2023,691,Zulauf-Hoeger,false,
+937,Mallard,16,12/9/2023,849,Lockman Inc,true,
+272,Morningstar,222,7/1/2025,421,"Yost, Zulauf and Mertz",false,
+132,Loftsgordon,11,28/2/2024,512,Schoen-Block,false,
+713,Amoth,198,14/9/2024,790,Oberbrunner-Harris,false,
+417,Colorado,84,21/8/2024,902,"Collins, Harber and Roberts",true,
+130,Bartillon,137,1/10/2023,942,"Pollich, Sporer and Mann",false,
+394,Ludington,111,7/10/2023,912,Jacobi and Sons,false,
+143,Mcguire,113,31/10/2023,503,Boyer-Batz,false,
+929,Truax,97,29/4/2025,363,"Crona, Terry and McClure",false,
+112,Mifflin,79,21/1/2024,236,Homenick-Rath,true,
+362,Russell,126,17/7/2023,200,Skiles-Bahringer,true,
+218,Continental,204,20/10/2024,368,Keeling Group,false,
+432,Crowley,32,16/7/2024,994,Kohler-McDermott,false,
+218,Fairfield,241,19/3/2025,435,"Runolfsson, Koss and Murray",false,
+309,Ilene,129,8/1/2024,921,Gerhold-Grant,false,
+277,Talisman,91,14/6/2024,871,"Reilly, Casper and Labadie",false,
+697,Killdeer,215,22/8/2023,200,"Keeling, Bailey and Treutel",false,
+924,Miller,139,16/1/2024,394,"Greenholt, Schmidt and Schuppe",false,
+491,Moulton,163,25/7/2023,770,"Kling, Bergnaum and Hudson",false,
+982,Buell,42,13/3/2025,580,Windler-Glover,false,
+154,Dakota,235,17/6/2023,312,Wehner-Zemlak,false,
+154,Shasta,63,8/6/2024,656,Orn-Dooley,false,
+41,Graceland,4,16/7/2023,583,"Schuster, Miller and Dare",false,
+96,Milwaukee,11,9/8/2023,722,Greenfelder-O'Hara,false,
+975,Schlimgen,107,1/8/2024,491,Jerde-Spinka,false,
+218,Stang,119,18/1/2024,726,"Huels, Boyle and Schinner",false,
+292,Comanche,184,17/5/2024,880,Koelpin Inc,false,
+999,Merchant,8,24/8/2023,257,Okuneva and Sons,false,
+746,Pine View,185,13/4/2025,624,"Hagenes, Murphy and Kunze",false,
+409,Namekagon,135,29/5/2024,257,Collins-Funk,false,
+493,Merrick,108,25/11/2023,608,Toy-Conroy,false,
+896,Eggendart,202,25/10/2023,299,"Keebler, Bartell and Swift",false,
+332,Arrowood,60,5/3/2024,539,Nicolas-Lemke,true,
+859,Lake View,33,4/12/2024,294,"Shields, Pollich and Kuvalis",false,
+56,Rutledge,47,9/12/2023,457,Zboncak-Keeling,false,
+64,Golf Course,59,17/1/2025,281,Johnson-Prosacco,false,
+548,Crowley,157,13/9/2023,947,"Gerlach, Jacobi and Bayer",false,
+929,Crownhardt,74,9/2/2025,436,Deckow-Cruickshank,false,
+746,Bluestem,218,25/11/2024,777,Metz and Sons,false,
+859,Golf View,222,4/9/2024,454,Toy-Bauch,false,
+64,Heffernan,57,6/9/2024,825,Wilderman and Sons,false,
+432,Holy Cross,103,7/11/2023,252,Trantow LLC,false,
+127,Browning,137,7/11/2023,737,Brakus and Sons,false,
+709,Montana,80,26/10/2024,649,"Satterfield, Gottlieb and Lang",false,
+975,Amoth,112,26/5/2023,293,Carter and Sons,false,
+984,Mcguire,98,19/12/2024,860,"Rolfson, Rempel and Rath",false,
+865,Fieldstone,31,30/4/2025,399,"Corwin, Gulgowski and Hoppe",false,
+50,Delaware,174,3/12/2023,876,Kuphal-Nienow,false,
+937,Messerschmidt,19,28/7/2023,698,"Stoltenberg, Kertzmann and Cummerata",true,
+56,Sommers,33,30/5/2023,343,Nolan-Hartmann,false,
+350,Debra,184,28/3/2024,805,Schuster-O'Keefe,false,
+63,Doe Crossing,104,16/1/2025,959,Hegmann-Kreiger,false,
+41,Pankratz,174,20/1/2024,883,Bode Group,false,
+72,Cascade,82,15/10/2024,715,Veum Group,false,
+39,Claremont,132,17/1/2024,609,"McLaughlin, Oberbrunner and Frami",false,
+541,Amoth,138,22/4/2024,910,"Daugherty, Crona and Flatley",false,
+130,Hallows,14,6/8/2024,525,Tillman LLC,false,
+694,Sugar,29,17/3/2025,877,"Feeney, Mertz and Larson",false,
+277,Schlimgen,118,18/2/2024,260,Connelly-Cremin,false,
+929,Anthes,28,3/4/2025,660,Harris-Hane,false,
+154,Drewry,44,28/12/2023,412,Kreiger Group,false,
+697,Dorton,242,13/8/2024,736,"Gulgowski, Huels and Rutherford",false,
+929,Fisk,210,18/5/2024,431,Kiehn Inc,false,
+665,Nova,41,22/4/2024,445,Dooley Group,false,
+282,Dunning,127,3/5/2024,932,Nitzsche LLC,false,
+702,Cottonwood,152,19/2/2024,539,Stamm LLC,false,
+432,Green Ridge,139,10/4/2025,860,Hilll-Hilll,false,
+56,Hazelcrest,75,20/1/2024,505,"Schaden, Johnston and Sporer",false,
+161,Upham,174,25/12/2024,206,Douglas-Miller,false,
+417,Mallard,103,24/1/2025,716,Lubowitz LLC,false,
+64,Gulseth,147,19/5/2024,489,Simonis and Sons,false,
+352,Hintze,199,14/12/2024,813,Schoen Inc,false,
+709,Truax,168,6/12/2024,519,Bahringer LLC,false,
+694,Arizona,173,30/11/2023,800,Macejkovic-Kling,false,
+96,Spenser,140,25/11/2023,604,"Glover, Grant and Funk",false,
+846,Londonderry,84,20/1/2025,431,Casper Group,false,
+846,Bonner,71,5/7/2024,448,Swift-Cremin,false,
+665,Alpine,71,30/12/2023,885,Torp Group,true,
+774,Homewood,220,23/12/2024,521,"Batz, Abbott and Dooley",false,
+376,Northland,214,24/4/2025,203,"Hahn, Kreiger and Ullrich",false,
+370,Mariners Cove,172,22/8/2024,207,"Emard, Morissette and Schmeler",false,
+846,Holy Cross,48,15/9/2024,236,Ullrich-Jakubowski,false,
+350,Macpherson,41,11/3/2025,533,Quigley-Okuneva,false,
+755,Westport,205,16/6/2024,773,Mosciski-Brakus,false,
+501,Spaight,229,3/5/2024,553,"Crist, Quigley and Kilback",false,
+781,Marcy,83,21/5/2023,900,Mayer Inc,false,
+641,Village Green,237,7/1/2024,913,"Wiza, Hermann and Hane",false,
+665,Pankratz,183,18/12/2024,927,"Blanda, Lemke and Barrows",false,
+491,Acker,35,1/11/2023,714,"Reynolds, Upton and Zulauf",false,
+161,Carberry,29,16/7/2024,735,Nolan-Kirlin,false,
+853,Starling,20,23/12/2024,972,Ritchie Group,false,
+56,Helena,107,7/7/2024,514,Beier-Williamson,false,
+853,Arkansas,140,4/9/2024,833,Gusikowski Inc,false,
+272,Mockingbird,167,23/10/2024,938,Wyman-Howe,false,
+502,Golf,32,22/4/2024,998,"Gutkowski, Gulgowski and Corkery",false,
+271,New Castle,193,26/11/2024,542,Kulas-Gerlach,true,
+130,Waxwing,131,10/5/2025,407,Keeling-Bauch,false,
+147,Donald,152,10/4/2025,857,"Moen, Schmidt and Greenholt",false,
+277,Welch,238,14/7/2024,357,Medhurst-Hammes,false,
+161,Ruskin,105,26/10/2023,406,Rippin-Sporer,false,
+702,Ridgeway,120,26/8/2023,511,Hermann Inc,false,
+704,Truax,154,14/9/2024,448,Harris Inc,false,
+292,Lake View,0,14/2/2025,374,Maggio Group,true,
+428,Raven,189,12/2/2024,614,Marquardt-Roob,false,
+641,Manley,250,11/11/2024,488,"Wiza, Block and Kuhn",false,
+458,Clyde Gallagher,83,18/3/2025,651,Kertzmann-Kiehn,false,
+578,Namekagon,132,27/8/2023,535,"Robel, Metz and Buckridge",false,
+376,Burrows,82,14/6/2024,417,Blick and Sons,false,
+72,Colorado,16,24/5/2024,556,Swift-Buckridge,false,
+614,Lerdahl,119,1/9/2024,717,"Waelchi, Rippin and Kerluke",false,
+771,Ridge Oak,164,30/9/2024,675,"Lowe, Jones and Hirthe",false,
+548,Muir,16,1/12/2023,720,"Bernier, Heidenreich and Glover",false,
+81,Chive,41,19/11/2023,987,Ruecker and Sons,false,
+133,Sage,56,23/7/2023,257,Borer-Hahn,false,
+332,Lukken,24,20/2/2025,705,Casper-Schmidt,false,
+812,Swallow,67,11/11/2023,882,Fisher-Monahan,false,
+614,Maryland,105,1/3/2025,381,Torp and Sons,false,
+929,Thompson,218,21/7/2024,518,White Group,false,
+627,4th,128,24/6/2023,631,Ondricka Inc,false,
+81,Donald,67,1/7/2023,281,Little-Ferry,true,
+984,Fallview,108,16/11/2024,373,Mills-Feeney,false,
+376,Golf,45,8/6/2023,676,"Fahey, Schmitt and Maggio",true,
+707,Crowley,80,18/5/2025,517,Effertz Group,false,
+694,Algoma,233,5/10/2023,454,"Green, Huels and Dooley",true,
+898,Service,243,20/5/2023,983,"Ebert, Johnston and Kertzmann",false,
+817,Ridgeway,193,4/7/2023,630,Rippin Group,false,
+767,Longview,4,19/2/2025,690,Von and Sons,false,
+50,Johnson,245,12/5/2024,784,Bartell-Strosin,false,
+41,Bunker Hill,133,5/12/2023,909,Baumbach-Stehr,false,
+672,Nelson,100,14/7/2024,487,"Stroman, Satterfield and Borer",true,
+133,Granby,143,19/8/2024,920,Kemmer-Schneider,false,
+859,Dixon,145,25/4/2024,832,Schowalter Inc,false,
+501,Tennyson,96,7/10/2024,536,Ward-Lesch,false,
+22,Sunbrook,148,19/8/2024,606,"Lind, Wunsch and Mayer",true,
+474,Mandrake,87,18/2/2025,294,Spinka-Gusikowski,false,
+417,Delladonna,153,8/6/2023,830,Weber Group,true,
+927,Fisk,243,10/4/2025,333,Balistreri Group,false,
+749,Algoma,90,1/7/2024,287,Hoppe-Lakin,false,
+132,Valley Edge,147,5/7/2024,419,"Jerde, Bergnaum and Torp",false,
+975,Commercial,119,3/8/2023,818,Maggio-Stehr,false,
+831,Artisan,227,4/3/2024,720,Windler-Luettgen,false,
+537,Paget,77,26/11/2023,394,Moore Group,false,
+72,Schiller,136,7/2/2024,863,Rippin-Erdman,false,
+387,Dottie,88,30/12/2024,268,Jacobson-Dach,false,
+771,Chive,64,11/6/2024,238,"Prohaska, Goodwin and Flatley",false,
+924,Summerview,103,17/11/2024,382,"Bartell, Reilly and Hyatt",false,
+502,Namekagon,9,8/12/2023,550,"Collins, Durgan and Kuhn",false,
+72,Stephen,76,1/7/2024,686,Hessel Group,false,
+578,Portage,201,6/11/2024,210,Hickle and Sons,false,
+665,Duke,80,27/12/2024,640,"Will, Kshlerin and White",false,
+394,Union,55,2/1/2024,630,"Green, Fahey and Bins",false,
+323,Continental,137,16/6/2024,787,Gibson-Daugherty,false,
+653,Mosinee,231,26/8/2023,846,"Rempel, Dach and Spinka",false,
+502,Vernon,234,22/1/2025,722,Jerde-Will,false,
+746,Pond,9,30/3/2024,865,McClure-Pollich,false,
+218,Knutson,172,19/1/2025,598,"Koepp, Dicki and Goodwin",false,
+271,Center,128,24/1/2025,555,King LLC,false,
+898,Butterfield,112,7/12/2024,416,"Mayert, Hodkiewicz and Hansen",true,
+502,Waxwing,23,28/9/2024,410,Hahn Inc,false,
+282,Welch,132,6/2/2024,664,Cassin-D'Amore,false,
+541,Beilfuss,49,31/1/2024,933,"Schuppe, Langosh and Herzog",false,
+201,Melvin,136,19/2/2025,835,Heathcote LLC,false,
+627,Blue Bill Park,244,17/2/2025,811,Cole Inc,true,
+614,Rowland,124,21/12/2024,518,Deckow LLC,false,
+127,Monument,4,7/1/2024,378,Bechtelar-Moore,false,
+697,Dayton,197,20/10/2023,776,Smith-Schulist,false,
+846,Surrey,67,5/4/2024,903,Fritsch LLC,false,
+859,Veith,21,10/3/2025,280,Fahey Group,false,
+831,Fulton,35,18/11/2023,517,"Hegmann, Williamson and Nolan",false,
+697,Brickson Park,83,23/4/2024,890,"Senger, Murray and Gerlach",false,
+154,Carioca,181,26/9/2024,934,"Bergnaum, Leuschke and Collier",false,
+614,Grim,107,27/7/2023,454,"Wyman, Moore and Rohan",false,
+647,John Wall,40,14/5/2025,355,Emmerich Group,false,
+749,Declaration,134,17/9/2024,572,Waters Group,false,
+147,Anhalt,221,10/4/2024,312,Wisoky and Sons,false,
+554,Mifflin,30,20/3/2025,474,Donnelly-Waters,false,
+282,Wayridge,6,23/10/2023,611,O'Kon-Deckow,false,
+767,West,57,21/11/2023,774,Spencer and Sons,false,
+767,Towne,237,20/6/2023,872,Purdy Inc,false,
+409,Surrey,204,14/5/2024,239,"Bashirian, Skiles and Bruen",false,
+292,Everett,56,23/2/2025,404,"Goldner, Frami and Sporer",false,
+41,Carey,137,26/5/2024,437,"Stroman, VonRueden and Kutch",false,
+704,Saint Paul,229,25/5/2024,391,Metz-Schneider,false,
+22,Stang,155,30/7/2023,478,"McClure, Gutmann and Wolf",false,
+432,Bayside,227,3/10/2023,780,"Kertzmann, Olson and Nicolas",false,
+491,Meadow Ridge,232,13/10/2024,536,Mayert-Morar,false,
+578,Hoard,221,2/11/2023,459,"Cartwright, Ebert and Koelpin",false,
+393,Fairview,191,27/7/2024,609,Abbott LLC,false,
+493,Pleasure,230,13/10/2024,383,Anderson-Keeling,false,
+458,Esch,189,7/1/2025,603,Swift Inc,false,
+147,Amoth,106,2/3/2024,500,Kuhn Inc,false,
+982,Almo,26,23/12/2024,200,"Jakubowski, Gerhold and Waters",false,
+647,Garrison,35,20/3/2024,555,Cronin and Sons,false,
+427,Anzinger,135,23/4/2025,993,"Stehr, Cole and Sawayn",false,
+72,Pleasure,70,12/8/2024,625,"McLaughlin, Sipes and Beer",true,
+133,Steensland,16,11/11/2024,298,Bogisich-Kihn,false,
+292,American,153,16/7/2023,546,Swaniawski-Collins,false,
+704,Union,164,4/5/2024,385,Roob-Friesen,true,
+652,Clarendon,172,15/9/2023,496,Beahan and Sons,false,
+440,Pearson,223,27/2/2025,537,"Schamberger, Nienow and Ullrich",false,
+430,Graedel,95,24/6/2024,824,Klocko-Dietrich,false,
+900,Norway Maple,234,16/8/2023,476,Abbott Inc,false,
+430,Wayridge,173,25/11/2023,220,Reichel-Hansen,false,
+707,Pierstorff,116,16/1/2025,233,Pollich-Padberg,false,
+578,Chive,203,14/5/2025,715,"Lang, Hane and Larson",false,
+999,Loftsgordon,224,9/2/2024,362,Johns Inc,false,
+154,Montana,194,25/8/2023,750,"Hackett, Green and Fadel",false,
+749,Westend,36,17/1/2025,868,"Johns, Corkery and Runolfsdottir",false,
+627,Kennedy,95,24/2/2024,783,"Volkman, Marvin and Treutel",false,
+277,Vermont,113,10/1/2024,952,Rogahn-Dickinson,false,
+641,Arrowood,236,23/4/2024,288,"Schumm, Walker and Zemlak",false,
+127,Sutteridge,36,11/8/2023,690,"D'Amore, Crona and Hahn",false,
+119,Katie,149,17/7/2023,593,"Vandervort, Larson and Kautzer",false,
+652,Hintze,198,23/2/2024,307,Stamm-Conroy,false,
+39,Esch,84,3/4/2024,876,Lindgren-Gleichner,true,
+127,Esker,11,11/4/2024,848,Kemmer-Beer,false,
+702,Hooker,150,24/2/2025,232,Harvey-Luettgen,false,
+755,Bobwhite,86,7/6/2023,870,Cummings-Balistreri,true,
+218,Grover,200,22/7/2023,719,Feeney Inc,false,
+746,Kropf,142,3/3/2025,548,Windler-Hane,false,
+366,Portage,64,27/2/2024,697,"Stehr, Rice and D'Amore",true,
+865,Del Mar,10,16/12/2023,257,"Lesch, Haag and Miller",false,
+428,Lakewood Gardens,100,12/8/2024,879,"O'Keefe, Becker and Goodwin",false,
+458,Haas,60,24/8/2024,238,"Balistreri, Schneider and Kassulke",false,
+323,Portage,30,6/11/2024,442,Kuhic-Beer,false,
+362,Kensington,119,4/2/2024,868,Kilback LLC,true,
+493,Laurel,249,18/4/2025,455,Heaney-Morissette,false,
+96,Meadow Valley,96,16/10/2023,539,Batz-Hane,false,
+393,Anhalt,154,29/5/2024,788,Will and Sons,false,
+774,Myrtle,127,4/4/2025,397,Rolfson Group,false,
+101,Bellgrove,52,23/2/2025,938,Crona-Mosciski,false,
+704,Dorton,116,5/8/2024,931,"Sawayn, Quitzon and Feest",false,
+853,Monterey,74,26/3/2025,255,"DuBuque, Schroeder and Gutkowski",false,
+762,Maple Wood,118,17/8/2024,314,Abernathy-Langosh,false,
+627,Hooker,171,10/9/2024,471,"Lueilwitz, Bins and Schroeder",false,
+578,Cottonwood,166,24/5/2023,798,Pfannerstill LLC,false,
+781,Butternut,169,26/6/2024,255,"Witting, McLaughlin and Connelly",false,
+755,Walton,104,23/2/2024,694,Schamberger-Pollich,false,
+554,Schiller,208,12/10/2023,852,Towne-Aufderhar,false,
+702,Kennedy,132,8/10/2024,830,"Farrell, Langosh and Simonis",false,
+672,Londonderry,135,5/6/2024,501,"Altenwerth, Cummerata and Hegmann",false,
+154,Hoffman,223,7/7/2024,807,Thiel Inc,false,
+846,Bartelt,149,20/6/2024,345,Sanford-O'Hara,false,
+22,Cody,203,24/7/2023,729,"Bayer, Barton and Gerhold",false,
+218,Eagan,111,17/9/2024,934,Champlin-Kessler,false,
+704,Cordelia,198,4/3/2024,353,Bahringer and Sons,false,
+865,Washington,2,7/3/2025,385,Murazik Group,false,
+665,Myrtle,237,26/8/2024,266,"Jenkins, Shanahan and Adams",false,
+251,Larry,86,1/6/2023,267,"Rutherford, Mueller and Hoppe",false,
+277,Glacier Hill,77,15/11/2024,549,Ankunding and Sons,false,
+376,Bluestem,181,24/4/2025,570,"Crona, O'Connell and Bahringer",false,
+694,Duke,33,1/3/2025,700,Raynor Inc,false,
+853,Shelley,99,15/8/2024,227,Brown Group,false,
+430,Mallard,110,18/1/2025,327,Kshlerin LLC,false,
+417,Glacier Hill,185,15/11/2023,712,Kutch-Boyle,false,
+154,Evergreen,243,28/2/2025,489,Lockman Inc,false,
+352,Mendota,224,11/12/2023,754,"Erdman, McDermott and Jast",false,
+554,Sauthoff,146,30/3/2025,427,Kirlin-Funk,true,
+927,Mandrake,13,4/10/2023,775,"Gorczany, Zieme and Powlowski",false,
+537,Kennedy,25,20/11/2023,424,Renner-O'Keefe,false,
+493,Stuart,156,9/12/2023,744,Rutherford-Ebert,false,
+927,Bashford,122,8/11/2024,245,Koch Inc,false,
+652,Springview,163,2/8/2023,412,Toy Group,false,
+653,Pond,173,22/12/2023,420,"Brekke, Schoen and Reinger",false,
+81,Division,230,3/5/2025,488,Miller-O'Conner,false,
+709,Oak Valley,119,2/3/2024,411,O'Connell-Reichert,false,
+767,Hanson,41,10/7/2024,828,Reichert Inc,false,
+641,Red Cloud,27,26/6/2023,823,Dickens-Douglas,false,
+132,Gina,217,12/9/2023,569,Will Group,false,
+41,Sugar,67,14/6/2024,548,Lockman-Veum,false,
+362,International,74,12/4/2025,317,Williamson-Weber,false,
+130,Reindahl,194,15/5/2024,895,"Kassulke, Wuckert and Gislason",false,
+865,Hallows,164,21/9/2024,490,Kertzmann-Block,false,
+428,Pepper Wood,250,29/6/2024,502,Sawayn Group,false,
+982,Bunker Hill,153,27/10/2023,329,"Padberg, Graham and Heidenreich",false,
+812,Bayside,200,30/4/2025,472,"Spencer, Nicolas and Cartwright",false,
+393,Fieldstone,207,20/8/2023,611,Weissnat-West,false,
+501,Cascade,99,24/8/2023,545,"Hettinger, Stark and Moore",false,
+352,Emmet,52,29/9/2024,647,Orn-Jenkins,false,
+846,Darwin,62,12/3/2025,960,"Daugherty, Huel and Marquardt",false,
+64,Dwight,55,28/8/2023,975,Schroeder LLC,false,
+999,Mallory,19,5/11/2024,907,Welch-Frami,false,
+853,Toban,42,25/12/2024,570,Spinka-Berge,false,
+984,Lunder,234,2/11/2024,267,O'Reilly-Frami,false,
+924,Ilene,47,2/10/2023,552,Barton-Cronin,false,
+150,Merrick,149,7/7/2023,513,Weber Inc,true,
+430,Westerfield,204,26/8/2023,988,"Rodriguez, Parker and Weimann",false,
+614,Heffernan,205,15/12/2023,824,Hermann LLC,false,
+707,Lerdahl,242,23/12/2024,600,"Gibson, Schumm and Bernier",false,
+831,Jackson,248,26/5/2024,893,Pagac-Bahringer,false,
+984,Harbort,54,15/2/2024,531,Roob-Nitzsche,false,
+132,Ludington,173,22/3/2025,427,"Keeling, Schaden and Macejkovic",true,
+578,Eastwood,186,30/1/2025,857,"Lockman, Smith and Reichert",false,
+749,Sommers,127,12/10/2023,417,Powlowski LLC,false,
+491,Randy,162,10/3/2025,966,"Parisian, Effertz and Dickens",true,
+548,3rd,17,21/10/2024,480,Gottlieb-McKenzie,false,
+132,Ryan,61,21/9/2023,704,"Ferry, Konopelski and Kris",false,
+432,Oak Valley,184,27/11/2024,659,"Mills, Kautzer and White",false,
+502,7th,185,23/8/2023,953,"Runte, Dibbert and Ritchie",true,
+332,Ridge Oak,47,9/3/2025,343,Thompson-Shields,false,
+376,Pierstorff,212,30/9/2024,597,Casper-Pacocha,false,
+417,Carioca,198,9/5/2024,554,Howell Group,false,
+984,Straubel,81,3/11/2023,545,Pagac-Waelchi,false,
+641,Prentice,73,21/9/2024,830,Huels and Sons,false,
+41,6th,62,6/10/2023,920,Brakus LLC,false,
+812,Crescent Oaks,215,20/11/2024,374,Greenfelder-Stracke,false,
+417,Loomis,22,26/11/2023,302,"Kris, Murazik and Rowe",false,
+272,Westridge,34,23/6/2024,292,Kuhn Group,false,
+746,Ramsey,172,10/1/2024,585,Jacobs Group,false,
+950,Shopko,151,15/3/2024,978,"Weissnat, Dach and Kertzmann",false,
+409,Holmberg,138,3/8/2023,377,"Okuneva, Wehner and Feeney",false,
+387,Pawling,249,28/3/2024,257,Turner Group,false,
+133,Sunnyside,92,14/7/2024,202,Schmidt-Roberts,true,
+22,Artisan,231,10/12/2023,608,Rice Group,false,
+999,Spenser,142,3/8/2023,652,Kub Group,false,
+578,Almo,36,7/11/2023,201,"Dicki, Tillman and Kerluke",false,
+154,Westport,211,19/3/2024,847,"Larson, Cummings and Conroy",false,
+501,Monterey,190,22/3/2024,548,Harvey and Sons,false,
+762,La Follette,12,13/6/2024,636,"Hansen, Prosacco and Bayer",false,
+101,Bowman,36,27/8/2023,424,Torphy LLC,false,
+387,Steensland,137,2/8/2023,499,Weber and Sons,false,
+393,Mitchell,117,21/1/2025,486,"Smith, Bechtelar and Hettinger",false,
+493,Steensland,61,16/7/2023,916,Ullrich-Herman,true,
+767,Di Loreto,182,29/3/2025,652,Lynch-Kassulke,true,
+50,Arapahoe,196,15/12/2023,507,Wunsch Inc,false,
+272,Upham,120,17/3/2025,865,Gerhold Inc,false,
+781,Crowley,173,12/11/2023,672,"Towne, Marks and Hilpert",false,
+999,Mockingbird,143,2/7/2024,487,Cruickshank LLC,true,
+704,Division,81,17/11/2023,881,Will-Wyman,false,
+493,Bayside,158,21/12/2024,607,Trantow and Sons,true,
+641,Miller,2,30/8/2023,471,Kunze-Ferry,false,
+474,Anzinger,109,16/5/2024,460,Gerhold-Hilpert,false,
+774,Bay,9,30/4/2025,992,Bernier Inc,false,
+762,Basil,121,10/12/2024,886,Becker Inc,false,
+458,Macpherson,58,5/9/2023,470,"Lehner, Will and Gusikowski",false,
+709,Sutteridge,228,24/2/2024,598,"Ebert, Harber and Weimann",false,
+548,Loeprich,47,6/2/2025,692,Paucek-Farrell,false,
+132,Annamark,121,26/5/2023,770,"Swaniawski, Green and Romaguera",false,
+323,Mendota,161,15/6/2023,706,Hessel LLC,false,
+767,Debs,174,3/11/2023,814,Ryan Group,true,
+350,Miller,159,31/12/2024,242,Wehner-Tillman,false,
+707,Daystar,205,24/8/2023,523,"Jakubowski, Davis and Stark",false,
+812,David,217,7/5/2024,433,Frami Inc,false,
+665,Annamark,235,30/10/2024,866,Schmeler LLC,false,
+702,Huxley,114,13/5/2025,346,Collier-Cremin,false,
+427,Vera,59,17/10/2023,497,Cartwright-Kshlerin,false,
+771,Stuart,88,19/1/2025,880,Bartoletti-Hills,false,
+277,Manley,171,4/1/2024,259,"Steuber, Greenholt and Murray",false,
+132,Cascade,54,16/6/2024,899,Powlowski and Sons,false,
+50,Grover,146,7/5/2025,934,"Cassin, Marquardt and Leffler",false,
+898,Charing Cross,10,23/9/2023,508,Kihn-Hickle,false,
+614,Chinook,217,8/6/2024,786,Watsica and Sons,false,
+898,Coleman,90,4/10/2023,665,Stracke-Monahan,false,
+376,Anderson,182,19/6/2024,457,"Tillman, Champlin and Koelpin",false,
+22,Stang,47,22/5/2024,663,Stehr LLC,false,
+501,Pearson,18,25/8/2024,865,Reynolds-Heller,false,
+537,Bashford,28,23/10/2023,332,Kihn LLC,false,
+271,Oak,37,14/7/2023,603,Stamm-Nolan,false,
+755,Crowley,164,16/11/2024,578,"Friesen, Bernier and Reinger",false,
+366,Hoffman,186,19/2/2024,710,"Hahn, Kuhlman and Cassin",false,
+653,Karstens,149,17/4/2025,354,Cummerata LLC,false,
+309,Caliangt,191,30/3/2025,393,"Leannon, Oberbrunner and Boehm",false,
+627,Maryland,17,7/7/2024,663,"Lynch, Pfannerstill and Emard",false,
+653,Warner,172,12/11/2023,719,"Swaniawski, Collier and Kiehn",false,
+112,Pine View,65,2/9/2024,231,Schamberger-Krajcik,false,
+831,Victoria,138,16/7/2024,679,"Kuhn, Reichert and Larkin",false,
+665,Brickson Park,54,11/8/2024,814,Bergstrom and Sons,false,
+950,Almo,61,10/12/2023,249,"Bayer, Powlowski and Cummerata",false,
+112,Express,228,5/8/2024,783,Gusikowski and Sons,false,
+898,Florence,67,1/9/2024,411,"Emard, Frami and Gutmann",false,
+999,Shelley,239,29/9/2023,680,"Braun, Schamberger and Rohan",false,
+541,Susan,234,26/11/2024,488,Parker-West,false,
+127,Sunbrook,164,15/4/2025,485,Watsica-O'Conner,false,
+665,Blaine,146,7/2/2025,989,"Hessel, Metz and Roob",false,
+865,Sutteridge,78,16/6/2024,481,Gutkowski-Douglas,false,
+853,Caliangt,198,9/5/2024,917,"Kunze, Keeling and Satterfield",false,
+771,Spohn,234,29/4/2024,453,Pfannerstill and Sons,false,
+440,Holmberg,41,28/4/2025,650,"Koch, O'Hara and Nitzsche",false,
+924,School,162,19/1/2025,723,"Bogisich, Hauck and Grady",false,
+704,Crownhardt,3,23/5/2024,296,"Yost, Gulgowski and VonRueden",false,
+702,Schmedeman,244,2/6/2024,872,"Lubowitz, Smitham and Champlin",false,
+63,Farmco,138,8/4/2024,400,Sipes Group,false,
+702,Grasskamp,213,19/4/2024,257,Gottlieb and Sons,true,
+145,Blaine,100,11/4/2024,455,"Davis, Pacocha and DuBuque",true,
+440,Sutherland,124,15/4/2025,201,Feest LLC,false,
+39,Wayridge,179,26/5/2024,945,Von LLC,false,
+366,Cambridge,3,3/1/2025,852,Harber and Sons,false,
+370,Leroy,64,14/8/2023,311,Purdy Inc,false,
+474,Bluestem,20,31/1/2024,863,Koepp LLC,false,
+771,Manufacturers,18,6/7/2024,929,"Weimann, Conroy and Padberg",false,
+101,Old Shore,90,26/9/2024,512,Herman-Jenkins,false,
+428,Russell,235,5/1/2025,836,Buckridge Inc,false,
+101,Sherman,176,27/10/2023,467,Christiansen-Yundt,false,
+767,Harbort,159,31/3/2025,970,Schmidt-McClure,false,
+417,Hazelcrest,175,26/8/2023,526,Reichert-Haley,false,
+898,Straubel,203,26/2/2024,490,Ruecker-Orn,false,
+161,Bluestem,15,24/6/2023,740,Stracke and Sons,false,
+161,Mesta,154,16/10/2023,531,Kertzmann Group,false,
+272,Arapahoe,222,15/5/2024,483,Runte LLC,false,
+652,Mockingbird,225,28/12/2024,933,"Bernier, Batz and Stehr",false,
+950,Harper,22,31/12/2024,688,Gulgowski and Sons,false,
+762,Kings,6,19/1/2024,237,Considine-Ebert,false,
+709,Superior,92,29/1/2025,666,"Cartwright, Friesen and Powlowski",false,
+812,Corscot,89,11/2/2024,900,Steuber-Zieme,false,
+665,Bobwhite,178,30/10/2024,878,Spinka Inc,false,
+709,Sachtjen,49,31/12/2023,871,Robel Inc,false,
+704,Twin Pines,227,5/5/2024,482,Denesik LLC,false,
+896,Artisan,13,7/12/2024,415,"DuBuque, Torphy and Cremin",true,
+323,Lindbergh,163,16/5/2024,814,Williamson-Kub,false,
+493,Texas,170,27/7/2024,602,O'Connell LLC,false,
+774,Dapin,208,2/4/2024,582,Ritchie LLC,false,
+201,Northland,242,11/1/2025,756,Purdy-Kertzmann,true,
+323,Hayes,52,5/12/2023,350,Funk Inc,true,
+999,Independence,250,8/6/2024,263,"Smith, Nikolaus and Langosh",false,
+292,Mariners Cove,243,24/7/2023,241,"Ortiz, Hauck and Jacobs",false,
+309,Old Shore,238,3/11/2023,322,"Kozey, Murazik and Abbott",false,
+982,Susan,222,19/10/2023,522,Kemmer-Prohaska,false,
+130,Superior,10,14/5/2025,934,Shanahan-Bauch,false,
+929,Garrison,63,22/1/2024,644,Kautzer LLC,false,
+271,Veith,78,2/5/2025,486,Glover-Harris,false,
+762,Atwood,168,31/7/2024,740,"Nienow, Hoeger and Jacobson",false,
+771,Myrtle,7,18/4/2025,327,"Green, Jones and Pfannerstill",false,
+432,Moose,195,30/1/2025,211,Lynch-Stehr,false,
+641,Cordelia,7,22/9/2024,573,Beatty-Jaskolski,false,
+924,Carey,196,29/5/2023,338,Zboncak-Jacobson,false,
+362,Ridgeview,5,14/6/2024,902,Casper-Dach,false,
+541,Bonner,7,4/3/2024,630,Mitchell Inc,false,
+831,Pawling,115,15/7/2023,655,"Carroll, Streich and Bogan",false,
+929,Bowman,167,22/10/2024,759,Champlin Inc,false,
+898,Lerdahl,114,10/4/2025,463,Schowalter Inc,true,
+147,Vermont,204,30/12/2024,966,Runolfsson-Wuckert,false,
+50,Muir,29,2/6/2023,736,"Bode, Metz and Lueilwitz",false,
+865,Hoard,133,6/11/2023,236,Padberg-Kihn,false,
+393,Warner,152,11/1/2025,227,Schneider-Howe,false,
+627,Marcy,27,27/5/2023,813,Dickinson and Sons,false,
+999,Northfield,78,23/3/2024,781,"Kautzer, Dickinson and Hoppe",false,
+541,Sycamore,224,30/3/2025,521,Kub-Paucek,false,
+501,Michigan,158,6/9/2023,633,Gerhold LLC,false,
+127,Maple Wood,64,16/8/2023,308,Frami-Johnston,true,
+218,Susan,14,26/10/2024,820,Lubowitz Group,false,
+218,Shasta,155,7/10/2024,821,"Hodkiewicz, Herman and Emmerich",false,
+362,Larry,108,20/12/2023,205,"Barton, Wyman and Bernier",true,
+56,Burrows,20,23/5/2023,200,Lowe Group,false,
+817,East,175,28/2/2025,363,"Ziemann, Luettgen and Halvorson",false,
+554,Arkansas,149,12/11/2024,533,Bins-Champlin,false,
+665,Graceland,203,22/3/2024,224,Paucek Inc,false,
+428,Atwood,204,15/12/2024,893,"Champlin, Trantow and Buckridge",false,
+865,Mesta,49,14/8/2024,681,"Schaefer, Kling and Purdy",false,
+707,Scott,84,20/5/2023,726,"Beatty, Pollich and Farrell",false,
+150,Monica,91,10/9/2023,497,Rolfson Inc,false,
+502,Gina,233,10/8/2024,819,Jast-Deckow,false,
+853,Jenifer,247,5/1/2025,762,"Herman, Stroman and Littel",false,
+900,Lukken,154,21/4/2025,744,Bernhard LLC,false,
+154,Evergreen,62,2/8/2024,868,Conroy Group,true,
+127,Cardinal,19,19/2/2025,661,Champlin Inc,false,
+350,Washington,101,4/11/2023,437,Tillman-Ernser,false,
+251,Miller,206,18/10/2023,918,"Durgan, Connelly and Ledner",false,
+702,Continental,212,27/3/2025,562,Barton-Metz,false,
+896,Utah,103,6/11/2024,870,Mosciski and Sons,false,
+975,Maryland,12,23/8/2024,971,Littel Inc,false,
+767,Sachs,24,13/9/2024,263,Koch-Rutherford,false,
+394,Basil,188,23/1/2024,542,"Kunde, Mann and Dickinson",false,
+394,Morning,68,28/10/2024,308,Rodriguez-Stroman,false,
+749,Burning Wood,33,16/4/2025,437,Zieme-Bednar,false,
+22,Tennessee,40,28/5/2023,591,"Hoppe, Lowe and Ferry",false,
+332,Northridge,2,29/7/2023,440,Bauch and Sons,false,
+846,Springs,54,19/3/2024,990,Howe-MacGyver,false,
+853,Hermina,49,15/4/2024,280,Wiegand-Ortiz,false,
+393,2nd,110,12/1/2024,1000,Kassulke-Gislason,false,
+251,Oneill,227,11/12/2024,542,Braun Inc,false,
+323,Moland,59,14/6/2023,355,"Witting, Reynolds and Crona",false,
+929,International,242,10/3/2025,656,"Treutel, Huel and Gibson",false,
+927,Sheridan,97,29/10/2023,695,Hand-Lockman,false,
+432,Red Cloud,237,25/6/2023,484,"Simonis, Wolf and Ward",false,
+541,Algoma,105,10/7/2024,663,Harris Group,false,
+292,Prairie Rose,176,14/7/2023,457,Kilback-Pacocha,false,
+161,New Castle,25,23/1/2024,598,Rowe and Sons,false,
+950,Glacier Hill,97,21/10/2023,614,Turner Inc,false,
+781,Schurz,198,10/4/2025,654,Von-Price,false,
+119,Brickson Park,210,4/6/2024,776,Cartwright-Hane,true,
+350,Village,164,29/10/2024,388,Prohaska-Macejkovic,false,
+161,4th,174,26/9/2023,463,"O'Hara, Kuphal and Murazik",false,
+950,Redwing,73,13/7/2024,683,"Armstrong, Wisoky and Greenholt",false,
+96,Hayes,155,24/10/2023,369,"Hahn, Dietrich and Leffler",false,
+292,Kropf,14,11/2/2025,676,Schmeler-Bartell,false,
+541,Raven,42,2/7/2023,344,"Schamberger, Bahringer and Pollich",false,
+853,West,149,20/9/2024,833,"Abshire, Beatty and Balistreri",false,
+502,Ludington,100,4/12/2023,996,Barrows-Kuhlman,false,
+96,Randy,186,7/5/2025,823,"D'Amore, Dickens and Spencer",true,
+984,Fordem,220,29/10/2024,404,Stanton Inc,false,
+323,Hintze,212,3/7/2024,249,"Williamson, Daugherty and Wisozk",false,
+578,Linden,91,21/9/2024,278,Kemmer-Lueilwitz,false,
+548,5th,116,27/10/2023,956,"Larkin, Fadel and Jones",false,
+133,Ramsey,162,4/6/2024,746,"Heaney, Lebsack and Daniel",false,
+130,Valley Edge,201,3/3/2024,998,Schamberger and Sons,false,
+143,Autumn Leaf,88,26/8/2024,998,Kilback-Jaskolski,false,
+277,Melby,246,29/1/2025,689,"Hartmann, Veum and Tremblay",false,
+713,Canary,2,10/9/2024,804,Cole-Haag,false,
+707,Twin Pines,77,17/3/2024,811,"Bashirian, Dooley and Price",false,
+652,Johnson,135,9/12/2024,498,Wilkinson Group,false,
+774,Merry,71,20/4/2024,658,"Reinger, Littel and Reynolds",false,
+697,Stone Corner,235,8/8/2024,719,"Nikolaus, Murphy and Jones",false,
+853,Clemons,162,27/4/2024,455,McClure Group,false,
+64,Farragut,23,23/2/2025,389,Goodwin-White,false,
+64,Emmet,165,10/2/2025,534,Blanda LLC,false,
+755,Banding,83,16/2/2024,517,Koelpin-Runolfsson,false,
+982,Sage,56,17/12/2024,571,Haag-Wintheiser,false,
+147,Caliangt,46,28/5/2023,274,Mueller-Bernhard,true,
+417,Golden Leaf,116,7/1/2024,200,"Carter, Hintz and Dooley",true,
+112,Harbort,155,7/9/2023,799,McDermott-Treutel,false,
+147,Hayes,211,7/10/2024,488,Reynolds-Bechtelar,false,
+704,Upham,210,9/12/2023,258,Auer Group,false,
+387,Truax,232,12/2/2024,624,"Lueilwitz, Williamson and Lebsack",false,
+709,Ryan,76,26/12/2023,662,Langworth Group,false,
+491,Westend,7,16/1/2024,563,Schmeler LLC,false,
+440,Sycamore,14,26/1/2025,359,Block Inc,false,
+323,Crest Line,231,23/12/2024,414,Rutherford-Witting,true,
+900,Haas,158,24/2/2025,682,McGlynn-Heller,false,
+781,Stephen,184,13/8/2023,840,"Wilkinson, Bins and Wehner",false,
+154,Moose,98,30/10/2023,805,"Donnelly, Walsh and Bechtelar",false,
+694,Forster,199,19/7/2023,772,Zemlak-Bednar,false,
+537,Elmside,172,20/5/2024,609,"Rogahn, Roob and Kerluke",true,
+430,Anderson,14,30/11/2024,853,Crist Group,false,
+896,Kim,56,11/5/2024,267,Rogahn Inc,true,
+130,Columbus,173,14/9/2023,957,Morissette Inc,false,
+22,Prairieview,113,19/3/2024,304,Hirthe-Hansen,false,
+641,Parkside,192,16/12/2023,533,Denesik LLC,false,
+493,Cardinal,198,17/11/2023,914,Daniel-Spinka,false,
+350,Loomis,169,10/9/2023,488,Wuckert Inc,false,
+774,Golden Leaf,131,6/12/2023,668,"Smith, Wisozk and Schamberger",false,
+352,Doe Crossing,195,17/9/2024,852,Quitzon and Sons,true,
+161,Moland,74,10/10/2023,249,"Roberts, Swift and Wiza",false,
+652,Duke,23,1/3/2024,810,"Schmeler, Labadie and Watsica",false,
+458,Rusk,56,19/1/2024,272,Schoen Inc,false,
+704,Arrowood,223,23/1/2024,451,Yundt LLC,true,
+652,Larry,108,9/1/2024,562,Vandervort-Hilll,false,
+548,Montana,88,19/1/2025,490,"Abbott, Zemlak and Bode",false,
+145,Oneill,229,24/9/2024,202,Ferry-Pacocha,false,
+767,Lakewood,42,14/2/2024,682,Trantow-Welch,false,
+614,Fairfield,113,2/9/2023,933,Fahey-Hyatt,false,
+537,Emmet,7,31/3/2024,781,Reynolds-Reichel,false,
+501,Dryden,158,4/2/2025,423,O'Reilly LLC,false,
+927,Elka,63,14/11/2024,575,Price LLC,false,
+614,Bellgrove,51,2/12/2024,576,Wisoky LLC,false,
+896,Morningstar,130,9/12/2024,504,"Bartell, Mohr and Jerde",false,
+896,Meadow Ridge,62,7/4/2025,896,Gerlach Group,false,
+147,Maryland,246,7/6/2023,275,"Schamberger, MacGyver and Gulgowski",false,
+541,Cottonwood,107,3/8/2024,232,"Sawayn, Bartell and Casper",false,
+665,Nelson,142,7/1/2025,922,Quigley and Sons,false,
+64,Lawn,194,5/12/2024,639,"Pfannerstill, Christiansen and Koss",false,
+812,Birchwood,225,15/11/2024,932,Goodwin-Cremin,false,
+201,Holy Cross,229,17/11/2024,369,"Tremblay, Koss and Harber",false,
+774,Sunbrook,234,12/1/2024,266,"McGlynn, Dickinson and Shanahan",false,
+548,Bunting,14,31/1/2025,694,"Herman, Gottlieb and Price",false,
+56,Aberg,114,10/8/2023,444,Kertzmann LLC,false,
+781,Coolidge,17,4/9/2024,377,Skiles and Sons,false,
+394,Badeau,177,22/3/2024,534,"Connelly, Bins and Kutch",false,
+982,Cherokee,84,1/10/2024,843,"Baumbach, Dach and Roberts",false,
+859,Butternut,54,12/10/2024,450,"O'Connell, Rolfson and Bogan",false,
+924,Kings,154,20/12/2024,794,Skiles-Stoltenberg,false,
+132,Ronald Regan,215,10/1/2025,418,"Farrell, Leffler and Leannon",false,
+774,Ridge Oak,136,7/5/2025,739,Schumm-Volkman,true,
+56,Sutherland,35,23/2/2025,520,"Waters, Deckow and Howe",false,
+50,Elmside,201,23/7/2024,683,Larson-Hirthe,false,
+63,Village,41,6/1/2025,597,Huels-Collins,false,
+853,Sutteridge,154,22/1/2025,454,Conroy-Batz,false,
+332,Eagan,117,29/11/2024,684,Pouros and Sons,false,
+541,South,234,26/1/2024,816,"Parker, Blanda and Kutch",false,
+767,Valley Edge,61,5/8/2024,605,Williamson-Turcotte,false,
+707,Beilfuss,241,12/1/2025,235,O'Conner-Becker,false,
+362,Sunnyside,33,25/9/2023,693,Beier-Shields,false,
+22,Cambridge,224,22/3/2024,671,Funk-Considine,false,
+387,Ludington,113,16/8/2023,329,Simonis-Kub,false,
+812,Banding,125,20/8/2023,952,Treutel-Hessel,false,
+781,Talisman,48,12/10/2024,540,Borer-Kovacek,false,
+143,Anhalt,161,4/7/2023,865,Bayer Group,false,
+427,Mendota,75,28/8/2023,745,Rau-Kassulke,true,
+762,Duke,3,29/11/2024,594,Leannon-Schneider,false,
+548,Veith,196,15/1/2025,831,Gislason LLC,false,
+702,Knutson,23,27/5/2023,395,"Pacocha, Emard and Lueilwitz",false,
+440,Dawn,182,2/3/2025,303,"Lebsack, Runolfsson and Blanda",false,
+541,Dovetail,223,26/2/2024,964,Windler-Senger,false,
+332,Eagan,118,25/2/2025,717,"Spinka, Nolan and O'Reilly",false,
+277,Artisan,29,1/4/2025,257,Smith and Sons,false,
+493,Merrick,205,2/5/2024,571,Oberbrunner-Gottlieb,false,
+292,Superior,173,28/8/2024,418,"Ferry, Olson and Stamm",false,
+132,Michigan,229,15/3/2025,927,"Beatty, Skiles and Mills",false,
+762,Drewry,123,26/8/2024,956,Smitham Inc,false,
+896,Emmet,245,9/2/2024,546,Denesik and Sons,false,
+323,Colorado,238,9/7/2024,472,Schultz-Blanda,false,
+393,Brown,137,10/7/2024,701,"Hammes, West and Brakus",true,
+704,Stang,100,17/11/2024,469,Durgan-Hane,false,
+154,Beilfuss,211,3/3/2024,639,Koelpin-Reynolds,false,
+277,Jackson,220,25/4/2025,936,Hegmann Inc,false,
+707,Barby,241,28/4/2025,886,Streich and Sons,false,
+432,Sloan,109,1/2/2025,718,"Schuster, Wehner and Glover",false,
+282,Orin,26,19/10/2023,425,"Waelchi, Hirthe and Leffler",true,
+548,Oxford,8,8/2/2025,440,Anderson-Dietrich,false,
+201,Hoard,205,1/7/2023,997,"Hilll, Dooley and Conn",false,
+119,Upham,212,18/11/2023,714,Heller-Lockman,false,
+101,Transport,110,9/10/2023,872,Murphy-Bechtelar,true,
+145,Bultman,69,1/6/2024,771,"Swift, Ziemann and Prosacco",false,
+984,Del Mar,178,13/3/2024,939,Daugherty LLC,true,
+652,Monument,36,10/5/2024,909,Blick and Sons,false,
+774,Susan,90,21/10/2023,448,Daniel and Sons,false,
+672,Dunning,95,6/7/2024,779,Tromp-Little,false,
+132,Ridge Oak,151,31/12/2023,633,Kris-Cummerata,false,
+147,Buell,64,10/10/2023,458,Champlin-Lehner,false,
+548,Kipling,18,27/11/2024,339,Conroy LLC,false,
+119,Sutherland,71,11/2/2025,623,Mann and Sons,false,
+702,Hanover,107,3/2/2025,424,"Wilkinson, Lesch and Hirthe",false,
+846,Sunbrook,221,21/12/2024,885,"Bergnaum, Goyette and Runte",true,
+427,Southridge,244,3/7/2023,855,"Dooley, Trantow and Jerde",true,
+665,Monterey,89,2/3/2024,913,"Murphy, Adams and Emmerich",false,
+982,Eastwood,237,30/12/2023,307,Bahringer-Robel,false,
+133,Crownhardt,141,17/3/2025,778,"Murazik, Roob and Kutch",false,
+387,Park Meadow,39,25/2/2025,941,"Ondricka, Ullrich and McDermott",false,
+578,Mesta,154,20/2/2025,851,Gleichner-Willms,false,
+665,Bay,50,25/6/2023,897,Borer and Sons,false,
+771,Garrison,51,31/7/2023,667,Jaskolski-Dibbert,false,
+541,Arrowood,32,3/2/2024,837,Wilderman LLC,false,
+143,Florence,227,27/2/2024,588,Mosciski-Gorczany,false,
+950,Mccormick,44,9/2/2024,399,Romaguera-Auer,false,
+767,Bluestem,94,2/8/2023,970,Crona-Bode,false,
+430,Ryan,168,13/11/2024,423,Tillman and Sons,false,
+427,Dakota,92,8/12/2023,638,Rath LLC,false,
+50,Miller,34,27/8/2023,951,Dibbert Inc,false,
+771,East,231,18/5/2025,206,"Lakin, O'Connell and Bartell",false,
+812,Schlimgen,214,27/10/2023,601,Lehner and Sons,false,
+393,Morrow,247,17/3/2024,342,"Ryan, King and Schuster",false,
+352,Hoepker,178,4/5/2024,289,"Macejkovic, Dooley and McKenzie",false,
+56,8th,194,6/7/2024,772,Koss-Nitzsche,false,
+927,Arrowood,10,1/7/2023,928,Hessel Group,false,
+927,Brown,99,10/10/2024,347,"Turner, Klocko and Larkin",false,
+272,Hovde,144,29/4/2025,779,"Reichel, Bergnaum and Brekke",false,
+393,Sommers,103,9/7/2024,751,Stoltenberg-Kozey,false,
+491,Mockingbird,176,20/7/2024,890,Smith and Sons,false,
+143,Cambridge,183,5/1/2025,335,Klein-Connelly,false,
+709,Heffernan,154,21/6/2023,712,Toy-Gottlieb,false,
+537,Jackson,105,17/4/2025,970,"Kshlerin, Larkin and Rowe",false,
+950,Sachs,109,18/8/2023,390,"Thompson, Spinka and Mueller",false,
+767,Westridge,28,11/11/2023,249,Lang and Sons,false,
+119,Kim,80,18/1/2025,769,"Boyer, Hegmann and Hirthe",false,
+767,Di Loreto,69,31/7/2023,672,"Murazik, O'Connell and Schmeler",false,
+133,Prentice,86,3/9/2023,901,Cormier and Sons,false,
+143,Kingsford,166,26/4/2024,855,"Thompson, Gibson and Prosacco",false,
+781,Parkside,173,28/8/2024,989,White Inc,false,
+694,Elka,233,30/5/2024,644,Kautzer-Bernhard,false,
+81,Mcguire,49,14/10/2023,853,"Rosenbaum, Hammes and Cole",false,
+277,Anzinger,203,31/1/2024,925,Hegmann and Sons,false,
+201,Parkside,40,29/1/2024,995,Reynolds-Leffler,false,
+898,Center,54,25/6/2024,708,"Bauch, Crooks and Towne",false,
+132,Calypso,204,1/6/2024,525,Marks and Sons,false,
+493,Havey,176,10/5/2024,471,Gorczany-Kemmer,true,
+982,Independence,227,15/3/2025,507,Feeney-Mayert,false,
+201,Debs,21,14/11/2024,206,"Wyman, Stracke and Sanford",false,
+999,Crescent Oaks,232,14/1/2024,955,Herman-Weissnat,false,
+831,Farmco,2,21/5/2023,354,Dickinson-Johns,true,
+554,Montana,147,8/10/2024,437,Bode-Wisoky,true,
+50,Coolidge,21,7/1/2025,732,Carter Group,false,
+929,Sachtjen,120,18/1/2025,318,Homenick Group,false,
+767,Pearson,27,20/4/2025,666,"Effertz, Parisian and Beatty",false,
+39,Monica,26,27/2/2025,280,Langworth-Howe,false,
+652,Bobwhite,5,16/7/2023,352,McKenzie LLC,false,
+428,Towne,62,2/12/2023,201,"Reilly, Rice and Roberts",false,
+929,Warner,138,19/10/2023,954,"Dach, Gibson and Reichel",false,
+409,Raven,143,18/4/2024,463,"Mayer, Waelchi and Stark",false,
+501,Monterey,154,9/12/2023,884,Kessler LLC,false,
+924,Cardinal,28,6/2/2025,793,Green-Huel,false,
+127,Holmberg,195,4/1/2024,460,"Schroeder, Steuber and Lindgren",false,
+697,Mcguire,76,8/8/2023,211,White-Rolfson,false,
+865,Northfield,170,15/12/2024,743,Hackett and Sons,false,
+218,Continental,31,7/2/2024,628,"Kuvalis, Smith and Hammes",false,
+755,Donald,72,15/3/2024,466,"Roob, Luettgen and Hoeger",false,
+147,Vernon,75,2/4/2024,616,Hegmann Inc,true,
+272,Loftsgordon,25,24/2/2024,595,"Jacobs, Rippin and Robel",false,
+653,Holy Cross,106,21/9/2024,276,Jaskolski-Denesik,false,
+771,Spaight,42,14/3/2025,451,Robel LLC,false,
+707,Talmadge,181,24/12/2023,756,"Nienow, Schaden and Hirthe",false,
+277,Mcguire,221,5/9/2024,865,Koch Inc,false,
+929,Corben,237,12/11/2023,702,Dickinson Group,false,
+130,Anhalt,25,20/10/2024,357,Reichel Inc,false,
+394,Golf Course,248,23/5/2023,436,Zulauf-Fay,false,
+502,Burrows,108,8/3/2024,855,Boehm-Denesik,false,
+707,Moulton,135,13/9/2024,805,Abernathy Group,false,
+430,Schmedeman,15,3/1/2025,330,"Konopelski, Nader and Kohler",false,
+927,Judy,41,15/6/2023,758,Daugherty-Wolf,false,
+578,Schiller,61,10/10/2023,995,Gleason and Sons,true,
+41,Swallow,230,17/1/2024,884,Kuvalis-Mitchell,false,
+387,Becker,179,3/10/2024,857,Wilkinson and Sons,false,
+627,Lake View,187,29/3/2025,288,Bayer-Flatley,false,
+817,Mosinee,150,5/11/2024,927,"Greenholt, Murazik and Halvorson",false,
+781,Hoffman,143,30/1/2025,839,"Schultz, Okuneva and Heaney",false,
+491,Kim,217,23/5/2023,987,Greenfelder-Hodkiewicz,false,
+672,School,146,21/12/2023,752,Frami Group,false,
+859,Vera,197,2/10/2023,316,"Bartoletti, Paucek and Green",false,
+746,Cordelia,27,18/7/2024,777,Jacobson Group,false,
+927,Oakridge,101,23/8/2023,718,Koch Inc,false,
+537,Chinook,8,20/9/2024,844,"Mitchell, Wilderman and Berge",true,
+694,Vera,222,14/6/2024,684,Marvin Inc,true,
+578,Lakeland,25,9/8/2024,411,Barton-Wuckert,false,
+272,Morrow,92,2/8/2023,353,Daniel and Sons,false,
+707,Dovetail,162,6/6/2023,440,"Graham, Leuschke and Yundt",false,
+440,Summerview,90,13/10/2024,762,"Koepp, Johnson and Jakubowski",false,
+251,Morning,6,12/7/2023,658,"Bahringer, Lind and Howe",false,
+771,Mayer,85,16/2/2025,966,"Larkin, Gibson and Koss",true,
+201,Rieder,211,21/12/2024,946,"Langworth, Prohaska and Heidenreich",false,
+22,Havey,17,14/2/2024,829,Dibbert Group,false,
+707,Aberg,224,11/7/2024,957,Shanahan-Lynch,false,
+440,Prentice,18,15/7/2023,455,Haley-Lebsack,false,
+56,Texas,246,19/8/2024,897,Waelchi Inc,false,
+72,Huxley,50,15/7/2024,923,Boyer Group,false,
+277,Rowland,249,14/8/2024,247,Kohler-Kulas,true,
+251,Larry,203,2/11/2024,844,Waters-Feil,false,
+927,Burrows,209,28/8/2024,911,"Predovic, Bernhard and Kuphal",true,
+393,Lindbergh,34,30/11/2023,237,"Little, Kuhlman and Green",false,
+272,Fallview,110,11/7/2023,943,Conn-Gleason,false,
+694,Green,66,29/7/2023,321,Emard Inc,false,
+427,Luster,173,13/10/2024,620,Leuschke LLC,false,
+694,Morning,199,19/3/2025,837,Homenick-Kuhlman,false,
+417,Jay,16,18/4/2024,898,Kovacek LLC,false,
+72,Forest Run,204,1/10/2023,406,Runolfsson Inc,false,
+64,Veith,186,1/2/2024,315,Schaden-Pfeffer,false,
+440,Florence,86,2/2/2024,388,"Casper, Heathcote and Macejkovic",false,
+627,Carioca,48,19/8/2023,612,Deckow and Sons,false,
+161,Mariners Cove,126,22/10/2024,662,"Price, Hettinger and Kiehn",false,
+817,Nobel,219,4/11/2023,428,"Bartell, Nolan and Satterfield",false,
+755,Kedzie,10,20/2/2025,730,"Paucek, Jacobson and Stokes",false,
+817,Maple,203,22/7/2023,725,"Gutmann, Hahn and Maggio",false,
+771,6th,160,4/9/2024,277,"Adams, Jacobson and Powlowski",false,
+218,Lyons,12,28/11/2024,632,Wuckert-Russel,false,
+150,Pepper Wood,139,24/12/2024,208,"Osinski, Homenick and Kshlerin",false,
+641,Caliangt,156,11/12/2024,850,"Lang, Nicolas and Blanda",true,
+272,La Follette,77,6/2/2025,265,Zulauf-Dietrich,false,
+702,Meadow Ridge,46,20/3/2024,609,Howe and Sons,false,
+929,Hovde,120,31/7/2023,283,"Schimmel, Wisozk and Dibbert",false,
+64,Village,30,15/11/2023,247,McKenzie-Ziemann,false,
+362,Hoepker,235,11/2/2025,285,Fritsch LLC,false,
+665,Alpine,25,14/1/2024,575,Gorczany and Sons,false,
+924,Center,192,15/7/2024,735,Marvin-Maggio,false,
+218,Anzinger,144,17/7/2023,453,Hyatt-Barton,false,
+282,Cody,97,22/6/2023,602,"Jerde, Trantow and Conn",false,
+309,Anzinger,217,12/5/2024,268,"Wiegand, Jast and Wunsch",false,
+812,Burrows,94,29/12/2024,272,"Ritchie, Doyle and Bernhard",false,
+896,Grover,214,13/8/2023,402,Pagac and Sons,false,
+767,Westerfield,158,30/10/2024,343,"Kiehn, VonRueden and Bayer",false,
+432,Cardinal,73,1/5/2025,788,"Simonis, Sporer and Waelchi",false,
+647,Pankratz,32,7/12/2023,881,Gleason LLC,false,
+271,Bluestem,246,20/6/2024,249,"Collier, Leffler and O'Conner",false,
+578,Lotheville,83,3/5/2025,279,"Altenwerth, Strosin and Murray",false,
+39,Kropf,0,29/8/2024,527,Schulist LLC,true,
+350,Nova,37,11/6/2024,620,"Kerluke, Metz and Schmidt",false,
+427,Eastwood,89,15/9/2023,988,"Wunsch, Hayes and Johnson",false,
+694,Morningstar,100,25/8/2024,284,"Hettinger, Herzog and Batz",true,
+133,Melby,141,19/1/2024,461,"Johnson, Lueilwitz and Strosin",false,
+491,Prentice,241,8/9/2023,663,"Spinka, Fisher and Gleason",false,
+417,8th,119,7/10/2023,835,"Pouros, Dooley and Zemlak",false,
+984,Mayer,137,29/5/2023,703,Gutkowski Inc,false,
+41,Lindbergh,48,20/7/2023,382,Wiza-Borer,false,
+672,Dorton,219,15/11/2024,793,Brown-Hansen,false,
+554,Kropf,81,17/8/2023,589,"Stokes, Lang and Schuppe",false,
+96,Oak,212,10/3/2024,219,Medhurst-Kshlerin,false,
+927,Rusk,146,30/11/2024,201,"Larson, Schaefer and Casper",false,
+474,Katie,82,2/8/2023,755,Brown and Sons,false,
+767,Rieder,188,20/10/2024,983,"Becker, Olson and Dibbert",false,
+64,Milwaukee,101,10/6/2024,533,Moore-Schamberger,false,
+924,7th,108,18/8/2024,880,Cremin Inc,true,
+665,7th,100,18/5/2024,624,Wolf-Murphy,false,
+394,Maple,88,5/1/2025,236,White-Hermann,false,
+937,Scoville,216,11/7/2024,842,D'Amore-McCullough,false,
+393,Mcguire,106,25/2/2024,440,Prohaska and Sons,false,
+702,Sage,132,24/3/2025,670,Powlowski-Hessel,false,
+218,Westerfield,180,1/9/2024,986,Hodkiewicz Inc,false,
+150,Forest,196,27/3/2025,774,"Effertz, Paucek and Murray",false,
+150,Everett,9,28/2/2024,986,Price-Dibbert,false,
+707,Prairie Rose,186,5/6/2023,825,Pacocha-Greenholt,true,
+132,Bluejay,115,14/6/2024,557,Reinger-Wiza,false,
+64,Kingsford,184,19/5/2023,413,Hegmann-Welch,false,
+427,Brentwood,191,18/3/2024,402,"Ullrich, Padberg and Douglas",false,
+713,Vahlen,132,19/6/2024,643,Cronin and Sons,false,
+709,Prentice,77,3/6/2023,832,Walsh-Kshlerin,false,
+350,Katie,16,18/9/2023,652,Klein LLC,false,
+277,Alpine,106,19/6/2024,645,Green LLC,false,
+694,Brown,167,16/6/2024,722,Marks and Sons,false,
+366,Cambridge,249,20/7/2023,402,"Schumm, Bashirian and Ruecker",false,
+781,Center,168,1/9/2023,508,"Blanda, Stark and Lynch",false,
+309,Buena Vista,93,6/3/2024,241,Leannon LLC,false,
+309,Parkside,178,23/1/2025,894,Bahringer LLC,false,
+548,Cottonwood,100,4/9/2024,610,Langosh Inc,false,
+427,Nevada,149,23/1/2024,598,Denesik Inc,false,
+647,Meadow Ridge,28,14/5/2024,613,"Ryan, Gleichner and Feeney",true,
+201,Kings,139,7/11/2024,687,"Osinski, Rosenbaum and Oberbrunner",false,
+781,Barby,245,4/7/2023,710,Kessler-Schaefer,false,
+150,Twin Pines,164,18/2/2024,554,Considine LLC,false,
+323,Lakewood,24,17/11/2024,943,Bartell-White,false,
+427,Hoepker,100,31/3/2024,916,"Herzog, Wehner and Botsford",false,
+352,Grasskamp,68,13/1/2024,780,Sauer Group,false,
+771,Bonner,73,1/7/2024,520,Wuckert LLC,false,
+614,Rockefeller,197,7/5/2024,842,Muller-O'Hara,false,
+393,Rusk,72,6/6/2024,775,Fay Inc,false,
+251,Menomonie,178,9/1/2024,672,"Ondricka, Keeling and Tremblay",false,
+641,Vera,159,8/4/2024,404,Halvorson and Sons,false,
+501,Corry,81,3/11/2023,488,Hoeger-Schaden,false,
+101,Continental,240,2/8/2023,221,Hauck and Sons,true,
+417,Hooker,4,3/12/2023,896,Vandervort-Jakubowski,false,
+64,Roth,208,8/1/2025,763,"McGlynn, Funk and Gleichner",false,
+672,Petterle,232,10/9/2023,968,"Ritchie, Zemlak and Hintz",false,
+309,Glendale,67,13/3/2025,548,Gutkowski-Beatty,false,
+96,Maryland,1,6/9/2023,706,DuBuque-Barrows,false,
+749,Loomis,75,3/6/2024,202,Homenick Group,false,
+440,La Follette,226,5/5/2024,742,Goyette LLC,false,
+502,Hauk,113,4/2/2024,780,Wolff-Rutherford,false,
+427,Johnson,44,21/9/2023,960,Moen LLC,false,
+924,Toban,183,2/9/2023,548,Sipes and Sons,false,
+417,Dovetail,246,17/5/2025,409,"Treutel, Ondricka and Johns",false,
+896,Fieldstone,184,9/6/2024,458,Hane-Mann,false,
+154,Russell,131,11/2/2025,698,Davis-Hoeger,true,
+713,Waywood,143,5/11/2024,554,Jerde LLC,false,
+376,Eagan,173,26/1/2024,259,Walter-Jones,false,
+22,Buena Vista,77,8/8/2024,985,Halvorson-Ruecker,false,
+900,Portage,13,20/11/2023,278,"Dickinson, Steuber and Rice",false,
+282,Kennedy,33,4/11/2023,540,Brekke-Lueilwitz,false,
+502,Dryden,158,28/4/2024,588,Mertz and Sons,false,
+127,Dennis,150,6/11/2024,744,Kerluke-Sawayn,false,
+427,Kennedy,32,8/6/2024,292,"O'Connell, Fritsch and Wolff",false,
+218,Schlimgen,163,1/8/2023,495,Marks-Bednar,false,
+812,Scofield,29,27/12/2024,987,Rowe-Gutkowski,false,
+924,Crowley,234,2/10/2024,249,Lang LLC,false,
+541,Rowland,24,17/12/2023,630,"Wunsch, Wunsch and Hills",false,
+771,Golf Course,220,22/6/2023,345,Greenfelder and Sons,false,
+924,Monica,28,15/1/2024,765,Gutmann Group,false,
+704,Northwestern,179,12/11/2023,244,Ebert-O'Hara,false,
+641,Ilene,166,12/10/2024,378,Stehr-Feil,false,
+746,Myrtle,56,23/7/2024,680,Auer and Sons,false,
+767,Graedel,220,17/8/2023,636,"Weissnat, Windler and Hoppe",false,
+440,Iowa,4,26/9/2023,679,Ferry and Sons,false,
+831,American Ash,136,14/3/2024,499,Bednar Group,false,
+774,Quincy,202,17/12/2023,522,Heaney Group,true,
+112,Mosinee,48,24/7/2024,811,Weber and Sons,false,
+376,Briar Crest,113,24/11/2023,557,"Sanford, Lebsack and Lesch",true,
+370,Elmside,248,31/7/2024,972,Hickle-Walsh,false,
+154,Gerald,195,11/12/2023,534,"Sawayn, Lind and Wunsch",false,
+376,Twin Pines,244,22/1/2024,757,Kuphal-Lehner,false,
+161,Dorton,25,13/2/2024,783,Douglas-Gutmann,false,
+537,Aberg,16,28/8/2023,561,"Sawayn, Krajcik and Hoppe",false,
+428,Boyd,209,12/5/2025,893,Feil Inc,false,
+150,Kipling,171,27/11/2024,575,"Kemmer, Maggio and Macejkovic",false,
+63,Summer Ridge,111,15/8/2024,781,Pagac Group,false,
+749,Sheridan,234,28/6/2023,875,Dare-Swaniawski,false,
+859,Rieder,142,9/9/2024,324,"Boehm, Borer and Hudson",false,
+143,Debra,75,23/6/2023,419,Cartwright-Vandervort,false,
+119,Utah,242,27/8/2023,445,"Champlin, Wyman and Luettgen",false,
+143,Haas,59,7/2/2024,691,Breitenberg-Batz,false,
+387,Trailsway,130,8/10/2023,719,"Jones, Koch and Kuphal",false,
+387,Lien,134,18/4/2025,637,"Lesch, Dietrich and Stroman",false,
+493,Dakota,5,16/1/2024,516,Littel-Hahn,false,
+201,Oneill,206,3/7/2024,405,Schowalter-Cartwright,true,
+432,Moose,204,22/1/2024,438,Larkin LLC,false,
+282,Texas,29,25/11/2024,678,"Cole, Douglas and Cole",false,
+982,Monica,129,2/12/2023,747,Heller Inc,false,
+143,Aberg,172,18/3/2024,209,"Schuppe, Koepp and Stoltenberg",false,
+393,Northwestern,23,31/7/2023,503,Kilback-Little,false,
+537,Bunker Hill,241,31/10/2023,377,Thompson Inc,false,
+493,Crescent Oaks,5,8/4/2024,365,"Emmerich, Nader and Cole",false,
+393,Green Ridge,113,25/9/2023,662,"Sipes, Sipes and Pollich",true,
+984,Basil,135,16/4/2025,331,Sipes-Cruickshank,false,
+713,Westend,100,27/5/2024,593,Renner-Yost,false,
+647,Redwing,20,4/12/2023,309,"Marks, Predovic and McCullough",false,
+749,Swallow,77,12/1/2025,581,Dickinson LLC,false,
+672,Blackbird,7,11/7/2024,791,Klein-Maggio,false,
+39,Spenser,118,28/7/2023,782,"Bruen, Zulauf and Langosh",false,
+119,Claremont,114,9/8/2024,537,Rice-Collier,true,
+112,6th,22,15/8/2023,573,Considine Group,false,
+56,Farmco,220,26/6/2024,900,Schroeder-Bahringer,false,
+694,Mallard,122,15/12/2024,717,Wuckert Group,false,
+865,Oakridge,243,9/2/2024,564,Maggio and Sons,false,
+458,Bartelt,231,21/7/2024,619,Pouros Inc,false,
+387,Atwood,230,7/7/2023,392,Mitchell-Simonis,false,
+154,Oxford,114,7/1/2024,509,Daniel and Sons,false,
+112,Loftsgordon,139,13/12/2023,696,Little LLC,true,
+702,Burning Wood,173,28/8/2023,327,"Bartell, Turner and Dach",false,
+501,Emmet,117,29/12/2023,803,Dickinson Group,false,
+702,Cascade,179,24/7/2023,416,"Howe, Schroeder and Mohr",false,
+72,Raven,153,10/1/2024,610,"Reichel, Schoen and Ortiz",false,
+774,Mesta,1,2/8/2024,431,Watsica Group,true,
+161,Portage,126,6/8/2024,698,Hane-Goodwin,false,
+474,Porter,174,4/7/2024,241,Schmitt-Kunde,false,
+387,Artisan,26,6/9/2023,778,Batz LLC,false,
+127,Everett,17,24/6/2023,551,"Schinner, Bergnaum and Ullrich",false,
+64,Debra,13,20/11/2024,602,"Anderson, Gibson and Pfeffer",false,
+537,Tennyson,13,1/3/2024,663,Kuvalis Inc,false,
+50,Boyd,100,31/5/2023,295,Kris-Pfannerstill,false,
+428,Mariners Cove,150,29/1/2024,542,Stiedemann-Upton,false,
+537,Karstens,26,15/12/2024,868,Herzog LLC,false,
+554,Manley,45,14/5/2024,552,"Schmeler, Monahan and Tremblay",false,
+161,6th,38,15/12/2024,224,Gerlach Group,false,
+767,Basil,161,17/2/2024,427,McDermott Group,false,
+427,Loeprich,13,7/12/2024,903,Lockman-Jakubowski,true,
+950,Roxbury,180,13/10/2024,391,"Halvorson, Morar and Kilback",false,
+352,Riverside,59,9/8/2024,236,Olson and Sons,false,
+393,Mitchell,182,1/12/2023,851,Bergstrom and Sons,false,
+154,Monterey,104,12/6/2023,348,"Dare, Schamberger and Lesch",false,
+323,Dayton,178,26/6/2023,808,Ziemann-Kilback,false,
+817,Laurel,141,28/11/2024,785,"Kshlerin, Abernathy and Bartoletti",false,
+746,School,46,6/8/2024,773,Hand Inc,false,
+127,Meadow Valley,61,12/12/2023,278,Shanahan-Kuphal,false,
+746,New Castle,22,31/8/2023,704,"Franecki, Howell and Davis",false,
+627,Miller,41,23/12/2024,843,"Torphy, Collier and Stroman",false,
+474,Mosinee,229,9/3/2025,386,Glover Inc,false,
+427,Dawn,72,17/6/2024,537,Miller and Sons,false,
+366,Sutherland,92,27/7/2024,987,"Rogahn, Zieme and Romaguera",false,
+853,1st,152,21/3/2024,953,Gerlach Inc,true,
+713,Cottonwood,17,2/3/2024,350,"Upton, Cormier and MacGyver",false,
+853,Barby,33,9/6/2024,600,Moen and Sons,false,
+746,Boyd,186,24/2/2024,713,Kutch-Wisoky,false,
+112,Mosinee,146,3/1/2024,541,Reichel LLC,false,
+755,Bunting,95,15/5/2024,591,Trantow Inc,false,
+896,Ridgeview,70,27/8/2023,605,Graham LLC,false,
+999,Carberry,159,21/8/2023,512,"Labadie, Stiedemann and Zulauf",false,
+746,Lawn,130,11/1/2025,851,Schoen-Mertz,false,
+133,Nancy,168,24/5/2024,551,Kohler-Reichel,false,
+201,Kipling,222,23/4/2024,923,Grady LLC,false,
+859,Nobel,108,16/4/2024,868,"Crona, Lynch and Fisher",false,
+755,Killdeer,140,18/7/2023,402,"Lehner, Farrell and Koepp",false,
+694,Acker,216,9/10/2024,670,"Steuber, Schmeler and Rosenbaum",false,
+132,Delaware,114,8/11/2024,431,Wisozk-Lakin,false,
+853,Ilene,91,23/11/2024,472,Prosacco Group,false,
+201,Mockingbird,120,11/4/2024,808,"Wiza, Wunsch and D'Amore",false,
+702,Esch,30,11/5/2025,383,"Armstrong, Torphy and Kiehn",true,
+133,Algoma,16,10/3/2025,487,Emmerich-Graham,false,
+713,Graedel,79,12/4/2025,706,"Friesen, Keeling and Runolfsson",false,
+641,Havey,73,31/12/2024,264,Ritchie and Sons,false,
+554,Hovde,216,24/8/2024,460,Auer Group,false,
+502,Mesta,97,1/1/2024,920,"Kohler, Wehner and Bahringer",false,
+366,Derek,159,12/3/2024,701,Haley LLC,false,
+394,Washington,81,9/8/2024,474,Adams-Reinger,false,
+817,Meadow Ridge,117,23/9/2024,482,Beer-Heathcote,false,
+767,Spohn,87,28/4/2025,491,Schmeler and Sons,false,
+898,Lindbergh,102,28/3/2024,300,"Fisher, Fritsch and Schimmel",false,
+627,Boyd,72,18/7/2023,413,Koelpin Group,false,
+332,Warbler,222,1/7/2024,284,"Durgan, Marquardt and Lowe",false,
+653,8th,235,14/3/2024,533,"Sawayn, Macejkovic and Schneider",false,
+430,Sauthoff,214,28/9/2024,911,Gislason-Crona,false,
+898,Warbler,111,29/2/2024,957,"Gottlieb, Gorczany and Fadel",false,
+50,Northland,164,29/7/2024,577,"Borer, Spinka and Hyatt",false,

@@ -3,6 +3,8 @@ drop function if exists u_insert cascade;
 drop function if exists f_insert cascade;
 drop function if exists u_insert_tag cascade;
 drop function if exists c_insert_tag cascade;
+drop function if exists m_insert_tag cascade;
+drop function if exists g_insert_tag cascade;
 
 create function u_insert_tag() returns trigger as $users_tag_create$
 BEGIN
@@ -77,7 +79,7 @@ BEGIN
 	--
 	-- Create a row in tag table to make sure each genre has an associated tag.
 	--
-	IF (NEW.c_name NOT IN (SELECT t_name FROM tag)) THEN
+	IF (NEW.g_name NOT IN (SELECT t_name FROM tag)) THEN
 		INSERT INTO tag (t_name) VALUES(NEW.g_name);
 	END IF;
 	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.g_name);
@@ -93,7 +95,7 @@ BEGIN
 	--
 	-- Create a row in tag table to make sure each genre has an associated tag.
 	--
-	IF (NEW.c_name NOT IN (SELECT t_name FROM tag)) THEN
+	IF (NEW.m_name NOT IN (SELECT t_name FROM tag)) THEN
 		INSERT INTO tag (t_name) VALUES(NEW.m_name);
 	END IF;
 	NEW.t_id := (SELECT t_id FROM tag WHERE t_name = NEW.m_name);
@@ -101,5 +103,5 @@ BEGIN
 END;
 $music_tag_create$ LANGUAGE plpgsql;
 
-create trigger music_tag_create before insert or update on genre for each row
+create trigger music_tag_create before insert or update on music for each row
 execute function m_insert_tag();

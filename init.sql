@@ -91,8 +91,8 @@ create table concerts (
 );
 
 create table organisation_relation (
-	c_id SERIAL,
-	u_id SERIAL,
+	c_id INT,
+	u_id INT,
 	PRIMARY KEY (c_id, u_id),
 	FOREIGN KEY (c_id) references concerts(c_id),
 	FOREIGN KEY (u_id) references users(u_id)
