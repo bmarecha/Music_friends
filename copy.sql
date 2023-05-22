@@ -25,3 +25,5 @@ TRUNCATE TABLE genre RESTART IDENTITY CASCADE;
 \COPY music (m_name,g_id,u_id) FROM '/home/baptiste/random/projet_bdd/musics.csv' CSV HEADER
 
 \COPY playlist (p_name,u_id) FROM '/home/baptiste/random/projet_bdd/playlists.csv' CSV HEADER
+
+\COPY playlist_music_r (m_id,p_id) FROM '/home/baptiste/random/projet_bdd/musics_p_r.csv' CSV HEADER

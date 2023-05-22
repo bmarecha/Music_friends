@@ -106,5 +106,47 @@ $music_tag_create$ LANGUAGE plpgsql;
 create trigger music_tag_create before insert or update on music for each row
 execute function m_insert_tag();
 
---ROLLBACK TRANSACTION
---create trigger playlist
+drop function if exists p_insert_owner cascade;
+drop function if exists m_insert_check cascade;
+
+create function p_insert_owner() returns trigger as $playlist_insert$
+BEGIN
+	--
+	-- Verify if there isn't already 10 playlist from that user
+	--
+	IF (10 <= (SELECT COUNT(*) FROM playlist WHERE u_id = NEW.u_id)) THEN
+		ROLLBACK;
+		RAISE EXCEPTION  'This user already have 10 playlist.';
+	ELSE
+		IF (NEW.u_type IS NULL) THEN
+			NEW.u_type := (SELECT u_type FROM users WHERE u_id = NEW.u_id);
+		END IF;
+	END IF;
+	RETURN NEW;
+END;
+$playlist_insert$ LANGUAGE plpgsql;
+
+create trigger playlist_insert before insert or update on playlist for each row
+execute function p_insert_owner();
+
+create function m_insert_check() returns trigger as $music_insert$
+BEGIN
+	--
+	-- Verify if there isn't already 20 musics from that playlist
+	--
+	IF (20 <= (SELECT COUNT(*) FROM playlist_music_r WHERE p_id = NEW.p_id)) THEN
+		ROLLBACK;
+		RAISE EXCEPTION  'This playlist already have 20 songs.';
+	ELSE
+		IF ('band' = (SELECT u_type FROM playlist WHERE p_id = NEW.p_id)
+			AND (SELECT u_id FROM playlist WHERE p_id = NEW.p_id) != (SELECT u_id FROM music WHERE m_id = NEW.m_id)) THEN
+			ROLLBACK;
+			RAISE EXCEPTION 'This is a band playlist, you can only insert music from the same band';
+		END IF;
+	END IF;
+	RETURN NEW;
+END;
+$music_insert$ LANGUAGE plpgsql;
+
+create trigger music_insert before insert or update on playlist_music_r for each row
+execute function m_insert_check();
