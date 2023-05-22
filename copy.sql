@@ -1,5 +1,8 @@
 SET datestyle TO iso, dmy;
 
+TRUNCATE TABLE users RESTART IDENTITY CASCADE;
+TRUNCATE TABLE genre RESTART IDENTITY CASCADE;
+
 -- /home/baptiste/random/projet_bdd
 -- /home/popos/Documents/projet_bddssh
 
@@ -16,3 +19,9 @@ SET datestyle TO iso, dmy;
 \COPY media (m_type,pathname,c_id) FROM '/home/baptiste/random/projet_bdd/media.csv' CSV HEADER
 
 \COPY genre (g_name) FROM '/home/baptiste/random/projet_bdd/genre.csv' CSV HEADER
+
+\COPY genres_relations (sg_id, g_id) FROM '/home/baptiste/random/projet_bdd/sgenre_relations.csv' CSV HEADER
+
+\COPY music (m_name,g_id,u_id) FROM '/home/baptiste/random/projet_bdd/musics.csv' CSV HEADER
+
+\COPY playlist (p_name,u_id) FROM '/home/baptiste/random/projet_bdd/playlists.csv' CSV HEADER

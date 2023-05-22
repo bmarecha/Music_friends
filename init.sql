@@ -24,7 +24,7 @@ create type user_type as enum ('normal', 'host', 'band', 'association');
 
 create table tag (
 	t_id SERIAL PRIMARY KEY,
-	t_name varchar(30) UNIQUE NOT NULL
+	t_name varchar(50) UNIQUE NOT NULL
 );
 
 create table users (
@@ -34,13 +34,13 @@ create table users (
 	username varchar(30) UNIQUE NOT NULL,
 	email_address varchar(50) UNIQUE NOT NULL,
 	UNIQUE (u_id, u_type),
-	FOREIGN KEY (t_id) references tag(t_id)
+	FOREIGN KEY (t_id) references tag(t_id) ON DELETE CASCADE
 );
 
 create table normal_users (
 	u_id INT PRIMARY KEY,
 	u_type user_type check (u_type = 'normal'),
-	FOREIGN KEY (u_id, u_type) references users(u_id, u_type)
+	FOREIGN KEY (u_id, u_type) references users(u_id, u_type) ON DELETE CASCADE
 );
 
 create table host (
@@ -49,28 +49,28 @@ create table host (
 	longitude float default (random() * 360 - 180),
 	UNIQUE (longitude, latitude),
 	u_type user_type check (u_type = 'host'),
-	FOREIGN KEY (host_id, u_type) references users(u_id, u_type)
+	FOREIGN KEY (host_id, u_type) references users(u_id, u_type) ON DELETE CASCADE
 );
 
 create table band (
 	u_id INT PRIMARY KEY,
 	u_type user_type check (u_type = 'band'),
-	FOREIGN KEY (u_id, u_type) references users(u_id, u_type)
+	FOREIGN KEY (u_id, u_type) references users(u_id, u_type) ON DELETE CASCADE
 );
 
 create table friends (
     id_f1 INT NOT NULL,
     id_f2 INT NOT NULL CHECK (id_f2 <> id_f1),
     PRIMARY KEY (id_f1, id_f2),
-    FOREIGN KEY (id_f1) references users(u_id),
-    FOREIGN KEY (id_f2) references users(u_id)
+    FOREIGN KEY (id_f1) references users(u_id) ON DELETE CASCADE,
+    FOREIGN KEY (id_f2) references users(u_id) ON DELETE CASCADE
 );
 create table follow (
     id_target INT NOT NULL,
     id_src INT NOT NULL CHECK (id_src <> id_target),
     PRIMARY KEY (id_target, id_src),
-    FOREIGN KEY (id_target) references users(u_id),
-    FOREIGN KEY (id_src) references users(u_id)
+    FOREIGN KEY (id_target) references users(u_id) ON DELETE CASCADE,
+    FOREIGN KEY (id_src) references users(u_id) ON DELETE CASCADE
 );
 
 create table concerts (
@@ -85,8 +85,8 @@ create table concerts (
 	nb_seat INT CHECK (nb_seat >= 0),
 	nb_participant INT CHECK (nb_participant >= 0),
 	PRIMARY KEY (c_id,host_id),
-	FOREIGN KEY (host_id) references host(host_id),
-	FOREIGN KEY (t_id) references tag(t_id)
+	FOREIGN KEY (host_id) references host(host_id) ON DELETE CASCADE,
+	FOREIGN KEY (t_id) references tag(t_id) ON DELETE CASCADE
 
 );
 
@@ -94,8 +94,8 @@ create table organisation_relation (
 	c_id INT,
 	u_id INT,
 	PRIMARY KEY (c_id, u_id),
-	FOREIGN KEY (c_id) references concerts(c_id),
-	FOREIGN KEY (u_id) references users(u_id)
+	FOREIGN KEY (c_id) references concerts(c_id) ON DELETE CASCADE,
+	FOREIGN KEY (u_id) references users(u_id) ON DELETE CASCADE
 );
 
 
@@ -104,15 +104,15 @@ create table interet (
 	c_id INT,
 	participation boolean NOT NULL default false,
 	PRIMARY KEY(u_id, c_id),
-	FOREIGN KEY (u_id) references normal_users(u_id),
-	FOREIGN KEY (c_id) references concerts(c_id)
+	FOREIGN KEY (u_id) references normal_users(u_id) ON DELETE CASCADE,
+	FOREIGN KEY (c_id) references concerts(c_id) ON DELETE CASCADE
 );
 
 create type media_type as enum ('gif', 'mp3', 'png', 'jpeg');
 
 create table media (
 	med_id SERIAL PRIMARY KEY,
-	c_id INT references concerts(c_id),
+	c_id INT references concerts(c_id) ON DELETE CASCADE,
 	pathname varchar(70),
 	m_type  media_type
 );
@@ -130,9 +130,9 @@ create table music (
 	g_id INT,
 	u_id INT,
 	PRIMARY KEY(m_id, u_id),
-	FOREIGN KEY (u_id) references band(u_id),
-	FOREIGN KEY (g_id) references genre(g_id),
-	FOREIGN KEY (t_id) references tag(t_id)
+	FOREIGN KEY (u_id) references band(u_id) ON DELETE CASCADE,
+	FOREIGN KEY (g_id) references genre(g_id) ON DELETE CASCADE,
+	FOREIGN KEY (t_id) references tag(t_id) ON DELETE CASCADE
 );
 
 create table avis (
@@ -143,8 +143,8 @@ create table avis (
 	u_id INT,
 	c_id INT,
 	PRIMARY KEY(a_date, u_id),
-	FOREIGN KEY(u_id) references users(u_id),
-	FOREIGN KEY (c_id) references concerts(c_id) 
+	FOREIGN KEY(u_id) references users(u_id) ON DELETE CASCADE,
+	FOREIGN KEY (c_id) references concerts(c_id)  ON DELETE CASCADE
 
 );
 
@@ -152,32 +152,33 @@ create table avis_tags_relations (
 	t_id INT,
 	a_id INT,
 	PRIMARY KEY (t_id, a_id),
-	FOREIGN KEY (t_id) references tag(t_id),
-	FOREIGN KEY (a_id) references avis(a_id)
+	FOREIGN KEY (t_id) references tag(t_id) ON DELETE CASCADE,
+	FOREIGN KEY (a_id) references avis(a_id) ON DELETE CASCADE
 );
 
 create table genres_relations (
 	sg_id INT,
 	g_id INT,
 	PRIMARY KEY (sg_id, g_id),
-	FOREIGN KEY (sg_id) references genre(g_id),
-	FOREIGN KEY (g_id) references genre(g_id)
+	FOREIGN KEY (sg_id) references genre(g_id) ON DELETE CASCADE,
+	FOREIGN KEY (g_id) references genre(g_id) ON DELETE CASCADE
 );
 
 create table playlist (
 	p_id SERIAL UNIQUE,
 	p_name varchar(30) NOT NULL,
 	u_id INT,
+	u_type user_type, -- owner type, to check if it's a band
 	PRIMARY KEY(p_id, u_id),
-	FOREIGN KEY (u_id) references users(u_id)
+	FOREIGN KEY (u_id, u_type) references users(u_id, u_type) ON DELETE CASCADE
 );
 
 create table playlist_music_r (
 	p_id INT,
 	m_id INT,
 	PRIMARY KEY (p_id, m_id),
-	FOREIGN KEY (p_id) references playlist(p_id),
-	FOREIGN KEY (m_id) references music(m_id)
+	FOREIGN KEY (p_id) references playlist(p_id) ON DELETE CASCADE,
+	FOREIGN KEY (m_id) references music(m_id) ON DELETE CASCADE
 );
 
 

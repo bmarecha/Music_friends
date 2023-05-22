@@ -105,3 +105,6 @@ $music_tag_create$ LANGUAGE plpgsql;
 
 create trigger music_tag_create before insert or update on music for each row
 execute function m_insert_tag();
+
+--ROLLBACK TRANSACTION
+--create trigger playlist
