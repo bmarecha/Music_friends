@@ -77,3 +77,31 @@ FROM (
 GROUP BY "month"
 ORDER BY "month";
 
+--cojointure sur les concerts pour avoir tous les concerts qi se suivent, pour chaque concert on trouve le concert du jour suivant le plus proche,
+--sur ca on fait reccursion 
+PREPARE road_trip_eco (INT) as 
+WITH 
+    cons_dis as (SELECT c1.c_id as c1_id, c2.c_id as c2_id,
+                ROUND((ABS(h1.longitude - h2.longitude) +
+                       ABS(h1.latitude - h2.latitude))::numeric, 2) as distance
+                 FROM concerts c1, concerts c2
+                 INNER JOIN host h1 ON (c1.host_id = h1.host_id)
+                 INNER JOIN host h2 ON (c2.host_id = h2.host_id)
+                 WHERE c1.c_date = c2.c_date + INTERVAL '1 day'),
+
+    cons AS (SELECT c1_id, c2_id
+             FROM cons_dis c1
+             WHERE (distance = (SELECT min(c2.distance)
+                               FROM cons_dis c2
+                               WHERE c2.c1_id = c1.c1_id))
+            ),
+    RECURSIVE road_trip_rec as (SELECT c1_id
+                             FROM cons 
+                             WHERE c1_id = $1
+                             UNION
+                             (SELECT c2_id
+                              FROM cons
+                              NATURAL JOIN road_trip_rec))
+SELECT c_name, c_date
+FROM road_trip_rec
+INNER JOIN concerts ON (road_trip_rec.c1_id = concerts.c_id);
