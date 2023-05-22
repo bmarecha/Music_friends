@@ -105,3 +105,30 @@ WITH
 SELECT c_name, c_date
 FROM road_trip_rec
 INNER JOIN concerts ON (road_trip_rec.c1_id = concerts.c_id);
+
+DROP VIEW if exists genres_subtags;
+CREATE VIEW genres_subtags AS (
+	WITH RECURSIVE genres_subt AS (
+		SELECT g_id, g_name, t_id, g_id origin FROM genre
+		UNION
+		SELECT g1.g_id g_id, g1.g_name g_name, sg.t_id t_id, sg.g_id origin
+		FROM genres_subt g1
+		INNER JOIN genres_relations r ON g1.origin = r.g_id
+		INNER JOIN genre sg ON sg.g_id = r.sg_id
+	) SELECT g_id, g_name, t_id FROM genres_subt
+);
+
+deallocate prepare concert_with_genre;
+PREPARE concert_with_genre(VARCHAR) AS
+SELECT c_name, c_date FROM concerts c NATURAL JOIN avis a INNER JOIN avis_tags_relations r ON r.a_id = a.a_id
+WHERE r.t_id IN (SELECT t_id FROM genres_subtags WHERE g_name = $1);
+
+\prompt ' Donnez un sous-genre de musique pour des concerts -> ' g_name
+EXECUTE concert_with_genre(:'g_name');
+
+\prompt ' Donnez un genre de musique pour des concerts -> ' g_name
+EXECUTE concert_with_genre(:'g_name');
+
+-- Comptez le nombres de musiques dans les playlist d'un user
+
+-- Trouvez le max de nombres de musiques en moyenne, dans quel user ?

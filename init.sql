@@ -142,7 +142,7 @@ create table avis (
 	comment varchar(255),
 	u_id INT,
 	c_id INT,
-	PRIMARY KEY(a_date, u_id),
+	PRIMARY KEY(c_id, u_id),
 	FOREIGN KEY(u_id) references users(u_id) ON DELETE CASCADE,
 	FOREIGN KEY (c_id) references concerts(c_id)  ON DELETE CASCADE
 
