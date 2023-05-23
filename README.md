@@ -1,21 +1,22 @@
 — une requête qui porte sur au moins trois tables ; x
 
-— une ’auto jointure’ ou ’jointure réflexive’ (jointure de deux copies d’une même table)
-— une sous-requête corrélée ;
+— une ’auto jointure’ ou ’jointure réflexive’ (jointure de deux copies d’une même table) x
+
+— une sous-requête corrélée ; x
 
 — une sous-requête dans le FROM ; x 
 
-— une sous-requête dans le WHERE ;
+— une sous-requête dans le WHERE ; x
 
-— deux agrégats nécessitant GROUP BY et HAVING ;
+— deux agrégats nécessitant GROUP BY et HAVING ; 
 
 — une requête impliquant le calcul de deux agrégats (par exemple, les moyennes d’un ensemble de
-maximums) ;
+maximums) ; v
 
-— une jointure externe (LEFT JOIN, RIGHT JOIN ou FULL JOIN) ;
+— une jointure externe (LEFT JOIN, RIGHT JOIN ou FULL JOIN) ; v
 
 — deux requêtes équivalentes exprimant une condition de totalité, l’une avec des sous requêtes corré-
-lées et l’autre avec de l’agrégation ;
+lées et l’autre avec de l’agrégation ; --
 
 — deux requêtes qui renverraient le même résultat si vos tables ne contenaient pas de nulls, mais
 qui renvoient des résultats différents ici (vos données devront donc contenir quelques nulls), vous
@@ -27,3 +28,5 @@ dans le cours sur l’information incomplète) afin qu’elles retournent le mê
 — une requête utilisant du fenêtrage (par exemple, pour chaque mois de 2022, les dix groupes dont
 les concerts ont eu le plus de succès ce mois-ci, en termes de nombre d’utilisateurs ayant indiqué
 souhaiter y participer).
+group by host_id ,order by sum(nb_participant) v
+
