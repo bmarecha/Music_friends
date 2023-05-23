@@ -161,11 +161,11 @@ PREPARE concert_with_genre(VARCHAR) AS
 SELECT c_name, c_date FROM concerts c NATURAL JOIN avis a INNER JOIN avis_tags_relations r ON r.a_id = a.a_id
 WHERE r.t_id IN (SELECT t_id FROM genres_subtags WHERE g_name = $1);
 
-\prompt ' Donnez un sous-genre de musique pour des concerts -> ' g_name
-EXECUTE concert_with_genre(:'g_name');
-
-\prompt ' Donnez un genre de musique pour des concerts -> ' g_name
-EXECUTE concert_with_genre(:'g_name');
+--\prompt ' Donnez un sous-genre de musique pour des concerts -> ' g_name
+--EXECUTE concert_with_genre(:'g_name');
+--
+--\prompt ' Donnez un genre de musique pour des concerts -> ' g_name
+--EXECUTE concert_with_genre(:'g_name');
 
 -- Afficher des utilisateurs avec beaucoup de musiques dans leur playlist 2nd having
 SELECT username, COUNT(m_id) nb_musics 
@@ -200,4 +200,24 @@ GROUP BY p.p_id;
 -- Trouvez le nombre de musiques en moyenne dans les playlist ?
 SELECT ROUND(AVG(music_by_p.nb_musics), 3) Nb_moyen_musics
 FROM (SELECT COUNT(r.m_id) nb_musics FROM playlist p
-	  LEFT JOIN playlist_music_r r ON r.p_id = p.p_id GROUP BY p.p_id) music_by_p;
+	LEFT JOIN playlist_music_r r ON r.p_id = p.p_id GROUP BY p.p_id) music_by_p;
+
+--Bonnes valeur pour indice de recommandation
+SELECT u_id, username, COUNT(*) nb FROM interet NATURAL JOIN users GROUP BY u_id, username ORDER BY nb desc LIMIT 20;
+-- Indice de recommendation :
+deallocate prepare recommendation_for_u;
+PREPARE recommendation_for_u(VARCHAR) AS
+WITH concerts_participe AS (
+	SELECT c_id FROM interet NATURAL JOIN users WHERE username = $1
+),
+users_in_common AS (
+	SELECT u_id, COUNT(*) nb_concerts FROM interet WHERE c_id IN (SELECT * FROM concerts_participe) GROUP BY u_id
+),
+concerts_propose AS (
+	SELECT c_id, SUM(nb_concerts) indice_r FROM interet NATURAL JOIN users_in_common WHERE c_id NOT IN (SELECT * FROM concerts_participe) GROUP BY c_id
+)
+SELECT * FROM concerts_propose NATURAL JOIN concerts WHERE nb_participant IS NULL ORDER BY indice_r desc LIMIT 20;
+\prompt ' Tapez un nom d utilisateur -> ' username
+EXECUTE recommendation_for_u(:'username');
+\prompt ' Tapez un nom d utilisateur -> ' username
+EXECUTE recommendation_for_u(:'username');
