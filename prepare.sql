@@ -129,6 +129,18 @@ EXECUTE concert_with_genre(:'g_name');
 \prompt ' Donnez un genre de musique pour des concerts -> ' g_name
 EXECUTE concert_with_genre(:'g_name');
 
+-- Afficher des utilisateurs avec beaucoup de musiques dans leur playlist
+SELECT username, COUNT(m_id) nb_musics FROM users u NATURAL JOIN playlist p NATURAL JOIN playlist_music_r r GROUP BY username HAVING COUNT(m_id) > 13;
 -- Comptez le nombres de musiques dans les playlist d'un user
+deallocate prepare playlist_size_from;
+PREPARE playlist_size_from(VARCHAR) AS
+SELECT p.p_id, COUNT(r.m_id) FROM playlist p NATURAL JOIN users u LEFT JOIN playlist_music_r r ON r.p_id = p.p_id WHERE u.username = $1 GROUP BY p.p_id;
+\prompt ' Tapez un nom d utilisateur -> ' username
+EXECUTE playlist_size_from(:'username');
 
--- Trouvez le max de nombres de musiques en moyenne, dans quel user ?
+-- Comptez le nombre de musiques dans toutes les playlists
+--SELECT p.p_id, COUNT(r.m_id) FROM playlist p LEFT JOIN playlist_music_r r ON r.p_id = p.p_id GROUP BY p.p_id;
+-- Trouvez le nombre de musiques en moyenne dans les playlist ?
+SELECT ROUND(AVG(music_by_p.nb_musics), 3) Nb_moyen_musics
+FROM (SELECT COUNT(r.m_id) nb_musics FROM playlist p
+	LEFT JOIN playlist_music_r r ON r.p_id = p.p_id GROUP BY p.p_id) music_by_p;
