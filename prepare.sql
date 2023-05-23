@@ -4,6 +4,8 @@ deallocate prepare road_trip;
 deallocate prepare road_trip_eco;
 deallocate prepare concert_with_genre;
 deallocate prepare playlist_size_from;
+deallocate prepare user_all_music;
+deallocate prepare recommendation_for_u;
 
 PREPARE recherche_amis(VARCHAR) as
 SELECT U1.username 
@@ -15,7 +17,7 @@ SELECT username, COUNT(id_f1) nb_amis
 FROM users JOIN friends
 ON (id_f1 = u_id OR id_f2 = u_id) 
 GROUP BY username 
-ORDER BY nb_amis desc LIMIT 15
+ORDER BY nb_amis desc LIMIT 15;
 
 \prompt 'Tapez le nom de la personne dont vous voulez voir ses amis -> ' username
 EXECUTE recherche_amis(:'username');
@@ -23,32 +25,32 @@ EXECUTE recherche_amis(:'username');
 \prompt 'Essayez un de ses amis à présent -> ' username
 EXECUTE recherche_amis(:'username');
 
-SELECT * FROM user WHERE u_type='band' LIMIT 20;
-
+SELECT username, COUNT(m_id) nb FROM users NATURAL JOIN playlist NATURAL JOIN playlist_music_r
+GROUP BY username ORDER BY nb desc LIMIT 10;
+-- Toutes les musiques dans les playlist d'un utilisateur
 PREPARE user_all_music(VARCHAR) as
-SELECT m_name, CONCATENATE(p_name) 
-FROM music
-NATURAL JOIN playlist_music_r 
-NATURAL JOIN playlist 
-NATURAL JOIN users
-WHERE username = $1 
-GROUP BY m_name;
+SELECT m_name
+FROM music m
+NATURAL JOIN playlist_music_r r
+JOIN playlist p ON r.p_id = p.p_id
+JOIN users u ON p.u_id = u.u_id
+WHERE username = $1;
 
 \prompt 'Tapez le nom de la personne dont vous voulez voir ses musics -> ' username
 EXECUTE user_all_music(:'username');
-\prompt 'Tapez le nom de la personne dont vous voulez voir ses musics -> ' username
+\prompt 'Retapez le nom de la personne dont vous voulez voir ses musics -> ' username
 EXECUTE user_all_music(:'username');
 
 
---Afficher les concerts annoncés autour de coordonnées et un rayon
+\echo 'les concerts autour de coordonnées et un rayon'
 -- $1 : latitude, $2 : longitude, $3 : rayon
 PREPARE concerts_autour(FLOAT, FLOAT, FLOAT) as 
-SELECT c_name, c_date, price, c_cause, host_id,
+SELECT c_name, c_date, price, host_id,
 ROUND((ABS(longitude - $2) + ABS(latitude - $1))::numeric, 2) distance,
-latitude, longitude, nb_seat, nb_participant, v_need
+latitude, longitude, nb_seat, nb_participant
 FROM concerts
 NATURAL JOIN host 
-WHERE ABS(longitude - $2) + ABS(latitude - $1) < $3
+WHERE ABS(longitude - $2) + ABS(latitude - $1) < $3 AND nb_participant IS NULL
 ORDER BY distance, c_date;
 
 \prompt ' Tapez la latitude -> ' latitude
@@ -57,6 +59,7 @@ ORDER BY distance, c_date;
 EXECUTE concerts_autour(:'latitude', :'longitude', :'rayon');
 
 -- Afficher le nom et la date des concerts dans les prochains jours aprés le concert donné en parametre 
+
 PREPARE road_trip(INT) as 
 WITH RECURSIVE road_trip_rec as (
 SELECT c_name, c_date FROM concerts WHERE  c_id = $1
@@ -98,7 +101,9 @@ INNER JOIN concerts ON (road_trip_rec.c1_id = concerts.c_id)
 ORDER BY c_date;
 
 \prompt ' Tapez l id du concert  -> ' id
+\echo 'le nom et la date des concerts dans les prochains jours aprés le concert donné en parametre'
 EXECUTE road_trip(:'id');
+\echo 'le nom et la date des concerts dans les prochains jours les plus proche (en terme de lieu) aprés le concert donné en parametre'
 EXECUTE road_trip_eco(:'id');
 
 \prompt ' Tapez l id du concert  -> ' id
@@ -110,12 +115,14 @@ EXECUTE road_trip_eco(:'id');
 
 -- Groupe séparé pour plus de visibilité
 SELECT host_id, nb_seat, nb_participant FROM concerts WHERE host_id = 428;
+\echo 'Ne compte que les concerts passé car nb_seat - NULL == NULL.'
 -- Somme unique
-SELECT host_id, sum(nb_seat - nb_participant)
+SELECT host_id, sum(nb_seat - nb_participant) nb_places_non_prises
 FROM concerts WHERE host_id = 428
 GROUP BY host_id;
+\echo 'compte aussi les concerts futurs annoncés car sum(nb_seat) ignore les NULL '
 -- Sommes séparées
-SELECT host_id, sum(nb_seat) - sum(nb_participant)
+SELECT host_id, sum(nb_seat) - sum(nb_participant) nb_places_non_achete
 FROM concerts WHERE host_id = 428
 GROUP BY host_id;
 
@@ -125,7 +132,7 @@ GROUP BY host_id;
 --GROUP BY host_id;
 
 
--- le prix moyen de concert pour chaque mois
+\echo 'le prix moyen de concert pour chaque mois'
 SELECT "month", avg(price) as avg_price 
 FROM (
     SELECT TO_CHAR(c_date, 'MM') as "month", price
@@ -134,10 +141,10 @@ FROM (
 GROUP BY "month"
 ORDER BY "month";
 
---la moyenne des participants dans tous les concerts
+\echo 'la moyenne des participants dans tous les concerts'
 SELECT ROUND(avg(nb_participant) :: numeric, 0) FROM concerts;
 
---les lieux de concerts qui ont eu plus de participants que la moyenne *1,3 
+\echo 'les lieux de concerts qui ont eu plus de participants que la moyenne *1,3' 
 SELECT host_id, ROUND(avg(nb_participant) :: numeric, 0) as moyenne_par_lieu
 FROM concerts 
 GROUP BY host_id
@@ -161,12 +168,13 @@ PREPARE concert_with_genre(VARCHAR) AS
 SELECT c_name, c_date FROM concerts c NATURAL JOIN avis a INNER JOIN avis_tags_relations r ON r.a_id = a.a_id
 WHERE r.t_id IN (SELECT t_id FROM genres_subtags WHERE g_name = $1);
 
---\prompt ' Donnez un sous-genre de musique pour des concerts -> ' g_name
---EXECUTE concert_with_genre(:'g_name');
---
---\prompt ' Donnez un genre de musique pour des concerts -> ' g_name
---EXECUTE concert_with_genre(:'g_name');
+\prompt ' Donnez un sous-genre de musique pour des concerts -> ' g_name
+EXECUTE concert_with_genre(:'g_name');
 
+\prompt ' Donnez un genre de musique pour des concerts -> ' g_name
+EXECUTE concert_with_genre(:'g_name');
+
+\echo 'Utilisateurs ayant plus de 13 musiques dans leur playlist'
 -- Afficher des utilisateurs avec beaucoup de musiques dans leur playlist 2nd having
 SELECT username, COUNT(m_id) nb_musics 
 FROM users u 
@@ -175,7 +183,7 @@ NATURAL JOIN playlist_music_r r
 GROUP BY username 
 HAVING COUNT(m_id) > 13;
 
--- Comptez le nombres de musiques dans les playlist d'un user
+\echo ' le nombres de musiques dans les playlist d un user'
 PREPARE playlist_size_from(VARCHAR) AS
 SELECT p.p_id, COUNT(r.m_id) 
 FROM playlist p NATURAL JOIN users u 
@@ -191,21 +199,21 @@ EXECUTE playlist_size_from(:'username');
 
 
 
---Comptez le nombre de musiques dans toutes les playlists
+\echo  'le nombre de musiques dans toutes les playlists'
 SELECT p.p_id, COUNT(r.m_id) 
 FROM playlist p 
 LEFT JOIN playlist_music_r r ON r.p_id = p.p_id 
 GROUP BY p.p_id;
 
--- Trouvez le nombre de musiques en moyenne dans les playlist ?
+\echo 'le nombre de musiques en moyenne dans les playlist ?'
 SELECT ROUND(AVG(music_by_p.nb_musics), 3) Nb_moyen_musics
 FROM (SELECT COUNT(r.m_id) nb_musics FROM playlist p
 	LEFT JOIN playlist_music_r r ON r.p_id = p.p_id GROUP BY p.p_id) music_by_p;
 
 --Bonnes valeur pour indice de recommandation
 SELECT u_id, username, COUNT(*) nb FROM interet NATURAL JOIN users GROUP BY u_id, username ORDER BY nb desc LIMIT 20;
--- Indice de recommendation :
-deallocate prepare recommendation_for_u;
+\echo 'Indice de recommendation :'
+
 PREPARE recommendation_for_u(VARCHAR) AS
 WITH concerts_participe AS (
 	SELECT c_id FROM interet NATURAL JOIN users WHERE username = $1
@@ -216,7 +224,7 @@ users_in_common AS (
 concerts_propose AS (
 	SELECT c_id, SUM(nb_concerts) indice_r FROM interet NATURAL JOIN users_in_common WHERE c_id NOT IN (SELECT * FROM concerts_participe) GROUP BY c_id
 )
-SELECT * FROM concerts_propose NATURAL JOIN concerts WHERE nb_participant IS NULL ORDER BY indice_r desc LIMIT 20;
+SELECT * FROM concerts_propose NATURAL JOIN concerts WHERE nb_participant IS NULL ORDER BY indice_r, c_date desc LIMIT 20;
 \prompt ' Tapez un nom d utilisateur -> ' username
 EXECUTE recommendation_for_u(:'username');
 \prompt ' Tapez un nom d utilisateur -> ' username

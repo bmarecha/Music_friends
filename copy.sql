@@ -1,7 +1,5 @@
 SET datestyle TO iso, dmy;
 
-TRUNCATE TABLE users RESTART IDENTITY CASCADE;
-TRUNCATE TABLE genre RESTART IDENTITY CASCADE;
 
 -- /home/baptiste/random/projet_bdd
 -- /home/popos/Documents/projet_bddssh
