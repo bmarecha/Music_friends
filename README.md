@@ -8,7 +8,7 @@
 
 — une sous-requête dans le WHERE ; x
 
-— deux agrégats nécessitant GROUP BY et HAVING ; 
+— deux agrégats nécessitant GROUP BY et HAVING ; x
 
 — une requête impliquant le calcul de deux agrégats (par exemple, les moyennes d’un ensemble de
 maximums) ; v
